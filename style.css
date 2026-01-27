@@ -1,0 +1,182 @@
+/* ===============================
+   ESTILOS GENERALES
+================================ */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e5e7eb;
+  margin: 0;
+  padding: 20px;
+}
+
+/* ===============================
+   HEADER
+================================ */
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #1e40af;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+
+header h2 {
+  color: #1e3a8a;
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+header p {
+  color: #4b5563;
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+/* ===============================
+   CONTENEDOR CHAT
+================================ */
+
+.chat-wrapper {
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  background: #f3f4f6;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.chat-container {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* ===============================
+   MENSAJES
+================================ */
+
+.mensaje {
+  max-width: 75%;
+  padding: 14px 18px;
+  margin-bottom: 14px;
+  border-radius: 12px;
+  line-height: 1.5;
+  font-size: 15px;
+  animation: fadeInBubble 0.25s ease-out;
+}
+
+.usuario {
+  background: #2563eb;
+  color: white;
+  margin-left: auto;
+  border-bottom-right-radius: 4px;
+}
+
+.bot {
+  background: white;
+  color: #111;
+  margin-right: auto;
+  border-bottom-left-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+/* ===============================
+   MENSAJE "ESTÁ ESCRIBIENDO"
+================================ */
+
+.mensaje.bot.escribiendo {
+  font-style: italic;
+  font-weight: 700 !important;
+  color: #6b7280;
+  background: transparent;
+  box-shadow: none;
+  padding: 8px 12px;
+  animation: fadeInBubble 0.25s ease-out;
+}
+
+/* Animación de puntos (...) */
+.mensaje.bot.escribiendo::after {
+  content: "";
+  animation: puntos 1.4s infinite;
+}
+
+/* ===============================
+   ANIMACIONES
+================================ */
+
+@keyframes puntos {
+  0%   { content: ""; }
+  33%  { content: "."; }
+  66%  { content: ".."; }
+  100% { content: "..."; }
+}
+
+@keyframes fadeInBubble {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===============================
+   INPUT
+================================ */
+
+.chat-input {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  font-size: 16px;
+}
+
+.chat-input button {
+  padding: 0 22px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.chat-input button:hover {
+  background: #1d4ed8;
+}
+
+.chat-input input:focus {
+  outline: none;
+}
+
+/* ===============================
+   FOOTER
+================================ */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+  font-size: 0.9rem;
+  border-top: 1px solid #d1d5db;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+footer strong {
+  color: #2563eb;
+}
