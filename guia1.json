@@ -65,110 +65,110 @@
             "enunciado": "Sea f(x)=x^2-3x+8. Determinar los puntos donde el gráfico corta a la recta y=12 y calcular la distancia al punto P=(1,2).",
             "expresiones": [
                  "x^2-3x+8=12"
-           ],
-    "resolucion": [
-      "Igualamos la función a 12.",
-      "$$x^2-3x-4=0$$",
-      "Factorizamos.",
-      "$$(x-4)(x+1)=0$$",
-      "Obtenemos los puntos de intersección.",
-      "$$(4,12) \\; \\text{y} \\; (-1,12)$$",
-      "Calculamos las distancias al punto P=(1,2).",
-      "$$\\sqrt{(4-1)^2+(12-2)^2}=\\sqrt{109}$$",
-      "$$\\sqrt{(-1-1)^2+(12-2)^2}=\\sqrt{104}$$"
-    ]
-  },
-  {
-    "numero": 5,
-    "enunciado": "Sean f(x)=x^2-2x+3 y g(x)=3x-1. Hallar los puntos de intersección y la distancia entre ellos.",
-    "expresiones": [
-      "x^2-2x+3=3x-1"
-    ],
-    "resolucion": [
-      "Igualamos ambas funciones.",
-      "$$x^2-5x+4=0$$",
-      "Factorizamos.",
-      "$$(x-1)(x-4)=0$$",
-      "Los puntos de intersección son:",
-      "$$(1,2) \\; \\text{y} \\; (4,11)$$",
-      "Calculamos la distancia entre ellos.",
-      "$$\\sqrt{(4-1)^2+(11-2)^2}=3\\sqrt{10}$$"
-    ]
-  },
-  {
-    "numero": 6,
-    "enunciado": "Sea f(x)=-x+2. Hallar la distancia entre A=(0,f(0)) y B=(-4,f(-4)).",
-    "expresiones": [
-      "f(0), f(-4)"
-    ],
-    "resolucion": [
-      "Calculamos las imágenes.",
-      "$$f(0)=2$$",
-      "$$f(-4)=6$$",
-      "Los puntos son A=(0,2) y B=(-4,6).",
-      "Aplicamos la fórmula de distancia.",
-      "$$\\sqrt{(0+4)^2+(2-6)^2}=4\\sqrt{2}$$"
-    ]
-  },
-  {
-    "numero": 7,
-    "enunciado": "Sean P=(3,8) y V el vértice del gráfico de f(x)=x^2+6x+9. Calcular la distancia entre P y V.",
-    "expresiones": [
-      "f(x)=(x+3)^2"
-    ],
-    "resolucion": [
-      "Identificamos el vértice.",
-      "$$V=(-3,0)$$",
-      "Aplicamos la fórmula de distancia.",
-      "$$\\sqrt{(3+3)^2+(8-0)^2}=10$$"
-    ]
-  },
-  {
-    "numero": 8,
-    "enunciado": "Sea f(x)=x^2+4x-5. El gráfico corta al eje x en A y B y tiene vértice en V. Calcular la distancia entre A y V.",
-    "expresiones": [
-      "x^2+4x-5=0"
-    ],
-    "resolucion": [
-      "Hallamos las raíces.",
-      "$$x=1 \\; \\text{y} \\; x=-5$$",
-      "Los puntos son A=(-5,0) y B=(1,0).",
-      "El vértice es V=(-2,-9).",
-      "Calculamos la distancia AV.",
-      "$$\\sqrt{(-5+2)^2+(0+9)^2}=3\\sqrt{10}$$"
-    ]
-  },
-  {
-    "numero": 9,
-    "enunciado": "La función f(x)=2x+6 corta a los ejes coordenados en P y Q. Hallar la distancia entre ellos.",
-    "expresiones": [
-      "2x+6=0"
-    ],
-    "resolucion": [
-      "Corte con el eje x.",
-      "$$x=-3 \\Rightarrow P=(-3,0)$$",
-      "Corte con el eje y.",
-      "$$Q=(0,6)$$",
-      "Calculamos la distancia.",
-      "$$\\sqrt{(0+3)^2+(6-0)^2}=3\\sqrt{5}$$"
-    ]
-  },
-  {
-    "numero": 10,
-    "enunciado": "Escribir como intervalo el conjunto A={x²≤x+5, 2x+1<1}.",
-    "expresiones": [
-      "x^2-x-5\\le0",
-      "2x<0"
-    ],
-    "resolucion": [
-      "Resolvemos la primera desigualdad.",
-      "$$x\\in\\left[\\frac{1-\\sqrt{21}}{2},\\frac{1+\\sqrt{21}}{2}\\right]$$",
-      "Resolvemos la segunda.",
-      "$$x<0$$",
-      "Tomamos la intersección.",
-      "**Resultado:** $$A=\\left[\\frac{1-\\sqrt{21}}{2},0\\right)$$"
-    ]
-  }
+              ],
+            "resolucion": [
+                  "Igualamos la función a 12.",
+                  "$$x^2-3x-4=0$$",
+                  "Factorizamos.",
+                  "$$(x-4)(x+1)=0$$",
+                  "Obtenemos los puntos de intersección.",
+                  "$$(4,12) \\; \\text{y} \\; (-1,12)$$",
+                  "Calculamos las distancias al punto P=(1,2).",
+                  "$$\\sqrt{(4-1)^2+(12-2)^2}=\\sqrt{109}$$",
+                  "$$\\sqrt{(-1-1)^2+(12-2)^2}=\\sqrt{104}$$"
+              ]
+            },
+            {
+              "numero": 5,
+              "enunciado": "Sean f(x)=x^2-2x+3 y g(x)=3x-1. Hallar los puntos de intersección y la distancia entre ellos.",
+              "expresiones": [
+                     "x^2-2x+3=3x-1"
+               ],
+              "resolucion": [
+                  "Igualamos ambas funciones.",
+                  "$$x^2-5x+4=0$$",
+                  "Factorizamos.",
+                  "$$(x-1)(x-4)=0$$",
+                  "Los puntos de intersección son:",
+                  "$$(1,2) \\; \\text{y} \\; (4,11)$$",
+                  "Calculamos la distancia entre ellos.",
+                  "$$\\sqrt{(4-1)^2+(11-2)^2}=3\\sqrt{10}$$"
+              ]
+            },
+           {
+             "numero": 6,
+             "enunciado": "Sea f(x)=-x+2. Hallar la distancia entre A=(0,f(0)) y B=(-4,f(-4)).",
+             "expresiones": [
+                  "f(0), f(-4)"
+              ],
+             "resolucion": [
+                  "Calculamos las imágenes.",
+                  "$$f(0)=2$$",
+                  "$$f(-4)=6$$",
+                  "Los puntos son A=(0,2) y B=(-4,6).",
+                  "Aplicamos la fórmula de distancia.",
+                  "$$\\sqrt{(0+4)^2+(2-6)^2}=4\\sqrt{2}$$"
+             ]
+            },
+            {
+              "numero": 7,
+              "enunciado": "Sean P=(3,8) y V el vértice del gráfico de f(x)=x^2+6x+9. Calcular la distancia entre P y V.",
+              "expresiones": [
+                 "f(x)=(x+3)^2"
+              ],
+              "resolucion": [
+                  "Identificamos el vértice.",
+                  "$$V=(-3,0)$$",
+                  "Aplicamos la fórmula de distancia.",
+                  "$$\\sqrt{(3+3)^2+(8-0)^2}=10$$"
+               ]
+              },
+             {
+              "numero": 8,
+              "enunciado": "Sea f(x)=x^2+4x-5. El gráfico corta al eje x en A y B y tiene vértice en V. Calcular la distancia entre A y V.",
+              "expresiones": [
+                     "x^2+4x-5=0"
+               ],
+              "resolucion": [
+                    "Hallamos las raíces.",
+                    "$$x=1 \\; \\text{y} \\; x=-5$$",
+                    "Los puntos son A=(-5,0) y B=(1,0).",
+                    "El vértice es V=(-2,-9).",
+                    "Calculamos la distancia AV.",
+                    "$$\\sqrt{(-5+2)^2+(0+9)^2}=3\\sqrt{10}$$"
+              ]
+             },
+            {
+              "numero": 9,
+              "enunciado": "La función f(x)=2x+6 corta a los ejes coordenados en P y Q. Hallar la distancia entre ellos.",
+              "expresiones": [
+                   "2x+6=0"
+              ],
+              "resolucion": [
+                   "Corte con el eje x.",
+                   "$$x=-3 \\Rightarrow P=(-3,0)$$",
+                   "Corte con el eje y.",
+                   "$$Q=(0,6)$$",
+                   "Calculamos la distancia.",
+                   "$$\\sqrt{(0+3)^2+(6-0)^2}=3\\sqrt{5}$$"
+                ]
+               },
+              {
+                "numero": 10,
+                "enunciado": "Escribir como intervalo el conjunto A={x²≤x+5, 2x+1<1}.",
+                "expresiones": [
+                      "x^2-x-5\\le0",
+                      "2x<0"
+               ],
+               "resolucion": [
+                      "Resolvemos la primera desigualdad.",
+                      "$$x\\in\\left[\\frac{1-\\sqrt{21}}{2},\\frac{1+\\sqrt{21}}{2}\\right]$$",
+                      "Resolvemos la segunda.",
+                      "$$x<0$$",
+                      "Tomamos la intersección.",
+                      "**Resultado:** $$A=\\left[\\frac{1-\\sqrt{21}}{2},0\\right)$$" 
+        ]
+      }
     ]
   }
 ]
