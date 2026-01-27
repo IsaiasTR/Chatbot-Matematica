@@ -86,7 +86,7 @@
                   "$$x^2-3x+8-12=0$$",
                   "$$x^2-3x-4=0$$",
                   "Utilizando la resolvente (cuadrática) obtenemos las raíces.",
-                  "$$x_1=4 \\quad \\quad \\text{o} \\quad \\quad x_2=-1$$,
+                  "$$x_1=4 \\quad \\quad \\text{o} \\quad \\quad x_2=-1$$",
                   "Obtenemos los puntos de intersección.",
                   "$$A=(4,12) \\; \\text{y} \\; B=(-1,12)$$",
                   "Primero calculamos la distancia entre A=(4,12) y P=(1,2).",
