@@ -57,18 +57,22 @@
           {
             "numero": 3,
             "enunciado": "Sea A=(-4,8), f(x)=3x-12 y B el punto donde el gráfico de f corta al eje x. Calcular la distancia entre A y B.",
-            "expresiones": [
-                 "f(x)=0"
-             ],
+            "expresiones": [],
              "resolucion": [
                 "Hallamos el punto donde la función corta al eje x.",
                 "$$3x-12=0$$",
+                "$$3x=12$$",
                 "$$x=4$$",
                 "Entonces B=(4,0).",
                 "Aplicamos la fórmula de distancia entre A=(-4,8) y B=(4,0).",
-                "$$\\sqrt{(4+4)^2+(0-8)^2}$$",
-                "$$\\sqrt{64+64}=8\\sqrt{2}$$",
-                "**Resultado:** $$d(A,B)=8\\sqrt{2}$$"
+                "Consideramos:",
+                "$$x_2=4, \\; x_1=-4, \\; y_2=0, \\; y_1=8$$",
+                "$$\\sqrt{(4-(-4))^2+(0-8)^2}$$",
+                "$$\\sqrt{(4+4)^2+(-8)^2}$$",
+                "$$\\sqrt{(8)^2+(-8)^2}$$",
+                "$$\\sqrt{64+64}$$",
+                "$$\\sqrt{128}$$",
+                "**RESULTADO** $$d(A,B)=\\sqrt{128}=11,31$$"
             ]
           },
           {
