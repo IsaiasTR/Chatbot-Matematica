@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CHATBOT MATEMÁTICA – Ejercicios</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.png">
+  <meta name="theme-color" content="#2563eb">
+
+  <!-- MathJax -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$']]
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>CHATBOT - MATEMÁTICA</h1>
+    <h2>CÁTEDRA: ROSSOMANDO</h2>
+    <p>Acá podés consultar los ejercicios de las guías</p>
+  </header>
+
+  <main class="chat-wrapper">
+    <div id="chat-container" class="chat-container"></div>
+
+    <div class="chat-input">
+      <input
+        id="inputPregunta"
+        type="text"
+        placeholder="Ej: ejercicio 6 guia 1"
+        onkeydown="if(event.key==='Enter') buscar()"
+      >
+      <button onclick="buscar()">Enviar</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>MATEMÁTICA 51 - CBC - UBA</p>
+    <p>
+      Desarrollado por <strong>ISAIAS TENORIO</strong>
+    </p>
+  </footer>
+
+  <!-- App JS -->
+  <script src="app.js"></script>
+
+  <!-- Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service-worker.js');
+      });
+    }
+  </script>
+</body>
+</html>
