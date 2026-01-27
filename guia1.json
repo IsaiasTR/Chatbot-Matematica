@@ -26,7 +26,7 @@
                "$$y-7=-3 \\quad \\text{o} \\quad y-7=3$$",
                "Obtenemos los valores de y.",
                "$$y=-3+7 \\quad \\text{o} \\quad y=3+7$$",
-               "**Resultado:** $$y=4 \\quad \\text{o} \\quad y=10$$"
+               "**Resultado:** $$y=4 \\quad \\quad \\text{o} \\quad \\quad y=10$$"
         ]
       },
       {
@@ -44,11 +44,11 @@
               "$$(a-1)^2+a^2=13$$",
               "Desarrollamos el binomio al cuadrado.",
               "$$a^2-2a+1+a^2=13$$",
-              "Sumamos términos semejantes, entonces resulta",
+              "Sumamos términos semejantes, entonces nos resulta",
               "$$2a^2-2a+1=13$$",
               "$$2a^2-2a+1-13=0$$",
               "$$2a^2-2a-12=0$$",
-              "Dado que todos tienen mitad, entonces dividimos por 2 a toda la ecuación. y nos resulta lo siguiente",
+              "Dado que todos tienen mitad, entonces dividimos por 2 a toda la ecuación. y nos resulta lo siguiente:",
               "$$a^2-a-6=0$$",
               "Utilizamos la resolvente (ecuación cuadrática)",
               "**Resultado:** $$a=3 \\quad \\quad \\text{o} \\quad \\quad a=-2$$"
