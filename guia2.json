@@ -1,0 +1,37 @@
+[
+  {
+    "archivo": "Guia 2.pdf",
+    "pagina": 2,
+    "titulo": "Límites",
+    "ejercicios": [
+      {
+        "numero": 2,
+        "enunciado": "Calcular:",
+        "expresiones": [
+          "\\lim_{x \\to 3} \\frac{2-\\sqrt{7-x}}{2x^2-4x-6}"
+        ],
+        "resolucion": [
+           "Evaluamos el límite por sustitución directa.",
+           "En el numerador:",
+           "$$2 - \\sqrt{7-3} = 2 - 2 = 0$$",
+           "En el denominador:",
+           "$$2(3)^2 - 4(3) - 6 = 18 - 12 - 6 = 0$$",
+           "Se obtiene una indeterminación del tipo $$\\frac{0}{0}$$, por lo que racionalizamos el numerador.",
+           "Multiplicamos numerador y denominador por el conjugado:",
+           "$$\\frac{2-\\sqrt{7-x}}{2x^2-4x-6} \\cdot \\frac{2+\\sqrt{7-x}}{2+\\sqrt{7-x}}$$",
+           "Simplificando el numerador:",
+           "$$(2)^2 - (7-x) = 4 - 7 + x = x - 3$$",
+           "El denominador queda:",
+           "$$(2x^2-4x-6)(2+\\sqrt{7-x})$$",
+           "Factorizamos el denominador:",
+           "$$2x^2-4x-6 = 2(x-3)(x+1)$$",
+           "Simplificamos el factor común $$(x-3)$$.",
+           "Evaluamos el límite:",
+           "$$\\lim_{x \\to 3} \\frac{1}{2(x+1)(2+\\sqrt{7-x})}$$",
+           "Reemplazando:",
+           "$$\\frac{1}{2(4)(2+2)} = \\frac{1}{32}$$"
+       ]
+      }
+    ]
+  }
+]
