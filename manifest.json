@@ -1,0 +1,16 @@
+{
+  "name": "Matemática",
+  "short_name": "CHATBOT-MATEMÁTICA",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#1e40af",
+  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "Matematica.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
