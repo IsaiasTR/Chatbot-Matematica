@@ -105,19 +105,24 @@
             },
             {
               "numero": 5,
-              "enunciado": "Sean f(x)=x^2-2x+3 y g(x)=3x-1. Hallar los puntos de intersección y la distancia entre ellos.",
-              "expresiones": [
-                     "x^2-2x+3=3x-1"
-               ],
+              "enunciado": "Sean f(x)=x^2-2x+3 y g(x)=3x-1. Hallar los puntos de intersección de f y g y calcular la distancia entre dichos puntos.",
+              "expresiones": [],
               "resolucion": [
                   "Igualamos ambas funciones.",
+                  "$$x^2-2x+3=3x-1$$",
+                  "$$x^2-2x-3x+3+1=0$$",
                   "$$x^2-5x+4=0$$",
-                  "Factorizamos.",
-                  "$$(x-1)(x-4)=0$$",
+                  "Utilizamos la resolvente (ecuación cuadrática) y obtenemos las raíces.",
+                  "$$x_1=1 \\quad \\quad \\text{o} \\quad \\quad x_2=4$$",
                   "Los puntos de intersección son:",
-                  "$$(1,2) \\; \\text{y} \\; (4,11)$$",
+                  "$$A=(1,2) \\quad \\quad \\text{y} \\quad \\quad B=(4,11)$$",
                   "Calculamos la distancia entre ellos.",
-                  "$$\\sqrt{(4-1)^2+(11-2)^2}=3\\sqrt{10}$$"
+                  "Consideramos:",
+                  "$$x_2=4 \\quad \\quad x_1=1 \\quad \\quad y_2=11 \\quad \\quad y_1=2$$",
+                  "$$\\sqrt{(4-1)^2+(11-2)^2}$$",
+                  "$$\\sqrt{(3)^2+(9)^2}$$",
+                  "$$\\sqrt{9+81}$$",
+                  "$$\\sqrt{90}=9,48$$"
               ]
             },
            {
