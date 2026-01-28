@@ -127,17 +127,25 @@
             },
            {
              "numero": 6,
-             "enunciado": "Sea f(x)=-x+2. Hallar la distancia entre A=(0,f(0)) y B=(-4,f(-4)).",
-             "expresiones": [
-                  "f(0), f(-4)"
-              ],
+             "enunciado": "Sea f(x)=-x+2. Hallar la distancia entre los puntos A=(0,f(0)) y B=(-4,f(-4)).",
+             "expresiones": [],
              "resolucion": [
-                  "Calculamos las imágenes.",
+                  "Calculamos las imágenes de los puntos A y B .",
+                  "Entonces",
+                  "$$f(0)=-0+2$$",
                   "$$f(0)=2$$",
+                  "Luego",
+                  "$$f(-4)=-(-4)+2$$"
                   "$$f(-4)=6$$",
-                  "Los puntos son A=(0,2) y B=(-4,6).",
-                  "Aplicamos la fórmula de distancia.",
-                  "$$\\sqrt{(0+4)^2+(2-6)^2}=4\\sqrt{2}$$"
+                  "Los puntos son :A=(0,2) y B=(-4,6).",
+                  "$$A=(0,2) \\quad \\quad \\text{y} \\quad \\quad B=(-4,6)$$",
+                  "Consideramos:",
+                  "$$x_2=-4, \\; x_1=0, \\; y_2=6, \\; y_1=2$$",
+                  "Aplicamos la fórmula de distancia entre dos puntos.",
+                  "$$\\sqrt{(-4-0)^2+(6-2)^2}$$",
+                  "$$\\sqrt{(-4)^2+(4)^2}$$",
+                  "$$\\sqrt{16+16}$$",
+                  "$$\\sqrt{32}=5.65$$"
              ]
             },
             {
