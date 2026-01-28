@@ -166,7 +166,7 @@
                   "Por lo tanto, el vértice es V=(-3;0)",
                   "Ahora calculamos la distancia entre P y V.",
                   "Consideramos:",
-                  "$$x_2=-3 \\quad \\quad x_1=3 \\quad \\quad y_2=0 \\quad \\quad y_1=8$$"
+                  "$$x_2=-3 \\quad \\quad x_1=3 \\quad \\quad y_2=0 \\quad \\quad y_1=8$$",
                   "Aplicamos la fórmula de distancia.",
                   "$$\\sqrt{(-3-3)^2+(0-8)^2}$$",
                   "$$\\sqrt{(-6)^2+(-8)^2}$$",
