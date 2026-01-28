@@ -271,8 +271,8 @@
                       "$$(4;+\\infty)$$",
                       "$$(-\\frac{1}{2};4)$$",
                       "$$(-\\infty;-\\frac{1}{2})$$",
-                      "Dividimos el signo de los números que multiplican al numerado y denominador.".
-                      "En este caso son -/+ =- , eso significa que empezamos de derecha a izquierda con el signo -"
+                      "Dividimos el signo de los números que multiplican al numerado y denominador.",
+                      "En este caso son -/+ =- , eso significa que empezamos de derecha a izquierda con el signo -",
                       "Quedando los intervalos de la siguiente forma",
                       "$$- \\quad \\quad + \\quad \\quad -$$",
                       "Como el ejercicio pide los menores a cero (< 0)",
