@@ -76,7 +76,7 @@
                 "$$\\sqrt{(8)^2+(-8)^2}$$",
                 "$$\\sqrt{64+64}$$",
                 "$$\\sqrt{128}$$",
-                "**RESULTADO** $$d(A,B)=\\sqrt{128}=11,31$$"
+                "**RESULTADO** $$d(A,B)=\\sqrt{128}=11,31...$$"
             ]
           },
           {
@@ -127,7 +127,7 @@
                   "$$\\sqrt{(4-1)^2+(11-2)^2}$$",
                   "$$\\sqrt{(3)^2+(9)^2}$$",
                   "$$\\sqrt{9+81}$$",
-                  "$$\\sqrt{90}=9,48$$"
+                  "$$\\sqrt{90}=9,48...$$"
               ]
             },
            {
@@ -151,7 +151,7 @@
                   "$$\\sqrt{(-4-0)^2+(6-2)^2}$$",
                   "$$\\sqrt{(-4)^2+(4)^2}$$",
                   "$$\\sqrt{16+16}$$",
-                  "$$\\sqrt{32}=5.65$$"
+                  "$$\\sqrt{32}=5,65...$$"
              ]
             },
             {
@@ -184,15 +184,38 @@
               },
              {
               "numero": 8,
-              "enunciado": "Sea f(x)=x^2+4x-5. El gráfico corta al eje x en A y B y tiene vértice en V. Calcular la distancia entre A y V.",
+              "enunciado": "Sea f(x)=x^2+4x-5. El gráfico de f es una parábola que corta al eje x en A y B y tiene vértice en V. Calcular la distancia entre A y V.",
               "expresiones": [],
               "resolucion": [
-                    "Hallamos las raíces.",
+                    "Dado que f(x) corta al eje x, entonces igualamos a cero la función.",
+                    "Dicho de otra forma encontramos las raíces.",
+                    "$$f(x)=0$$",
+                    "$$x^2+4x-5=0$$",
+                    "Utilizamos la resolvente (ecuación cuadrática) y obtenemos las raíces.",
                     "$$x=1 \\; \\text{y} \\; x=-5$$",
-                    "Los puntos son A=(-5,0) y B=(1,0).",
+                    "Entonces los puntos:",
+                    "$$A=(1,0) \\quad \\quad \\text{y} \\quad \\quad B=(-5,0)",
+                    "Ahora calculamos el vértice",
+                    "Es decir",
+                    "$$V=(X_v , Y_v)$$",
+                    "Entonces calculamos primero Xv.",
+                    "$$X_v=\\frac{-b}{2a}$$",
+                    "$$X_v=\\frac{-4}{2(1)}$$",
+                    "$$X_v=-2$$",
+                    "Ahora calculamos Y_v.",
+                    "$$Y_v=(-2)^2+6(-2)-5$$",
+                    "$$Y_v=-9$$",
+                    "Por lo tanto, el vértice es V=(-2;-9)",
                     "El vértice es V=(-2,-9).",
-                    "Calculamos la distancia AV.",
-                    "$$\\sqrt{(-5+2)^2+(0+9)^2}=3\\sqrt{10}$$"
+                    "Calculamos la distancia entre A y V.",
+                    "Consideramos:",
+                    "$$x_2=-2 \\quad \\quad x_1=1 \\quad \\quad y_2=-9 \\quad \\quad y_1=0$$",
+                    "$$\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$$",
+                    "$$\\sqrt{(-2-1)^2+(-9-0)^2}$$",
+                    "$$\\sqrt{(-3)^2+(-9)^2}$$",
+                    "$$\\sqrt{9+81}$$",
+                    "$$\\sqrt{90}$$",
+                    "$$9,48...$$"
               ]
              },
             {
