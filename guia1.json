@@ -137,7 +137,7 @@
                   "Luego",
                   "$$f(-4)=-(-4)+2$$",
                   "$$f(-4)=6$$",
-                  "Los puntos son :A=(0,2) y B=(-4,6).",
+                  "Los puntos son:",
                   "$$A=(0,2) \\quad \\quad \\text{y} \\quad \\quad B=(-4,6)$$",
                   "Consideramos:",
                   "$$x_2=-4 \\quad \\quad x_1=0 \\quad \\quad y_2=6 \\quad \\quad y_1=2$$",
@@ -151,14 +151,28 @@
             {
               "numero": 7,
               "enunciado": "Sean P=(3,8) y V el vértice del gráfico de f(x)=x^2+6x+9. Calcular la distancia entre P y V.",
-              "expresiones": [
-                 "f(x)=(x+3)^2"
-              ],
+              "expresiones": [],
               "resolucion": [
-                  "Identificamos el vértice.",
-                  "$$V=(-3,0)$$",
+                  "Identificamos el vértice de la función f(x).",
+                  "Es decir",
+                  "$$V=(X_v , Y_v)$$",
+                  "Entonces calculamos primero x_v.",
+                  "$$X_v=\\frac{-b}{2a}$$",
+                  "$$X_v=\\frac{-6}{2(1)}$$",
+                  "$$X_v=-3$$",
+                  "Ahora calculamos Y_v.",
+                  "$$Y_v=(-3)^2+6(-3)+9$$",
+                  "$$Y_v=0$$",
+                  "Por lo tanto, el vértice es V=(-3;0)",
+                  "Ahora calculamos la distancia entre P y V.",
+                  "Consideramos:",
+                  "$$x_2=-3 \\quad \\quad x_1=3 \\quad \\quad y_2=0 \\quad \\quad y_1=8$$"
                   "Aplicamos la fórmula de distancia.",
-                  "$$\\sqrt{(3+3)^2+(8-0)^2}=10$$"
+                  "$$\\sqrt{(-3-3)^2+(0-8)^2}$$",
+                  "$$\\sqrt{(-6)^2+(-8)^2}$$",
+                  "$$\\sqrt{36+64}$$",
+                  "$$\\sqrt{100}$$",
+                  "$$10$$"
                ]
               },
              {
