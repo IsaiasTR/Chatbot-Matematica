@@ -253,7 +253,7 @@
                 "expresiones": [
                                 "A = \\{ x \\in \\mathbb{R} / \\frac{x+5}{2x+1} < 1 \\}" 
                  ],
-               "resolucion": [
+                "resolucion": [
                       "Primero pasamos el 1 al primer miembro. recuerde el segundo miembro siempre debe ser 0.",
                       "$$\\frac{x+5}{2x+1}<1$$",
                       "$$\\frac{x+5}{2x+1}-1<0$$",
