@@ -271,10 +271,10 @@
                     "Analizamos el signo del numerador y del denominador.",
                     "En este caso resulta: - / + = - , por lo que comenzamos con signo negativo.",
                     "Quedan los intervalos de la siguiente forma:",
-                    "$$- \\quad \\quad + \\quad \\quad -$$",
+                    "$$ - \\quad \\quad + \\quad \\quad - $$",
                     "Como el ejercicio pide los valores menores que cero (<0):",
-                    "**Resultado:** $$x \\in (-\\infty;-\\frac{1}{2}) \\cup (4;+\\infty)$$"
-        ]
+                    "**Resultado:** $$ x \\in (-\\infty;-\\frac{1}{2}) \\cup (4;+\\infty) $$"
+         ]
       }
     ]
   }
