@@ -249,15 +249,19 @@
                },
               {
                 "numero": 10,
-                "enunciado": "Escribir como intervalo el conjunto A={x²≤x+5, 2x+1<1}.",
+                "enunciado": "Escribir como intervalo o unión de intervalos el conjunto A.",
                 "expresiones": [
-                      "x^2-x-5\\le0",
-                      "2x<0"
-               ],
+                                "A = \\{ x \\in \\mathbb{R} / \\frac{x+5}{2x+1} < 1 \\}" 
+                 ],
                "resolucion": [
-                      "Resolvemos la primera desigualdad.",
-                      "$$x\\in\\left[\\frac{1-\\sqrt{21}}{2},\\frac{1+\\sqrt{21}}{2}\\right]$$",
-                      "Resolvemos la segunda.",
+                      "Primero pasamos el 1 al primer miembro. recuerde el segundo miembro siempre debe ser 0.",
+                      "$$\\frac{x+5}{2x+1}<1$$",
+                      "$$\\frac{x+5}{2x+1}-1<0$$",
+                      "Aplicamos comun denominador (dicho de otra forma, técnica de carita feliz)",
+                      "$$\\frac{x+5-(2x+1)}{2x+1}<0$$",
+                      "$$\\frac{x+5-2x-1}{2x+1}<0$$",
+                      "$$\\frac{-x+4}{2x+1}<0$$"
+                      "Calculamos los puntos críticos",
                       "$$x<0$$",
                       "Tomamos la intersección.",
                       "**Resultado:** $$A=\\left[\\frac{1-\\sqrt{21}}{2},0\\right)$$" 
