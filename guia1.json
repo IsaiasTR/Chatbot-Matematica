@@ -220,17 +220,30 @@
              },
             {
               "numero": 9,
-              "enunciado": "La función f(x)=2x+6 corta a los ejes coordenados en P y Q. Hallar la distancia entre ellos.",
-              "expresiones": [
-                   "2x+6=0"
-              ],
+              "enunciado": "La función lineal f(x)=2x+6 corta al eje x en el punto P y al eje y en el punto Q. Hallar P y Q y calcular la distancia entre ellos.",
+              "expresiones": [],
               "resolucion": [
-                   "Corte con el eje x.",
-                   "$$x=-3 \\Rightarrow P=(-3,0)$$",
-                   "Corte con el eje y.",
+                   "Calculamos primero el punto P",
+                   "Dado que corta al eje x en el punto P, entonces igualamos a cero la función.",
+                   "$$f(x)=0$$",
+                   "$$2x+6=0$$",
+                   "$$x=-3$$",
+                   "Entonces, el punto P es:",
+                   "$$P=(-3,0)$$",
+                   "Ahora calculamos el punto Q.",
+                   "Dado que la función corta al eje y en el punto Q, entonces x es igual a cero.",
+                   "$$f(0)=2(0)+6$$",
+                   "$$f(0)=6$$",
+                   "Entonces el punto Q es:",
                    "$$Q=(0,6)$$",
-                   "Calculamos la distancia.",
-                   "$$\\sqrt{(0+3)^2+(6-0)^2}=3\\sqrt{5}$$"
+                   "Calculamos la distancia entre P y Q.",
+                   "Consideramos:",
+                   "$$x_2=0 \\quad \\quad x_1=-3 \\quad \\quad y_2=6 \\quad \\quad y_1=0$$",
+                   "$$\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$$",
+                   "$$\\sqrt{(0+3)^2+(6-0)^2}$$",
+                   "$$\\sqrt{9+36}$$",
+                   "$$\\sqrt{45}$",
+                   "$$6,70...$$"
                 ]
                },
               {
