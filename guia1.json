@@ -262,7 +262,7 @@
                     "$$\\frac{x+5-2x-1}{2x+1}<0$$",
                     "$$\\frac{-x+4}{2x+1}<0$$",
                     "Calculamos los puntos críticos.",
-                    "$$-x+4=0 \\quad \\quad 2x+1\\neq0$$",
+                    "$$-x+4=0 \\quad \\quad \\text{y} \\quad \\quad 2x+1\\neq0$$",
                     "$$x=4 \\quad \\quad x\\neq-\\frac{1}{2}$$",
                     "Entonces los puntos críticos son:",
                     "$$P.C=\\left\\{-\\frac{1}{2},4\\right\\}$$",
@@ -273,7 +273,8 @@
                     "Quedan los intervalos de la siguiente forma:",
                     "$$ - \\quad \\quad + \\quad \\quad - $$",
                     "Como el ejercicio pide los valores menores que cero (<0):",
-                    "**Resultado:** $$ x \\in (-\\infty;-\\frac{1}{2}) \\cup (4;+\\infty) $$"
+                    "RESULTADO:",
+                    "$$ x \\in (-\\infty;-\\frac{1}{2}) \\cup (4;+\\infty) $$"
          ]
       }
     ]
