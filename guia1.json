@@ -276,6 +276,29 @@
                     "RESULTADO:",
                     "$$ x \\in (-\\infty;-\\frac{1}{2}) \\cup (4;+\\infty) $$"
          ]
+      },
+      {
+                "numero": 11,
+                "enunciado": "Escribir como intervalo o unión de intervalos el conjunto A.",
+                "expresiones": [
+                                "A = \\{ x \\in \\mathbb{R} / \\frac{-2x-6}{x+7} < 0 \\}" 
+                 ],
+                "resolucion": [
+                    "Dado que el segundo miembro es cero, entonces calculamos directamente los puntos críticos.",
+                    "$$-2x-6=0 \\quad \\quad \\text{y} \\quad \\quad x+7\\neq0$$",
+                    "$$x=-3 \\quad \\quad x\\neq -7$$",
+                    "Entonces los puntos críticos son:",
+                    "$$P.C=\\left\\{-7,-3\\right\\}$$",
+                    "Ubicamos los puntos críticos en la recta numérica:",
+                    "$$-\\infty \\quad \\bullet \\quad -7 \\quad \\bullet \\quad -3 \\quad \\bullet \\quad +\\infty$$",
+                    "Analizamos el signo del numerador y del denominador.",
+                    "En este caso resulta: - / + = - , por lo que comenzamos con signo negativo  (recuerde siempre de derecha a izquierda).",
+                    "Quedan los intervalos de la siguiente forma:",
+                    "$$ - \\quad \\quad + \\quad \\quad - $$",
+                    "Como el ejercicio pide los valores menores que cero (<0):",
+                    "RESULTADO:",
+                    "$$ x \\in (-\\infty;-7) \\cup (-3;+\\infty) $$"
+         ]
       }
     ]
   }
