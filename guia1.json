@@ -364,14 +364,15 @@
                   "$$x^2-x-12 \\geq 0$$",
                   "Dado que tenemos un polinomio de grado 2, utilizamos la ecuación cuadrática ( resolvente) para calcular las raíces y asi utilizar la regla de signos",
                   "En este caso, tenemos:",
-                  "$$a=1\\quad \\quad \\text{;} \\quad \\quad b=-1 \\text{;} \\quad \\quad c=-12 $",
+                  "$$a=1\\quad \\quad \\text{;} \\quad \\quad b=-1 \\text{;} \\quad \\quad c=-12 $$",
                   "$$x_1=4\\quad \\quad \\text{y} \\quad \\quad x_2=-3$$",
                   "Ubicamos en una recta numérica y obtendremos los siguientes intervalos.",
                   "$$-\\infty \\quad \\bullet \\quad -3 \\quad \\bullet \\quad 4 \\quad \\bullet \\quad +\\infty$$",
                   "Como el signo de a es positivo, entonces de derecha a izquierda comenzamos con el signo + y vamos alternando.",
                   "Quedan los intervalos de la siguiente forma:",
                   "$$ + \\quad \\quad - \\quad \\quad + $$",
-                  "Dado que el ejercicio nos pide \\geq 0",
+                  "Dado que el ejercicio nos pide:",
+                  "$$\\geq 0$$",
                   "RESULTADO:",
                   "$$x \\in (-\\infty;-3] \\cup [4;+\\infty)$$"
         ]
