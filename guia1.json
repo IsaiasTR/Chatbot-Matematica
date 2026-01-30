@@ -475,7 +475,7 @@
            "numero": 17,
            "enunciado": "Hallar la ecuación de la recta que pasa por el punto P=(3,2) y por el vértice de la parábola que es el gráfico de f(x)",
            "expresiones": [
-              "$$f(x)=-4x^2+16x-8$$"
+                 "f(x) = -4x^2 + 16x - 8"
            ],
            "resolucion": [
                 "Calculamos el vértice de la parábola.",
@@ -484,7 +484,6 @@
                 "Recordemos que el vértice es un par ordenado.",
                 "$$V=(x_v , y_v)$$",
                 "Primero calculamos la abscisa del vértice, es decir:",
-                "$$x_v$$",
                 "$$x_v=\\frac{-b}{2a}$$",
                 "$$x_v=\\frac{-16}{2(-4)}$$",
                 "$$x_v=2$$",
