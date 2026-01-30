@@ -7,9 +7,7 @@
       {
         "numero": 1,
         "enunciado": "Sea A=(3,7). Hallar todos los puntos P=(-1,y) con y ∈ ℝ tales que d(A,P)=5.",
-        "expresiones": [
-             "d(A,P)=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}"
-         ],
+        "expresiones": [],
         "resolucion": [
                "Aplicamos la fórmula de distancia entre A=(3,7) y P=(-1,y).",
                "Consideramos:",
@@ -330,6 +328,27 @@
                     "Como el ejercicio pide los valores menores que cero (<0):",
                     "RESULTADO:",
                     "$$ x \\in (-\\infty;-\\frac{1}{10}) \\cup (0;+\\infty) $$"
+        ]
+      },
+      {
+           "numero": 13,
+           "enunciado": "El gráfico de f(x)=ax+12 corta el eje x en x=-3. Hallar a y escribir como intervalo o unión de intervalo el conjunto A.",
+           "expresiones": [
+              "A = \\{ x \\in \\mathbb{R} / f(x)>x \\}"
+           ],
+           "resolucion": [
+               "$$f(-3)=0$$",
+               "$$a(-3)+12=0$$",
+               "$$-3a=-12$$",
+               "$$a=4$$",
+               "Luego, como el conjunto A es f(x)>x",
+               "Entonces:",
+               "$$f(x)>x$$",
+               "$$4x+12>x$$",
+               "$$4x-x>-12$$",
+               "$$3x>-12$$",
+               "$$x>-4$$",
+               "$$x \\in (-4;+\\infty)$$"
         ]
       }
     ]
