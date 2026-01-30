@@ -287,7 +287,7 @@
                 "resolucion": [
                     "Dado que el segundo miembro es cero, entonces calculamos directamente los puntos críticos.",
                     "$$-2x-6=0 \\quad \\quad \\text{y} \\quad \\quad x+7\\neq0$$",
-                    "$$x=-3 \\quad \\quad x\\neq -7$$",
+                    "$$x=-3 \\quad \\quad \\text{y} \\quad \\quad x\\neq -7$$",
                     "Entonces los puntos críticos son:",
                     "$$P.C=\\left\\{-7,-3\\right\\}$$",
                     "Ubicamos los puntos críticos en la recta numérica:",
@@ -341,7 +341,7 @@
                "$$a(-3)+12=0$$",
                "$$-3a=-12$$",
                "$$a=4$$",
-               "Luego, como el conjunto A es f(x)>x",
+               "Luego, como el conjunto A es f(x) > x.",
                "Entonces:",
                "$$f(x)>x$$",
                "$$4x+12>x$$",
@@ -349,6 +349,31 @@
                "$$3x>-12$$",
                "$$x>-4$$",
                "$$x \\in (-4;+\\infty)$$"
+        ]
+      },
+      {
+           "numero": 14,
+           "enunciado": "Siendo f(x)=x^2-2x-7 y g(x)=-x+5. Escribir como intervalo o unión de intervalos el conjunto A",
+           "expresiones": [
+              "A = \\{ x \\in \\mathbb{R} / f(x) \\geq x \\}"
+           ],
+           "resolucion": [
+                  "$$f(x) \\geq g(x)$$",
+                  "$$x^2-2x-7 \\geq -x+5$$",
+                  "$$x^2-2x+x-7-5 \\geq 0$$",
+                  "$$x^2-x-12 \\geq 0$$",
+                  "Dado que tenemos un polinomio de grado 2, utilizamos la ecuación cuadrática ( resolvente) para calcular las raíces y asi utilizar la regla de signos",
+                  "En este caso, tenemos:",
+                  "$$a=1\\quad \\quad \\text{;} \\quad \\quad b=-1 \\text{;} \\quad \\quad c=-12 $",
+                  "$$x_1=4\\quad \\quad \\text{y} \\quad \\quad x_2=-3$$",
+                  "Ubicamos en una recta numérica y obtendremos los siguientes intervalos.",
+                  "$$-\\infty \\quad \\bullet \\quad -3 \\quad \\bullet \\quad 4 \\quad \\bullet \\quad +\\infty$$",
+                  "Como el signo de a es positivo, entonces de derecha a izquierda comenzamos con el signo + y vamos alternando.",
+                  "Quedan los intervalos de la siguiente forma:",
+                  "$$ + \\quad \\quad - \\quad \\quad + $$",
+                  "Dado que el ejercicio nos pide \\geq 0",
+                  "RESULTADO:",
+                  "$$x \\in (-\\infty;-3] \\cup [4;+\\infty)$$"
         ]
       }
     ]
