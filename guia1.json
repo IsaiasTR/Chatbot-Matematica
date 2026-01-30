@@ -27,7 +27,8 @@
                "$$y-7=-3 \\quad \\quad  \\text{o} \\quad \\quad y-7=3$$",
                "Obtenemos los valores de y.",
                "$$y=-3+7 \\quad \\quad \\text{o} \\quad \\quad y=3+7$$",
-               "**Resultado:** $$y=4 \\quad \\quad \\text{o} \\quad \\quad y=10$$"
+               "Resultado:",
+               "$$y=4 \\quad \\quad \\text{o} \\quad \\quad y=10$$"
         ]
       },
       {
@@ -53,7 +54,8 @@
               "Dado que todos tienen mitad, entonces dividimos por 2 a toda la ecuación. y nos resulta lo siguiente:",
               "$$a^2-a-6=0$$",
               "Utilizamos la resolvente (ecuación cuadrática)",
-              "**Resultado:** $$a=3 \\quad \\quad \\text{o} \\quad \\quad a=-2$$"
+              "Resultado:",
+              "$$a=3 \\quad \\quad \\text{o} \\quad \\quad a=-2$$"
              ]
           },
           {
@@ -76,7 +78,8 @@
                 "$$\\sqrt{(8)^2+(-8)^2}$$",
                 "$$\\sqrt{64+64}$$",
                 "$$\\sqrt{128}$$",
-                "**RESULTADO** $$d(A,B)=\\sqrt{128}=11,31...$$"
+                "RESULTADO",
+                "$$d(A,B)=\\sqrt{128}=11,31...$$"
             ]
           },
           {
@@ -299,6 +302,35 @@
                     "RESULTADO:",
                     "$$ x \\in (-\\infty;-7) \\cup (-3;+\\infty) $$"
          ]
+      },
+      {
+                "numero": 12,
+                "enunciado": "Escribir como intervalo o unión de intervalos el conjunto A.",
+                "expresiones": [
+                                "A = \\{ x \\in \\mathbb{R} / \\frac{2x-1}{3x} < 4 \\}" 
+                 ],
+                "resolucion": [
+                    "Primero pasamos el 4 al primer miembro. Recuerde que el segundo miembro siempre debe ser 0.",
+                    "$$\\frac{2x-1}{3x}<4$$",
+                    "$$\\frac{2x-1}{3x}-4<0$$",
+                    "Aplicamos común denominador (también conocida como técnica de la carita feliz).",
+                    "$$\\frac{2x-1--12x}{3x}<0$$",
+                    "$$\\frac{-10x-1}{3x}<0$$",
+                    "Calculamos los puntos críticos.",
+                    "$$-10x-1=0 \\quad \\quad \\text{y} \\quad \\quad 3x\\neq 0$$",
+                    "$$x=-\\frac{1}{10} \\quad \\quad x\\neq 0$$",
+                    "Entonces los puntos críticos son:",
+                    "$$P.C=\\left\\{-\\frac{1}{10},0\\right\\}$$",
+                    "Ubicamos los puntos críticos en la recta numérica:",
+                    "$$-\\infty \\quad \\bullet \\quad -\\frac{1}{10} \\quad \\bullet \\quad 0 \\quad \\bullet \\quad +\\infty$$",
+                    "Analizamos el signo del numerador y del denominador.",
+                    "En este caso resulta: - / + = - , por lo tanto comenzamos con signo negativo por la derecha.",
+                    "Quedan los intervalos de la siguiente forma:",
+                    "$$ - \\quad \\quad + \\quad \\quad - $$",
+                    "Como el ejercicio pide los valores menores que cero (<0):",
+                    "RESULTADO:",
+                    "$$ x \\in (-\\infty;-\\frac{1}{10}) \\cup (0;+\\infty) $$"
+        ]
       }
     ]
   }
