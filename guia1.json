@@ -365,6 +365,7 @@
                   "Dado que tenemos un polinomio de grado 2, utilizamos la ecuación cuadrática ( resolvente) para calcular las raíces y asi utilizar la regla de signos",
                   "En este caso, tenemos:",
                   "$$a=1\\quad \\quad \\text{;} \\quad \\quad b=-1 \\text{;} \\quad \\quad c=-12 $$",
+                  "Reemplazamos los valores de a , b y c respectivamente en la resolvente y obtendremos las siguientes raíces",
                   "$$x_1=4\\quad \\quad \\text{y} \\quad \\quad x_2=-3$$",
                   "Ubicamos en una recta numérica y obtendremos los siguientes intervalos.",
                   "$$-\\infty \\quad \\bullet \\quad -3 \\quad \\bullet \\quad 4 \\quad \\bullet \\quad +\\infty$$",
