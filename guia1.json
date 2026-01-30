@@ -470,6 +470,47 @@
                 "RESULTADO:",
                 "$$ x \\in [6;+\\infty) $$"
         ]
+      },
+      {
+           "numero": 17,
+           "enunciado": "Hallar la ecuación de la recta que pasa por el punto P=(3,2) y por el vértice de la parábola que es el gráfico de f(x)",
+           "expresiones": [
+              "$$f(x)=-4x^2+16x-8$$"
+           ],
+           "resolucion": [
+                "Calculamos el vértice de la parábola.",
+                "Tengamos en cuenta que el valor de a , b y c de la función cuadrática son",
+                "$$a=-4\\quad \\quad \\text{;} \\quad \\quad b=16 \\text{;} \\quad \\quad c=-8$$",
+                "Recordemos que el vértice es un par ordenado.",
+                "$$V=(x_v , y_v)$$",
+                "Primero calculamos la abscisa del vértice, es decir:",
+                "$$x_v$$",
+                "$$x_v=\\frac{-b}{2a}$$",
+                "$$x_v=\\frac{-16}{2(-4)}$$",
+                "$$x_v=2$$",
+                "Segundo calculamos la ordenada del vértice, es decir:",
+                "$$y_v=-4(2)^2+16(2)-8$$",
+                "$$y_v=8$$",
+                "Por lo tanto, el vértice es:",
+                "$$V=(2,8)$$",
+                "Ahora, calculamos la ecuación de la recta que contiene a P y a V ( vértice de la parábola ).",
+                "$$m=\\frac{y_2-y_1}{x_2-x_1}$$",
+                "$$m=\\frac{8-2}{2-3}$$",
+                "$$m=\\frac{6}{-1}$$",
+                "$$m=-6$$",
+                "Entonces, por ahora la ecuación de la recta es:",
+                "$$f(x)=-6x+b$$",
+                "Para calcular la ordenada al origen ( b ), utilizamos uno de los puntos:",
+                "Usaremos el punto P (ustedes pueden usar el punto V y les debe dar los mismos resultados)",
+                "$$P=(3,2)$$",
+                "Reemplazamos el punto P",
+                "$$f(x)=-6x+b$$",
+                "$$2=-6(3)+b$$",
+                "$$2+18=b$$",
+                "$$b=20$$",
+                "Por lo tanto, la ecuación de la recta es:",
+                "$$f(x)=-6x+20$$"           
+        ]
       }
     ]
   }
