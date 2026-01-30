@@ -431,6 +431,45 @@
                 "RESULTADO:",
                 "$$ x \\in (-\\infty;-5) \\cup (3;+\\infty) $$"
         ]
+      },
+      {
+           "numero": 16,
+           "enunciado": "Sea f(x) la función lineal tal que f(1)=12 y f(-1)=2 y g(x)=6x+1. Escribir como intervalo o unión de intervalos el conjunto A",
+           "expresiones": [
+              "A = \\{ x \\in \\mathbb{R} / f(x) \\leq g(x) \\}"
+           ],
+           "resolucion": [
+                "Datos:",
+                "$$f(1)=12 \\quad \\quad \\text{y} \\quad \\quad f(-1)=2$$",
+                "Son pares ordenados es decir:",
+                "$$P=(1,12) \\quad \\quad \\text{y} \\quad \\quad Q=(-1,2)$$",
+                "Calculamos primero la función lineal",
+                "Comenzamos calculando la pendiente",
+                "$$m=\\frac{y_2-y_1}{x_2-x_1}$$",
+                "$$m=\\frac{2-12}{-1-1}$$",
+                "$$m=\\frac{-10}{-2}$$",
+                "$$m=5$$",
+                "Entonces, por ahora nuestra función lineal es:",
+                "$$f(x)=5x+b$$",
+                "Para calcular la ordenada al origen ( b ), utilizamos uno de los puntos:",
+                "Usaremos el punto P (ustedes pueden usar el punto Q y les debe dar los mismos resultados)",
+                "$$P=(1,12)$$",
+                "Reemplazamos el punto P",
+                "$$f(x)=5x+b$$",
+                "$$12=5(1)+b$$",
+                "$$12-5=b$$",
+                "$$b=7$$",
+                "Por lo tanto, la función es:",
+                "$$f(x)=5x+7$$",
+                "Ahora, calculamos el conjunto A",
+                "$$f(x) \\leq g(x)$$",
+                "$$5x+7 \\leq 6x+1$$",
+                "$$5x-6x \\leq 1-7$$",
+                "$$-x \\leq -6$$",
+                "$$x \\geq 6$$",
+                "RESULTADO:",
+                "$$ x \\in [6;+\\infty) $$"
+        ]
       }
     ]
   }
