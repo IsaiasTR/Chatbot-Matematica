@@ -585,7 +585,7 @@
                "Como el signo de a es positivo, entonces de derecha a izquierda comenzamos con el signo + y vamos alternando.",
                "Quedan los intervalos de la siguiente forma:",
                "$$ + \\quad \\quad - \\quad \\quad + $$",
-               "El conjunto pedido corresponde a los valores donde la expresión es mayor que cero."
+               "El conjunto pedido corresponde a los valores donde la expresión es mayor que cero.",
                "RESULTADO:",
                "$$x \\in (-\\infty;-5) \\cup (1;+\\infty)$$"
        ]
