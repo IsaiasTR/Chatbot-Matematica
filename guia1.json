@@ -518,7 +518,7 @@
                  "y = 3(x-2)^2+5"
            ],
            "resolucion": [
-               "Primero calculamos el vértice de la parábola",
+               "Primero calculamos el vértice de la parábola.",
                "Dado que esta expresado en forma canónica, entonces calculamos directamente las coordenadas del vértice",
                "Recuerde, lo que esta encerrado entre paréntesis siempre se cambia de signo. entonces:",
                "$$V=(2,5)$$",
@@ -543,6 +543,29 @@
                "$$b=\\frac{11}{3}$$",
                "Por lo tanto, la ecuación de la recta es:",
                "$$f(x)=\\frac{2}{3}x+\\frac{11}{3}$$"    
+        ]
+      },
+      {
+           "numero": 19,
+           "enunciado": "Sea f(x)=-(5/4)x+1 y g(x) la función lineal que verifica que g(4)=4 y cuyo gráfico es una recta con pendiente igual a la del gráfico de f. Determinar g(x) y calcular su conjunto de positividad.",
+           "expresiones": [],
+           "resolucion": [
+                  "g(4)=4  es un par ordenado (punto), entonces podemos considera un punto P.",
+                  "$$P=(4,4)$$",
+                  "Reemplazamos dicho punto en la ecuación",
+                  "$$g(x)=-\\frac{5}{4}x+b$$",
+                  "$$4=-\\frac{5}{4}(4)+b$$",
+                  "$$b=9$$",
+                  "Por lo tanto, la ecuación de la función g(x) es:",
+                  "$$g(x)=-\\frac{5}{4}x+9$$",
+                  "Ahora calculamos el conjunto de positividad de la función g(x).",
+                  "$$-\\frac{5}{4}x+9>0$$",
+                  "$$-\\frac{5}{4}x>-9$$",
+                  "El 4 lo pasamos a multiplicar con el 9, y el -5 lo pasamos a dividir ( Como el 5 es negativo, tiene que cambiar el sentido del pico)",
+                  "$$x<\\frac{-36}{-5}$$",
+                  "$$x<\\frac{36}{5}$$",
+                  "Por lo tanto, el conjunto de positividad es:",
+                  "$$C^{+}=(-\\infty;\\frac{36}{5})$$"
         ]
       }
     ]
