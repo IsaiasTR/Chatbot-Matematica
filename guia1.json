@@ -567,6 +567,28 @@
                   "Por lo tanto, el conjunto de positividad es:",
                   "$$C^{+}=(-\\infty;\\frac{36}{5})$$"
         ]
+      },
+      {
+           "numero": 20,
+           "enunciado": "Sea f(x)=x^2+4x-5 escribir como intervalo o unión de intervalos el conjunto A.",
+           "expresiones": ["A = \\{ x \\in \\mathbb{R} / f(x) > 0 \\}"],
+           "resolucion": [
+               "$$f(x)>0$$",
+               "$$x^2+4x-5>0$$",
+               "Tengamos en cuenta que el valor de a , b y c de la función cuadrática son",
+               "$$a=1\\quad \\quad \\text{;} \\quad \\quad b=4 \\text{;} \\quad \\quad c=-5$$",
+               "Utilizamos la resolvente para calcular las raíces y luego usar la regla de signo (Bolzano ultima versión).",
+               "Las raíces son:",
+               "$$x_1=1\\quad \\quad \\text{y} \\quad \\quad x_2=-5$$",
+               "Ubicamos en una recta numérica y obtendremos los siguientes intervalos.",
+               "$$-\\infty \\quad \\bullet \\quad -5 \\quad \\bullet \\quad 1 \\quad \\bullet \\quad +\\infty$$",
+               "Como el signo de a es positivo, entonces de derecha a izquierda comenzamos con el signo + y vamos alternando.",
+               "Quedan los intervalos de la siguiente forma:",
+               "$$ + \\quad \\quad - \\quad \\quad + $$",
+               "El conjunto pedido corresponde a los valores donde la expresión es mayor que cero."
+               "RESULTADO:",
+               "$$x \\in (-\\infty;-5) \\cup (1;+\\infty)$$"
+       ]
       }
     ]
   }
