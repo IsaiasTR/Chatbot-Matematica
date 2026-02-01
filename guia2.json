@@ -14,22 +14,23 @@
               "Como se sabe que f(2)=0, entonces x=2 es un cero de la función.",
               "Factorizamos el polinomio utilizando x−2 como factor.",
               "Dividimos:",
-              "f(x)=(x−2)(x^2−2x−3)",
+              "$$f(x)=(x−2)(x^2−2x−3)$$",
               "Factorizamos el polinomio cuadrático:",
-              "x^2−2x−3=(x−3)(x+1)",
+              "$$x^2−2x−3=(x−3)(x+1)$$",
               "Por lo tanto, la factorización completa es:",
-              "f(x)=(x−2)(x−3)(x+1)",
+              "$$f(x)=(x−2)(x−3)(x+1)$$",
               "Los ceros de la función son:",
-              "C⁰={−1,2,3}",
-              "Ubicamos los ceros en la recta numérica:",
-              "−∞ ● −1 ● 2 ● 3 ● +∞",
+              "$$C^{0}={−1,2,3}$$",
+              "Ubicamos los ceros (raíces) en la recta numérica:",
+              "$$−∞ ● −1 ● 2 ● 3 ● +∞$$",
               "Analizamos el signo del producto en cada intervalo.",
+              "Dado que el signo del coeficiente principal es positivo."
               "El signo del polinomio queda:",
-              "−   +   −   +",
+              "$$ − \\quad \\quad  + \\quad \\quad  − \\quad \\quad + $$",
               "Conjunto de positividad:",
-              "C^{+}= (−1,2) ∪ (3,∞)",
+              "$$C^{+}= (−1,2) ∪ (3,∞)$$",
               "Conjunto de negatividad:",
-              "C^{-}= (−∞,−1) ∪ (2,3)"
+              "$$C^{-}= (−∞,−1) ∪ (2,3)$$"
         ]
       },
       {
