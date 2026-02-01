@@ -151,8 +151,7 @@ function buscar() {
   const numeroMatch = textoInterno.match(/\d+/);
   const numeroEjercicio = numeroMatch ? parseInt(numeroMatch[0]) : null;
 
-  /* ===== NÚMERO DE GUÍA (DEFINITIVO) ===== */
-  // "guía", "guia", "GUÍA" → internamente TODO es "guia"
+  /* ===== NÚMERO DE GUÍA (GUÍA / GUIA / GUÍA) ===== */
   const guiaMatch = textoInterno.match(/guia\s*(\d+)/);
   const numeroGuia = guiaMatch ? guiaMatch[1] : null;
 
