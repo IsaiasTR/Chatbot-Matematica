@@ -136,9 +136,9 @@ function ocultarEscribiendo() {
 function buscar() {
   const input = document.getElementById("inputPregunta");
   const textoOriginal = input.value.trim();
-  const texto = normalizarTexto(textoOriginal);
+  const textoInterno = normalizarTexto(textoOriginal);
 
-  if (!texto) return;
+  if (!textoInterno) return;
 
   mensajeUsuario(textoOriginal);
   input.value = "";
@@ -147,12 +147,13 @@ function buscar() {
 
   let respuesta = "";
 
-  const numeroMatch = texto.match(/\d+/);
+  /* ===== NÚMERO DE EJERCICIO ===== */
+  const numeroMatch = textoInterno.match(/\d+/);
   const numeroEjercicio = numeroMatch ? parseInt(numeroMatch[0]) : null;
 
-  /* === AQUÍ ESTÁ LA CLAVE === */
-  // Reconoce: guia, guía, GUÍA, etc.
-  const guiaMatch = textoOriginal.match(/gu[ií]a\s*(\d+)/i);
+  /* ===== NÚMERO DE GUÍA (DEFINITIVO) ===== */
+  // "guía", "guia", "GUÍA" → internamente TODO es "guia"
+  const guiaMatch = textoInterno.match(/guia\s*(\d+)/);
   const numeroGuia = guiaMatch ? guiaMatch[1] : null;
 
   /* ===== CONTAR COINCIDENCIAS ===== */
@@ -182,7 +183,7 @@ function buscar() {
 
     if (numeroGuia) {
       const archivoNormalizado = normalizarTexto(bloque.archivo);
-      const matchGuiaArchivo = archivoNormalizado.match(/guia\s*(\d+)/);
+      const matchGuiaArchivo = archivoNormalizado.match(/guia(\d+)/);
 
       if (!matchGuiaArchivo || matchGuiaArchivo[1] !== numeroGuia) {
         return;
