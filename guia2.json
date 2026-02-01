@@ -73,7 +73,38 @@
         "expresiones": [
           "f(x)=x^5+ax^4-20x^3"
         ],
-        "resolucion": []
+        "resolucion": [
+               "Como se nos dice que x=-4 es un cero de la función, entonces debe cumplirse que f(-4)=0.",
+               "Reemplazamos x=-4 en la expresión de la función:",
+               "$$f(-4)=(-4)^5+a(-4)^4-20(-4)^3$$",
+               "Calculamos cada término:",
+               "$$(-4)^5=-1024$$",
+               "$$(-4)^4=256$$",
+               "$$(-4)^3=-64$$",
+               "Sustituimos los valores obtenidos:",
+               "$$f(-4)=-1024+256a-20(-64)$$",
+               "$$f(-4)=-1024+256a+1280$$",
+               "Simplificamos:",
+               "$$f(-4)=256a+256$$",
+               "Como f(-4)=0, igualamos:",
+               "$$256a+256=0$$",
+               "Despejamos el valor de a:",
+               "$$256a=-256$$",
+               "$$a=-1$$",
+               "Ahora reemplazamos el valor de a en la función:",
+               "$$f(x)=x^5-x^4-20x^3$$",
+               "Factorizamos el polinomio:",
+               "$$f(x)=x^3(x^2-x-20)$$",
+               "Factorizamos el polinomio cuadrático:",
+               "$$x^2-x-20=(x-5)(x+4)$$",
+               "Entonces la función queda:",
+               "$$f(x)=x^3(x-5)(x+4)$$",
+               "De esta forma, los ceros de la función se obtienen igualando cada factor a cero.",
+               "Los ceros son:",
+               "$$x=0 \\; (\\text{con multiplicidad 3}), \\quad x=5, \\quad x=-4$$",
+               "Por lo tanto, el conjunto de ceros de la función es:",
+               "$$C^{0}=\\{-4,0,5\\}$$"
+        ]
       },
       {
         "numero": 4,
