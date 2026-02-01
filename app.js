@@ -150,7 +150,7 @@ function buscar() {
   const numeroMatch = texto.match(/\d+/);
   const numeroEjercicio = numeroMatch ? parseInt(numeroMatch[0]) : null;
 
-  const guiaMatch = texto.match(/guia\s*(\d+)/);
+  const guiaMatch = texto.match(/gui?a[^0-9]*(\d+)/);
   const numeroGuia = guiaMatch ? guiaMatch[1] : null;
 
   /* ===== CONTAR COINCIDENCIAS ===== */
