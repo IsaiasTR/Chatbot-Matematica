@@ -1,6 +1,17 @@
 let ejercicios = [];
 
 /* ===============================
+   NORMALIZACIÓN DE TEXTO
+================================ */
+
+function normalizarTexto(texto) {
+  return texto
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+/* ===============================
    CARGA DE MÚLTIPLES JSON
 ================================ */
 
@@ -96,12 +107,12 @@ function mostrarEscribiendo() {
 
   escribiendoDiv = document.createElement("div");
   escribiendoDiv.className = "mensaje bot escribiendo";
-  escribiendoDiv.innerHTML = "<strong>Isaias-Bot</strong> está escribiendo<span class='dots'>...</span>";
+  escribiendoDiv.innerHTML =
+    "<strong>Isaias-Bot</strong> está escribiendo<span class='dots'>...</span>";
 
   chat.appendChild(escribiendoDiv);
   chat.scrollTop = chat.scrollHeight;
 
-  // sonido sincronizado (no molesto)
   playTypingSound();
   typingInterval = setInterval(playTypingSound, 900);
 }
@@ -125,7 +136,7 @@ function ocultarEscribiendo() {
 function buscar() {
   const input = document.getElementById("inputPregunta");
   const textoOriginal = input.value.trim();
-  const texto = textoOriginal.toLowerCase();
+  const texto = normalizarTexto(textoOriginal);
 
   if (!texto) return;
 
@@ -169,7 +180,7 @@ function buscar() {
 
     if (
       numeroGuia &&
-      !bloque.archivo.toLowerCase().includes(`guia ${numeroGuia}`)
+      !normalizarTexto(bloque.archivo).includes(`guia ${numeroGuia}`)
     ) {
       return;
     }
