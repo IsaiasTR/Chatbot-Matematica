@@ -2,35 +2,77 @@
   {
     "archivo": "Guia 2.pdf",
     "pagina": 2,
-    "titulo": "Límites",
+    "titulo": "Funciones",
     "ejercicios": [
       {
-        "numero": 2,
-        "enunciado": "Calcular:",
+        "numero": 1,
+        "enunciado": "Hallar los ceros, el conjunto de positividad y el conjunto de negatividad de la función f(x), sabiendo que f(2)=0.",
         "expresiones": [
-          "\\lim_{x \\to 3} \\frac{2-\\sqrt{7-x}}{2x^2-4x-6}"
+          "f(x)=x^3-4x^2+x+6"
         ],
-        "resolucion": [
-           "Evaluamos el límite por sustitución directa.",
-           "En el numerador:",
-           "$$2 - \\sqrt{7-3} = 2 - 2 = 0$$",
-           "En el denominador:",
-           "$$2(3)^2 - 4(3) - 6 = 18 - 12 - 6 = 0$$",
-           "Se obtiene una indeterminación del tipo $$\\frac{0}{0}$$, por lo que racionalizamos el numerador.",
-           "Multiplicamos numerador y denominador por el conjugado:",
-           "$$\\frac{2-\\sqrt{7-x}}{2x^2-4x-6} \\cdot \\frac{2+\\sqrt{7-x}}{2+\\sqrt{7-x}}$$",
-           "Simplificando el numerador:",
-           "$$(2)^2 - (7-x) = 4 - 7 + x = x - 3$$",
-           "El denominador queda:",
-           "$$(2x^2-4x-6)(2+\\sqrt{7-x})$$",
-           "Factorizamos el denominador:",
-           "$$2x^2-4x-6 = 2(x-3)(x+1)$$",
-           "Simplificamos el factor común $$(x-3)$$.",
-           "Evaluamos el límite:",
-           "$$\\lim_{x \\to 3} \\frac{1}{2(x+1)(2+\\sqrt{7-x})}$$",
-           "Reemplazando:",
-           "$$\\frac{1}{2(4)(2+2)} = \\frac{1}{32}$$"
-       ]
+        "resolucion": []
+      },
+      {
+        "numero": 2,
+        "enunciado": "Hallar la función polinómica de grado 3 cuyo conjunto de ceros es C⁰={-5,5,2} y tal que f(1)=9.",
+        "expresiones": [],
+        "resolucion": []
+      },
+      {
+        "numero": 3,
+        "enunciado": "Sea f(x) una función polinómica. Se sabe que -4 es un cero de f. Determinar el valor de a y el conjunto de ceros de f.",
+        "expresiones": [
+          "f(x)=x^5+ax^4-20x^3"
+        ],
+        "resolucion": []
+      },
+      {
+        "numero": 4,
+        "enunciado": "Sean f(x)=x+2 y g(x)=x^2-4. Calcular la función h(x)=(g ∘ f) y determinar su imagen.",
+        "expresiones": [],
+        "resolucion": []
+      },
+      {
+        "numero": 5,
+        "enunciado": "Sea f(x) una función tal que f(-2)=0. Hallar todos los ceros de f y su conjunto de positividad.",
+        "expresiones": [
+          "f(x)=x^3+2x^2-16x-32"
+        ],
+        "resolucion": []
+      },
+      {
+        "numero": 6,
+        "enunciado": "Hallar la función cuadrática f cuyo conjunto de positividad es el intervalo (-4,8) y cuya imagen es el intervalo (-∞,24].",
+        "expresiones": [],
+        "resolucion": []
+      },
+      {
+        "numero": 7,
+        "enunciado": "Hallar la función lineal f tal que f(5)=9 y cuyo conjunto de positividad es el intervalo (2,+∞).",
+        "expresiones": [],
+        "resolucion": []
+      },
+      {
+        "numero": 8,
+        "enunciado": "Hallar la función cuadrática f(x) cuyo gráfico es la parábola que pasa por el punto P=(0,2) y cuyo vértice es el punto de intersección de los gráficos de g(x)=-25x y h(x)=5x-6.",
+        "expresiones": [],
+        "resolucion": []
+      },
+      {
+        "numero": 9,
+        "enunciado": "Sea f(x). Hallar el dominio, el conjunto de negatividad y el conjunto de ceros de f.",
+        "expresiones": [
+          "f(x)=7/(x-2)-4"
+        ],
+        "resolucion": []
+      },
+      {
+        "numero": 10,
+        "enunciado": "Sea f(x). Hallar una función cuadrática g(x) tal que los gráficos de f y g tengan el mismo vértice y además se cumpla que g(-3)=0.",
+        "expresiones": [
+          "f(x)=3x^2+6x+6"
+        ],
+        "resolucion": []
       }
     ]
   }
