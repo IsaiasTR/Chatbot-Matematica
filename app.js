@@ -180,7 +180,7 @@ function buscar() {
 
     if (
       numeroGuia &&
-      !normalizarTexto(bloque.archivo).includes(`guia ${numeroGuia}`)
+      !normalizarTexto(bloque.archivo).includes(`guia${numeroGuia}`)
     ) {
       return;
     }
