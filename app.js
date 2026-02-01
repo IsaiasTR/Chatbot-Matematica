@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Hola 👋 Soy Isaias-Bot, el asistente virtual de <strong>Matemática 51</strong>.<br>" +
         "Cátedra: <strong>Rossomando</strong>.<br><br>" +
         "Podés buscar así:<br>" +
-        "<em>ejercicio 2 guia 1</em>, <em>ejercicio 4 guia 2</em>"
+        "<em>ejercicio 2 guia 1</em>, <em>ejercicio 4 guía 2</em>"
       );
     })
     .catch(() => {
@@ -66,7 +66,7 @@ function mensajeBot(html) {
 }
 
 /* ===============================
-   SONIDO SUAVE (SOFT BUBBLE)
+   SONIDO SUAVE
 ================================ */
 
 let audioCtx = null;
@@ -150,7 +150,7 @@ function buscar() {
   const numeroMatch = texto.match(/\d+/);
   const numeroEjercicio = numeroMatch ? parseInt(numeroMatch[0]) : null;
 
-  const guiaMatch = texto.match(/gui?a[^0-9]*(\d+)/);
+  const guiaMatch = texto.match(/gui?a\s*(\d+)/);
   const numeroGuia = guiaMatch ? guiaMatch[1] : null;
 
   /* ===== CONTAR COINCIDENCIAS ===== */
@@ -170,7 +170,7 @@ function buscar() {
     mensajeBot(
       "Ese ejercicio aparece en más de una guía.<br><br>" +
       "Por favor, especificá el número de guía.<br>" +
-      "Ejemplo: <em>ejercicio 2 guia 1</em>"
+      "Ejemplo: <em>ejercicio 2 guía 1</em>"
     );
     return;
   }
@@ -178,11 +178,13 @@ function buscar() {
   /* ===== BÚSQUEDA ===== */
   ejercicios.forEach(bloque => {
 
-    if (
-      numeroGuia &&
-      !normalizarTexto(bloque.archivo).includes(`guia${numeroGuia}`)
-    ) {
-      return;
+    if (numeroGuia) {
+      const archivoNormalizado = normalizarTexto(bloque.archivo);
+      const matchGuiaArchivo = archivoNormalizado.match(/guia\s*(\d+)/);
+
+      if (!matchGuiaArchivo || matchGuiaArchivo[1] !== numeroGuia) {
+        return;
+      }
     }
 
     bloque.ejercicios.forEach(ej => {
@@ -192,7 +194,7 @@ function buscar() {
         respuesta += `<strong>Ejercicio ${ej.numero}:</strong><br>`;
         respuesta += `<strong>${ej.enunciado}</strong><br><br>`;
 
-        if (ej.expresiones) {
+        if (ej.expresiones && ej.expresiones.length > 0) {
           ej.expresiones.forEach(e => {
             respuesta += `$$${e}$$`;
           });
@@ -216,8 +218,8 @@ function buscar() {
       mensajeBot(
         "No encontré información para esa consulta.<br><br>" +
         "Probá con:<br>" +
-        "• ejercicio 2 guia 1<br>" +
-        "• ejercicio 4 guia 2"
+        "• ejercicio 2 guía 1<br>" +
+        "• ejercicio 4 guía 2"
       );
     } else {
       mensajeBot(respuesta);
