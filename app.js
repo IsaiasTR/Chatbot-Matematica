@@ -150,7 +150,7 @@ function buscar() {
   const numeroMatch = texto.match(/\d+/);
   const numeroEjercicio = numeroMatch ? parseInt(numeroMatch[0]) : null;
 
-  const guiaMatch = texto.match(/gui?a\s*(\d+)/);
+  const guiaMatch = texto.match(/guia\s*(\d+)/);
   const numeroGuia = guiaMatch ? guiaMatch[1] : null;
 
   /* ===== CONTAR COINCIDENCIAS ===== */
@@ -218,8 +218,8 @@ function buscar() {
       mensajeBot(
         "No encontré información para esa consulta.<br><br>" +
         "Probá con:<br>" +
-        "• ejercicio 2 guía 1<br>" +
-        "• ejercicio 4 guía 2"
+        "• ejercicio 2 guia 1<br>" +
+        "• ejercicio 4 guia 2"
       );
     } else {
       mensajeBot(respuesta);
