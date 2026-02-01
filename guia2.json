@@ -20,7 +20,7 @@
               "Por lo tanto, la factorización completa es:",
               "$$f(x)=(x−2)(x−3)(x+1)$$",
               "Los ceros de la función son:",
-              "$$C^{0}={−1,2,3}$$",
+              "$$C^{0}=\\{−1,2,3\\}$$",
               "Ubicamos los ceros (raíces) en la recta numérica:",
               "$$−∞ ● −1 ● 2 ● 3 ● +∞$$",
               "Analizamos el signo del producto en cada intervalo.",
@@ -28,7 +28,7 @@
               "El signo del polinomio queda:",
               "$$ − \\quad \\quad  + \\quad \\quad  − \\quad \\quad + $$",
               "Conjunto de positividad:",
-              "$$C^{+}= (−1,2) ∪ (3,∞)$$",
+              "$$C^{+}= (−1,2) ∪ (3,+∞)$$",
               "Conjunto de negatividad:",
               "$$C^{-}= (−∞,−1) ∪ (2,3)$$"
         ]
