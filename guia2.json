@@ -42,7 +42,30 @@
         "numero": 2,
         "enunciado": "Hallar la función polinómica de grado 3 cuyo conjunto de ceros es C⁰={-5,5,2} y tal que f(1)=9.",
         "expresiones": [],
-        "resolucion": []
+        "resolucion": [
+              "Como se trata de una función polinómica de grado 3 y conocemos su conjunto de ceros, comenzamos escribiendo la función en forma factorizada.",
+              "Dado que los ceros son x=-5, x=5 y x=2, la función tiene la forma:",
+              "$$f(x)=a(x+5)(x-5)(x-2)$$",
+              "Ahora debemos determinar el valor de la constante a utilizando la condición f(1)=9.",
+              "Reemplazamos x=1 en la expresión de la función:",
+              "$$f(1)=a(1+5)(1-5)(1-2)$$",
+              "$$f(1)=a(6)(-4)(-1)$$",
+              "$$f(1)=24a$$",
+              "Como f(1)=9, igualamos:",
+              "$$24a=9$$",
+              "Despejamos el valor de a:",
+              "$$a=\\frac{9}{24}$$",
+              "$$a=\\frac{3}{8}$$",
+              "Por lo tanto, la función polinómica buscada es:",
+              "$$f(x)=\\frac{3}{8}(x+5)(x-5)(x-2)$$",
+              "Si se desea, puede expresarse la función en forma desarrollada.",
+              "Primero desarrollamos dos factores:",
+              "$$(x+5)(x-5)=x^2-25$$",
+              "Luego multiplicamos por el tercer factor:",
+              "$$(x^2-25)(x-2)=x^3-2x^2-25x+50$$",
+              "Finalmente multiplicamos por la constante:",
+              "$$f(x)=\\frac{3}{8}x^3-\\frac{3}{4}x^2-\\frac{75}{8}x+\\frac{75}{4}$$"
+        ]
       },
       {
         "numero": 3,
