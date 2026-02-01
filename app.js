@@ -170,9 +170,10 @@ function buscar() {
   if (numeroEjercicio && !numeroGuia && coincidencias > 1) {
     ocultarEscribiendo();
     mensajeBot(
-      "Ese ejercicio aparece en más de una guía.<br><br>" +
-      "Por favor, especificá el número de guía.<br>" +
-      "Ejemplo: <em>ejercicio 2 guía 1</em>"
+    "Ese ejercicio aparece en más de una guía.<br><br>" +
+    "Por favor, especificá el número de guía.<br><br>" +
+    "⚠️ Importante: escribí <strong>guia</strong> <u>sin tilde</u>.<br>" +
+    "Ejemplo correcto: <em>ejercicio 2 guia 1</em>"
     );
     return;
   }
