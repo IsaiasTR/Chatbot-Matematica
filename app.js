@@ -150,7 +150,9 @@ function buscar() {
   const numeroMatch = texto.match(/\d+/);
   const numeroEjercicio = numeroMatch ? parseInt(numeroMatch[0]) : null;
 
-  const guiaMatch = texto.match(/guia\s*(\d+)/);
+  /* === AQUÍ ESTÁ LA CLAVE === */
+  // Reconoce: guia, guía, GUÍA, etc.
+  const guiaMatch = textoOriginal.match(/gu[ií]a\s*(\d+)/i);
   const numeroGuia = guiaMatch ? guiaMatch[1] : null;
 
   /* ===== CONTAR COINCIDENCIAS ===== */
