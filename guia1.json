@@ -6,7 +6,7 @@
     "ejercicios": [
       {
         "numero": 1,
-        "enunciado": "Sea A=(3,7). Hallar todos los puntos P=(-1,y) con y ∈ ℝ tales que d(A,P)=5.",
+        "enunciado": "Sea A=(3,7). Hallar todos los puntos P=(-1,y) con y ∈ ℝ tales que d(A,P)=5."
         "expresiones": [],
         "resolucion": [
                "Aplicamos la fórmula de distancia entre A=(3,7) y P=(-1,y).",
