@@ -101,7 +101,7 @@
                "Ahora factorizamos el polinomio cuadrático.",
                "<strong>Observación: Si desea puede utilizar la resolvente y encontrar las raíces y despues lo expresa en forma factorizada </strong>",
                "",
-               "<strong>Observación: Forma factorizada es (x-raíz1).(x-raíz2)(</strong>",
+               "<strong>Observación: Forma factorizada es (x-raíz1).(x-raíz2)</strong>",
                "$$x^2-x-20=(x-5)(x+4)$$",
                "Entonces la función queda:",
                "$$f(x)=x^3(x-5)(x+4)$$",
