@@ -114,9 +114,27 @@
       },
       {
         "numero": 4,
-        "enunciado": "Sean f(x)=x+2 y g(x)=x^2-4. Calcular la función h(x)=(g ∘ f) y determinar su imagen.",
+        "enunciado": "Sean f(x)=x+2 y g(x)=x^2-4. Calcular h(x)=(g ∘ f)(x) y dar la imagen de h(x).",
         "expresiones": [],
-        "resolucion": []
+        "resolucion": [
+              "La expresión \\((g \\circ f)(x)\\) indica una composición de funciones.",
+              "Se lee: g compuesta con f.",
+              "<strong>Calculamos la composición:</strong>",
+              "Debemos tomar la función g(x) y reemplazar la variable x por la función f(x).",
+              "Es decir:",
+              "$$h(x)=(g \\circ f)(x)$$",
+              "Dado que $$f(x)=x+2$$ y $$g(x)=x^2-4$$, reemplazamos:",
+              "$$h(x)=g(f(x))$$",
+              "$$h(x)=(x+2)^2-4$$",
+              "Ahora determinamos la imagen de la función h(x).",
+              "Observamos que h(x) está expresada en forma canónica.",
+              "Por lo tanto, el vértice se obtiene directamente.",
+              "$$x_v=-2$$",
+              "$$y_v=-4$$",
+              "Como el coeficiente principal es positivo, la parábola abre hacia arriba.",
+              "Entonces, la imagen de la función es:",
+              "$$I_h=[-4,+\\infty)$$"
+        ]
       },
       {
         "numero": 5,
