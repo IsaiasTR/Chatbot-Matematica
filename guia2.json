@@ -56,15 +56,15 @@
               "Despejamos el valor de a:",
               "$$a=\\frac{9}{24}$$",
               "$$a=\\frac{3}{8}$$",
-              "Por lo tanto, la función polinómica buscada es:",
+              "Por lo tanto, la respuesta es:",
               "$$f(x)=\\frac{3}{8}(x+5)(x-5)(x-2)$$",
               "<strong>ESTO ES OPCIONAL:</strong>",
               "Si se desea, puede expresarse la función en forma desarrollada (polinómica).",
-              "Primero desarrollamos dos factores (aplicamos distributiva entre (x+5)(x-5)",
+              "Primero multiplicamos dos factores (aplicamos distributiva entre (x+5)(x-5)",
               "$$(x+5)(x-5)=x^2-25$$",
               "Luego multiplicamos por el tercer factor (aplicamos distributiva)",
               "$$(x^2-25)(x-2)=x^3-2x^2-25x+50$$",
-              "Finalmente multiplicamos por la constante:",
+              "Finalmente multiplicamos por la constante, y asi obtenemos la forma polinómica:",
               "$$f(x)=\\frac{3}{8}x^3-\\frac{3}{4}x^2-\\frac{75}{8}x+\\frac{75}{4}$$"
         ]
       },
