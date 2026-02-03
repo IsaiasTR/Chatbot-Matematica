@@ -1,4 +1,4 @@
-const CACHE_NAME = "chatbot-v2";
+const CACHE_NAME = "chatbot-v3";
 const FILES_TO_CACHE = [
   "./",
   "./index.html",
