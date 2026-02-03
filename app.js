@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "Hola 👋 Soy Isaias-Bot, el asistente virtual de <strong>Matemática 51</strong>.<br>" +
         "Cátedra: <strong>Rossomando</strong>.<br><br>" +
         "Podés buscar así:<br>" +
-        "<em>ejercicio 2 guia 1</em>, <em>ejercicio 4 guia 2</em>"
+        "<em>ejercicio 2 guia 1</em>, <em>ejercicio 6 guia 2</em>"
       );
     })
     .catch(err => {
