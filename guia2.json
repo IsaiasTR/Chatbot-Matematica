@@ -100,13 +100,14 @@
                "$$f(x)=x^3(x^2-x-20)$$",
                "Ahora factorizamos el polinomio cuadrático.",
                "<strong>Observación: Si desea puede utilizar la resolvente y encontrar las raíces y despues lo expresa en forma factorizada </strong>",
+               "",
                "<strong>Observación: Forma factorizada es (x-raíz1).(x-raíz2)(</strong>",
                "$$x^2-x-20=(x-5)(x+4)$$",
                "Entonces la función queda:",
                "$$f(x)=x^3(x-5)(x+4)$$",
                "De esta forma, los ceros de la función se obtienen igualando cada factor a cero.",
                "Los ceros son:",
-               "$$x=0 \\; (\\text{con multiplicidad 3 (Es decir aparece 3 veces)}), \\quad x=5, \\quad x=-4$$",
+               "$$x=0, \\quad x=5, \\quad x=-4$$",
                "Por lo tanto, el conjunto de ceros de la función es:",
                "$$C^{0}=\\{-4,0,5\\}$$"
         ]
