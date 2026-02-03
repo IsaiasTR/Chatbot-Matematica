@@ -1,4 +1,4 @@
-const CACHE_NAME = "chatbot-shell-v2"; // ⚠️ cambiar versión
+const CACHE_NAME = "chatbot-v4"; // 👈 número nuevo OBLIGATORIO
 
 const FILES_TO_CACHE = [
   "./",
@@ -8,19 +8,13 @@ const FILES_TO_CACHE = [
   "./manifest.json"
 ];
 
-/* ===============================
-   INSTALL
-================================ */
 self.addEventListener("install", event => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => cache.addAll(FILES_TO_CACHE))
   );
-  self.skipWaiting(); // fuerza actualización
 });
 
-/* ===============================
-   ACTIVATE
-================================ */
 self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys().then(keys =>
@@ -33,16 +27,12 @@ self.addEventListener("activate", event => {
       )
     )
   );
-  self.clients.claim();
 });
 
-/* ===============================
-   FETCH
-================================ */
 self.addEventListener("fetch", event => {
   const url = new URL(event.request.url);
 
-  // ❌ NUNCA cachear JSON (guia1, guia2, etc)
+  // 🔴 JSON SIEMPRE desde red (nunca cache)
   if (url.pathname.endsWith(".json")) {
     event.respondWith(fetch(event.request));
     return;
