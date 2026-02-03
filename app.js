@@ -1,55 +1,30 @@
 let ejercicios = [];
 
 /* ===============================
-   NORMALIZACIÓN DE TEXTO
-================================ */
-
-function normalizarTexto(texto) {
-  return texto
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "");
-}
-
-/* ===============================
-   CARGA DE MÚLTIPLES JSON (ROBUSTA)
+   CARGA DE MÚLTIPLES JSON
 ================================ */
 
 document.addEventListener("DOMContentLoaded", () => {
-  const archivos = ["guia1.json", "guia2.json"];
+  const archivos = [
+    "guia1.json",
+    "guia2.json"
+  ];
 
   Promise.all(
-    archivos.map(a =>
-      fetch(a)
-        .then(r => {
-          if (!r.ok) throw new Error(`Error HTTP ${r.status} en ${a}`);
-          return r.text();
-        })
-        .then(t => {
-          try {
-            return JSON.parse(t);
-          } catch {
-            throw new Error(`JSON inválido en ${a}`);
-          }
-        })
-    )
+    archivos.map(a => fetch(a).then(r => r.json()))
   )
     .then(data => {
-      // data = [ [bloques guia1], [bloques guia2] ]
-      ejercicios = data
-        .flat()
-        .filter(b => Array.isArray(b.ejercicios));
+      ejercicios = data.flat();
 
       mensajeBot(
         "Hola 👋 Soy Isaias-Bot, el asistente virtual de <strong>Matemática 51</strong>.<br>" +
         "Cátedra: <strong>Rossomando</strong>.<br><br>" +
         "Podés buscar así:<br>" +
-        "<em>ejercicio 2 guia 1</em>, <em>ejercicio 6 guia 2</em>"
+        "<em>ejercicio 2 guia 1</em>, <em>ejercicio 4 guia 2</em>"
       );
     })
-    .catch(err => {
-      console.error(err);
-      mensajeBot("❌ Error al cargar los ejercicios.<br>" + err.message);
+    .catch(() => {
+      mensajeBot("❌ Error al cargar los ejercicios.");
     });
 });
 
@@ -80,7 +55,7 @@ function mensajeBot(html) {
 }
 
 /* ===============================
-   SONIDO SUAVE
+   SONIDO SUAVE (SOFT BUBBLE)
 ================================ */
 
 let audioCtx = null;
@@ -97,7 +72,10 @@ function playTypingSound() {
   osc.frequency.value = 520;
 
   gain.gain.setValueAtTime(0.04, audioCtx.currentTime);
-  gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.12);
+  gain.gain.exponentialRampToValueAtTime(
+    0.001,
+    audioCtx.currentTime + 0.12
+  );
 
   osc.connect(gain);
   gain.connect(audioCtx.destination);
@@ -118,22 +96,26 @@ function mostrarEscribiendo() {
 
   escribiendoDiv = document.createElement("div");
   escribiendoDiv.className = "mensaje bot escribiendo";
-  escribiendoDiv.innerHTML =
-    "<strong>Isaias-Bot</strong> está escribiendo<span class='dots'>...</span>";
+  escribiendoDiv.innerHTML = "<strong>Isaias-Bot</strong> está escribiendo<span class='dots'>...</span>";
 
   chat.appendChild(escribiendoDiv);
   chat.scrollTop = chat.scrollHeight;
 
+  // sonido sincronizado (no molesto)
   playTypingSound();
   typingInterval = setInterval(playTypingSound, 900);
 }
 
 function ocultarEscribiendo() {
-  if (typingInterval) clearInterval(typingInterval);
-  typingInterval = null;
+  if (typingInterval) {
+    clearInterval(typingInterval);
+    typingInterval = null;
+  }
 
-  if (escribiendoDiv) escribiendoDiv.remove();
-  escribiendoDiv = null;
+  if (escribiendoDiv) {
+    escribiendoDiv.remove();
+    escribiendoDiv = null;
+  }
 }
 
 /* ===============================
@@ -143,9 +125,9 @@ function ocultarEscribiendo() {
 function buscar() {
   const input = document.getElementById("inputPregunta");
   const textoOriginal = input.value.trim();
-  const textoInterno = normalizarTexto(textoOriginal);
+  const texto = textoOriginal.toLowerCase();
 
-  if (!textoInterno) return;
+  if (!texto) return;
 
   mensajeUsuario(textoOriginal);
   input.value = "";
@@ -154,26 +136,18 @@ function buscar() {
 
   let respuesta = "";
 
-  /* ===== NÚMERO DE EJERCICIO ===== */
-  const numeroMatch = textoInterno.match(/\d+/);
-  const numeroEjercicio = numeroMatch ? Number(numeroMatch[0]) : null;
+  const numeroMatch = texto.match(/\d+/);
+  const numeroEjercicio = numeroMatch ? parseInt(numeroMatch[0]) : null;
 
-  /* ===== NÚMERO DE GUÍA ===== */
-  const guiaMatch = textoInterno.match(/guia\s*(\d+)/);
-  const numeroGuia = guiaMatch ? Number(guiaMatch[1]) : null;
+  const guiaMatch = texto.match(/guia\s*(\d+)/);
+  const numeroGuia = guiaMatch ? guiaMatch[1] : null;
 
   /* ===== CONTAR COINCIDENCIAS ===== */
   let coincidencias = 0;
 
   ejercicios.forEach(bloque => {
-    if (!Array.isArray(bloque.ejercicios)) return;
-
     bloque.ejercicios.forEach(ej => {
-      if (
-        numeroEjercicio !== null &&
-        Number(ej.numero) === numeroEjercicio &&
-        Array.isArray(ej.resolucion)
-      ) {
+      if (numeroEjercicio === ej.numero && ej.resolucion) {
         coincidencias++;
       }
     });
@@ -184,33 +158,31 @@ function buscar() {
     ocultarEscribiendo();
     mensajeBot(
       "Ese ejercicio aparece en más de una guía.<br><br>" +
-      "Por favor, especificá el número de guía.<br><br>" +
-      "⚠️ Importante: escribí <strong>guia</strong> <u>sin tilde</u>.<br>" +
-      "Ejemplo correcto: <em>ejercicio 2 guia 1</em>"
+      "Por favor, especificá el número de guia.<br>" +
+      "Recuerda escribir la palabra guia sin tilde.<br>"+
+      "Ejemplo: <em>ejercicio 2 guia 1</em>"
     );
     return;
   }
 
   /* ===== BÚSQUEDA ===== */
   ejercicios.forEach(bloque => {
-    if (!Array.isArray(bloque.ejercicios)) return;
 
-    if (numeroGuia !== null) {
-      const archivoNormalizado = normalizarTexto(bloque.archivo || "");
-      const match = archivoNormalizado.match(/guia(\d+)/);
-      if (!match || Number(match[1]) !== numeroGuia) return;
+    if (
+      numeroGuia &&
+      !bloque.archivo.toLowerCase().includes(`guia ${numeroGuia}`)
+    ) {
+      return;
     }
 
     bloque.ejercicios.forEach(ej => {
-      if (
-        Number(ej.numero) === numeroEjercicio &&
-        Array.isArray(ej.resolucion)
-      ) {
+      if (numeroEjercicio === ej.numero && ej.resolucion) {
+
         respuesta += `<strong>${bloque.titulo}</strong> (pág. ${bloque.pagina})<br>`;
         respuesta += `<strong>Ejercicio ${ej.numero}:</strong><br>`;
         respuesta += `<strong>${ej.enunciado}</strong><br><br>`;
 
-        if (Array.isArray(ej.expresiones)) {
+        if (ej.expresiones) {
           ej.expresiones.forEach(e => {
             respuesta += `$$${e}$$`;
           });
@@ -226,7 +198,7 @@ function buscar() {
     });
   });
 
-  /* ===== RESPUESTA ===== */
+  /* ===== RESPUESTA CON DELAY ===== */
   setTimeout(() => {
     ocultarEscribiendo();
 
