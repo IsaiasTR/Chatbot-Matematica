@@ -139,11 +139,32 @@
       },
       {
         "numero": 5,
-        "enunciado": "Sea f(x) una función tal que f(-2)=0. Hallar todos los ceros de f y su conjunto de positividad.",
+        "enunciado": "Sea f(x) una función tal que f(-2)=0. Hallar todos los ceros y el conjunto de positividad de f.",
         "expresiones": [
           "f(x)=x^3+2x^2-16x-32"
         ],
-        "resolucion": []
+        "resolucion": [
+              "El dato f(-2)=0 indica que x=-2 es un cero de la función polinómica.",
+              "Como se trata de un polinomio de grado 3, utilizamos la regla de Ruffini para factorizar y reducir el grado.",
+              "Tomamos los coeficientes del polinomio:",
+              "$$1 \\quad 2 \\quad -16 \\quad -32$$",
+              "Aplicamos Ruffini utilizando el valor -2.",
+              "Luego de aplicar Ruffini obtenemos el siguiente polinomio de grado 2:",
+              "$$x^2-16$$",
+              "Ahora resolvemos el polinomio cuadrático.",
+              "$$a=1 \\quad b=0 \\quad c=-16$$",
+              "Calculamos las raíces:",
+              "$$x_1=-4 \\quad \\text{y} \\quad x_2=4$$",
+              "Por lo tanto, los ceros de la función polinómica son:",
+              "$$C^{0}=\\{-4,-2,4\\}$$",
+              "Ubicamos las raíces en la recta numérica:",
+              "$$-\\infty \\; \\bullet \\; -4 \\; \\bullet \\; -2 \\; \\bullet \\; 4 \\; \\bullet \\; +\\infty$$",
+              "Como el coeficiente principal es positivo, el signo comienza positivo a la derecha y se alterna en cada intervalo.",
+             "Determinamos el signo de la función en cada intervalo:",
+             "$$(-\\infty,-4): - \\quad (-4,-2): + \\quad (-2,4): - \\quad (4,+\\infty): +$$",
+             "Por lo tanto, el conjunto de positividad de la función es:",
+             "$$C^{+}=(-4,-2) \\cup (4,+\\infty)$$"
+        ]
       },
       {
         "numero": 6,
