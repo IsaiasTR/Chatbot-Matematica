@@ -64,7 +64,7 @@
               "$$(x+5)(x-5)=x^2-25$$",
               "Luego multiplicamos por el tercer factor (aplicamos distributiva)",
               "$$(x^2-25)(x-2)=x^3-2x^2-25x+50$$",
-              "Finalmente multiplicamos por la constante, y asi obtenemos la forma polinómica:",
+              "Finalmente multiplicamos por la constante 3/8, y asi obtenemos la forma polinómica:",
               "$$f(x)=\\frac{3}{8}x^3-\\frac{3}{4}x^2-\\frac{75}{8}x+\\frac{75}{4}$$"
         ]
       },
@@ -94,15 +94,19 @@
                "$$a=-1$$",
                "Ahora reemplazamos el valor de a en la función:",
                "$$f(x)=x^5-x^4-20x^3$$",
-               "Factorizamos el polinomio:",
+               "<strong>Observación: factorizamos el polinomio porque el termino independiente es cero (En este caso, no recomiendo hacer ruffini)</strong>",
+               "<strong>Recuerde: El término independiente es el número que no tiene x.</strong>",
+               "Entonces factorizamos el polinomio:",
                "$$f(x)=x^3(x^2-x-20)$$",
-               "Factorizamos el polinomio cuadrático:",
+               "Ahora factorizamos el polinomio cuadrático.",
+               "<strong>Observación: Si desea puede utilizar la resolvente y encontrar las raíces y despues lo expresa en forma factorizada </strong>",
+               "<strong>Observación: Forma factorizada es (x-raíz1).(x-raíz2)(</strong>",
                "$$x^2-x-20=(x-5)(x+4)$$",
                "Entonces la función queda:",
                "$$f(x)=x^3(x-5)(x+4)$$",
                "De esta forma, los ceros de la función se obtienen igualando cada factor a cero.",
                "Los ceros son:",
-               "$$x=0 \\; (\\text{con multiplicidad 3}), \\quad x=5, \\quad x=-4$$",
+               "$$x=0 \\; (\\text{con multiplicidad 3 (Es decir aparece 3 veces)}), \\quad x=5, \\quad x=-4$$",
                "Por lo tanto, el conjunto de ceros de la función es:",
                "$$C^{0}=\\{-4,0,5\\}$$"
         ]
