@@ -181,12 +181,12 @@
                    "Recordemos que el y_v siempre esta en la imagen, por lo tanto",
                    "$$y_v=24$$",
                    "Planteamos la forma canónica.",
-                   "$$f(x) = a*(x - 2)^2 + 24$$",
+                   "$$f(x) = a(x - 2)^2 + 24$$",
                    "Usamos una raíz para hallar 'a'",
-                   "$$0 = a*(-4 - 2)^2 + 24$$",
+                   "$$0 = a(-4 - 2)^2 + 24$$",
                    "$$0 = 36a + 24$$",
                    "$$a = -\\frac{2}{3}$$",
-                   "Por lo tanto, la función cuadrática es:",
+                   "Por lo tanto, la función cuadrática en su forma canónica es:",
                    "$$f(x) = -\\frac{2}{3}(x - 2)^2 + 24$$." 
         ]
       },
