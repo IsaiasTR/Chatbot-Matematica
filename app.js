@@ -7,7 +7,8 @@ let ejercicios = [];
 document.addEventListener("DOMContentLoaded", () => {
   const archivos = [
     "guia1.json",
-    "guia2.json"
+    "guia2.json",
+    "guia3.json"
   ];
 
   Promise.all(
@@ -20,8 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "Hola 👋 Soy Isaias-Bot, el asistente virtual de <strong>Matemática 51</strong>.<br>" +
         "Cátedra: <strong>Rossomando</strong>.<br><br>" +
         "Podés buscar así:<br>" +
-        "<strong>Recuerda escribir la palabra guia sin tilde.</strong><br>"+
-        "<em>ejercicio 2 guia 1</em>, <em>ejercicio 4 guia 2</em>"
+        "<em>ejercicio 2 guia 1</em>, <em>ejercicio 4 guia 2</em><br>" +
+        "<strong>Recordá escribir la palabra guia sin tilde.</strong>"
       );
     })
     .catch(() => {
@@ -208,7 +209,7 @@ function buscar() {
         "No encontré información para esa consulta.<br><br>" +
         "Probá con:<br>" +
         "• ejercicio 2 guia 1<br>" +
-        "• ejercicio 4 guia 2"+
+        "• ejercicio 4 guia 2<br>" +
         "<strong>Recuerda escribir la palabra guia sin tilde.</strong><br>"
       );
     } else {
