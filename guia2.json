@@ -258,7 +258,7 @@
         "numero": 9,
         "enunciado": "Sea f(x). Hallar el dominio, el conjunto de negatividad y los ceros de f.",
         "expresiones": [
-          "f(x)=7/(x-2)-4"
+           "f(x)=\\frac{7}{x-2}-4"
         ],
         "resolucion": [
                             "Primero analizamos el dominio de la función.",
@@ -308,7 +308,34 @@
         "expresiones": [
           "f(x)=3x^2+6x+6"
         ],
-        "resolucion": []
+        "resolucion": [
+                    "Dada la función cuadrática:",
+                    "$$f(x)=3x^2+6x+6$$",
+                    "Calculamos el vértice de f.",
+                    "Recordamos que la abscisa del vértice es:",
+                    "$$x_v=-\\frac{b}{2a}$$",
+                    "En este caso:",
+                    "$$a=3 \\quad \\quad b=6$$",
+                    "Entonces:",
+                    "$$x_v=-\\frac{6}{2\\cdot3}=-1$$",
+                    "Calculamos la ordenada del vértice evaluando f en x = -1:",
+                    "$$f(-1)=3(-1)^2+6(-1)+6$$",
+                    "$$f(-1)=3-6+6=3$$",
+                    "Por lo tanto, el vértice común es:",
+                    "$$V=(-1,3)$$",
+                    "Buscamos ahora una función cuadrática g(x) que tenga ese mismo vértice.",
+                    "Usamos la forma canónica:",
+                    "$$g(x)=a(x+1)^2+3$$",
+                    "Utilizamos el dato adicional:",
+                    "$$g(-3)=0$$",
+                    "Reemplazamos en la expresión:",
+                    "$$0=a(-3+1)^2+3$$",
+                    "$$0=4a+3$$",
+                    "Despejamos a:",
+                    "$$a=-\\frac{3}{4}$$",
+                    "Finalmente, la función cuadrática buscada es:",
+                    "$$g(x)=-\\frac{3}{4}(x+1)^2+3$$"
+        ]
       }
     ]
   }
