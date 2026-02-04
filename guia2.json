@@ -262,16 +262,16 @@
         ],
         "resolucion": [
                             "Primero analizamos el dominio de la función.",
-                            "Observamos que el denominador no puede anularse.",
+                            "Observamos que el denominador debe ser distinto de cero.",
                             "$$x-2 \\neq 0$$",
                             "$$x \\neq 2$$",
                             "Por lo tanto, el dominio de la función es:",
-                            "$$D_f=\\mathbb{R} \\setminus \\{2\\}$$",
+                            "$$D_f=\\mathbb{R} - \\{2\\}$$",
 
                             "Ahora calculamos los ceros de la función, es decir, los valores de x tales que f(x)=0.",
                             "$$\\frac{7}{x-2}-4=0$$",
                             "$$\\frac{7}{x-2}=4$$",
-                            "Multiplicamos ambos miembros por (x-2):",
+                            "El factor (x-2) lo pasamos a multiplicar al segundo miembro",
                             "$$7=4(x-2)$$",
                             "$$7=4x-8$$",
                             "$$4x=15$$",
@@ -281,13 +281,13 @@
 
                             "Ahora hallamos el conjunto de negatividad, es decir, los valores de x tales que f(x)<0.",
                             "$$\\frac{7}{x-2}-4<0$$",
-                            "$$\\frac{7}{x-2}<4$$",
+                            "Aplicamos el común denominador",
                             "$$\\frac{7-4(x-2)}{x-2}<0$$",
                             "$$\\frac{15-4x}{x-2}<0$$",
 
                             "Calculamos los puntos críticos:",
                             "$$15-4x=0 \\quad \\Rightarrow \\quad x=\\frac{15}{4}$$",
-                            "$$x-2=0 \\quad \\Rightarrow \\quad x=2$$",
+                            "$$x-2 \\neq0 \\quad \\Rightarrow \\quad x \\neq 2$$",
 
                             "Los puntos críticos son:",
                             "$$P.C=\\left\\{2,\\frac{15}{4}\\right\\}$$",
@@ -296,10 +296,10 @@
                             "$$-\\infty \\; \\bullet \\; 2 \\; \\bullet \\; \\frac{15}{4} \\; \\bullet \\; +\\infty$$",
 
                             "Analizando signos en cada intervalo:",
-                            "$$(-\\infty,2): + \\quad (2,\\frac{15}{4}): - \\quad (\\frac{15}{4},+\\infty): +$$",
+                            "$$(-\\infty,2): - \\quad (2,\\frac{15}{4}): + \\quad (\\frac{15}{4},+\\infty): - $$",
 
                             "Como buscamos f(x)<0, el conjunto de negatividad es:",
-                            "$$C^{-}=(2,\\frac{15}{4})$$"
+                            "$$C^{-}=(-\\infty,2) \\cup (\\frac{15}{4};+\\infty)$$"
         ]
       },
       {
