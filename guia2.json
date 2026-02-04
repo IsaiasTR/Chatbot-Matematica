@@ -217,9 +217,7 @@
                         "$$0=6+b$$",
                         "$$b=-6$$",
                         "Por lo tanto, la función lineal buscada es:",
-                        "$$f(x)=3x-6$$",
-                        "Verificación del conjunto de positividad:",
-                        "$$3x-6>0 \\; \\Rightarrow \\; x>2$$"
+                        "$$f(x)=3x-6$$"
         ]
       },
       {
@@ -253,7 +251,7 @@
                     "Despejamos el valor de a:",
                     "$$a=175$$",
                     "Por lo tanto, la función cuadrática buscada es:",
-                    "$$f(x)=175\\left(x-\\frac{1}{5}\\right)^2-5$$",
+                    "$$f(x)=175\\left(x-\\frac{1}{5}\\right)^2-5$$"
         ]
       },
       {
