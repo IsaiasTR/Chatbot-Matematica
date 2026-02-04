@@ -23,29 +23,21 @@
                    "Reescribimos la función:",
                    "$$f(x)=\\frac{x(x+5)}{(x-5)(x+5)}$$",
 
-                   "Simplificamos el factor común (x+5), teniendo en cuenta que x \\neq -5:",
+                   "Simplificamos el factor común (x+5), que aparece en el numerador y denominador:",
                    "$$f(x)=\\frac{x}{x-5}$$",
 
-                   "Analizamos las asíntotas verticales.",
-                   "Las asíntotas verticales se obtienen anulando el denominador que no fue simplificado.",
-                   "$$x-5=0$$",
-                   "$$x=5$$",
-                   "Por lo tanto, existe una asíntota vertical en:",
-                   "$$x=5$$",
+                   "Ahora, calculamos el dominio",
+                   "$$D_f=\\mathbb{R} - \\{5\\}$$",
 
-                   "Analizamos el punto x=-5.",
-                   "Como el factor (x+5) se simplificó, en x=-5 no hay asíntota vertical sino una discontinuidad evitable.",
+                   "Averiguamos, si la función tiene  asíntotas verticales.",
                    "Calculamos el valor del límite:",
-                   "$$\\lim_{x \\to -5} \\frac{x}{x-5}=\\frac{-5}{-10}=\\frac{1}{2}$$",
-
-                   "Por lo tanto, en x=-5 hay un punto removible y no una asíntota.",
+                   "$$\\lim_{x \\to 5} \\frac{x}{x-5}=\\frac{5}{0}=\\infty$$",
+                   "Por lo tanto, en x=5 existe una asíntota vertical.",
 
                    "Ahora analizamos las asíntotas horizontales.",
                    "Como el grado del numerador y del denominador es el mismo, la asíntota horizontal es el cociente de los coeficientes principales.",
-                   "$$y=\\frac{1}{1}$$",
-                   "$$y=1$$",
-
-                   "No existe asíntota oblicua, ya que los grados del numerador y denominador son iguales.",
+                   "$$\\lim_{x \\to \\infty} \\frac{x}{x-5}=1$$",
+                   "Por lo tanto, en y=1 existe una asíntota horizontal.",
 
                    "En conclusión, las asíntotas de la función son:",
                    "Asíntota vertical:",
