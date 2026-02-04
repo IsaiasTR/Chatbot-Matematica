@@ -192,9 +192,35 @@
       },
       {
         "numero": 7,
-        "enunciado": "Hallar la función lineal f tal que f(5)=9 y cuyo conjunto de positividad es el intervalo (2,+∞).",
+        "enunciado": "Hallar la función lineal f tal que f(5)=9 y el conjunto de positividad de f es el intervalo (2,+∞).",
         "expresiones": [],
-        "resolucion": []
+        "resolucion": [
+                        "Sea f(x)=mx+b una función lineal.",
+                        "El conjunto de positividad es (2,+∞), esto significa que la función se anula en x=2.",
+                        "Por lo tanto:",
+                        "$$f(2)=0$$",
+                        "Además se nos da el dato:",
+                        "$$f(5)=9$$",
+                        "Entonces contamos con los siguientes pares ordenados:",
+                        "$$P=(2,0) \\quad \\quad \\text{y} \\quad \\quad Q=(5,9)$$",
+                        "Consideramos:",
+                        "$$x_1=2 \\quad \\quad y_1=0 \\quad \\quad x_2=5 \\quad \\quad y_2=9$$",
+                        "Calculamos la pendiente de la recta:",
+                        "$$m=\\frac{y_2-y_1}{x_2-x_1}$$",
+                        "$$m=\\frac{9-0}{5-2}$$",
+                        "$$m=\\frac{9}{3}$$",
+                        "$$m=3$$",
+                        "Ahora calculamos la ordenada al origen b utilizando uno de los puntos.",
+                        "Usamos el punto P=(2,0):",
+                        "$$f(x)=3x+b$$",
+                        "$$0=3(2)+b$$",
+                        "$$0=6+b$$",
+                        "$$b=-6$$",
+                        "Por lo tanto, la función lineal buscada es:",
+                        "$$f(x)=3x-6$$",
+                        "Verificación del conjunto de positividad:",
+                        "$$3x-6>0 \\; \\Rightarrow \\; x>2$$"
+        ]
       },
       {
         "numero": 8,
