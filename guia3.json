@@ -29,17 +29,17 @@
                    "Ahora, calculamos el dominio",
                    "$$D_f=\\mathbb{R} - \\{5\\}$$",
 
-                   "Averiguamos, si la función tiene  asíntotas verticales.",
+                   "<strong>Averiguamos, si la función tiene  asíntotas verticales.</strong>",
                    "Calculamos el valor del límite:",
                    "$$\\lim_{x \\to 5} \\frac{x}{x-5}=\\frac{5}{0}=\\infty$$",
                    "Por lo tanto, en x=5 existe una asíntota vertical.",
 
-                   "Ahora analizamos las asíntotas horizontales.",
+                   "<strong>Ahora analizamos, si la función tiene asíntotas horizontales.</strong>",
                    "Como el grado del numerador y del denominador es el mismo, la asíntota horizontal es el cociente de los coeficientes principales.",
                    "$$\\lim_{x \\to \\infty} \\frac{x}{x-5}=1$$",
                    "Por lo tanto, en y=1 existe una asíntota horizontal.",
 
-                   "En conclusión, las asíntotas de la función son:",
+                   "<strong>En conclusión, las asíntotas de la función son:</strong>",
                    "Asíntota vertical:",
                    "$$x=5$$",
                    "Asíntota horizontal:",
