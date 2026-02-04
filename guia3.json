@@ -1,0 +1,139 @@
+[
+  {
+    "archivo": "Guia 3.pdf",
+    "pagina": 3,
+    "titulo": "Limites",
+    "ejercicios": [
+      {
+        "numero": 1,
+        "enunciado": "Calcular todas las asíntotas de f(x).",
+        "expresiones": [
+          "f(x)=\\frac{x^2+5x}{x^2-25}"
+        ],
+        "resolucion": [
+                   "Dada la función racional:",
+                   "$$f(x)=\\frac{x^2+5x}{x^2-25}$$",
+
+                   "Comenzamos factorizando numerador y denominador.",
+                   "Factorizamos el numerador:",
+                   "$$x^2+5x=x(x+5)$$",
+                   "Factorizamos el denominador:",
+                   "$$x^2-25=(x-5)(x+5)$$",
+
+                   "Reescribimos la función:",
+                   "$$f(x)=\\frac{x(x+5)}{(x-5)(x+5)}$$",
+
+                   "Simplificamos el factor común (x+5), teniendo en cuenta que x \\neq -5:",
+                   "$$f(x)=\\frac{x}{x-5}$$",
+
+                   "Analizamos las asíntotas verticales.",
+                   "Las asíntotas verticales se obtienen anulando el denominador que no fue simplificado.",
+                   "$$x-5=0$$",
+                   "$$x=5$$",
+                   "Por lo tanto, existe una asíntota vertical en:",
+                   "$$x=5$$",
+
+                   "Analizamos el punto x=-5.",
+                   "Como el factor (x+5) se simplificó, en x=-5 no hay asíntota vertical sino una discontinuidad evitable.",
+                   "Calculamos el valor del límite:",
+                   "$$\\lim_{x \\to -5} \\frac{x}{x-5}=\\frac{-5}{-10}=\\frac{1}{2}$$",
+
+                   "Por lo tanto, en x=-5 hay un punto removible y no una asíntota.",
+
+                   "Ahora analizamos las asíntotas horizontales.",
+                   "Como el grado del numerador y del denominador es el mismo, la asíntota horizontal es el cociente de los coeficientes principales.",
+                   "$$y=\\frac{1}{1}$$",
+                   "$$y=1$$",
+
+                   "No existe asíntota oblicua, ya que los grados del numerador y denominador son iguales.",
+
+                   "En conclusión, las asíntotas de la función son:",
+                   "Asíntota vertical:",
+                   "$$x=5$$",
+                   "Asíntota horizontal:",
+                   "$$y=1$$"
+        ]
+      },
+      {
+        "numero": 2,
+        "enunciado": "Hallar la función polinómica de grado 3 cuyo conjunto de ceros es C⁰={-5,5,2} y tal que f(1)=9.",
+        "expresiones": [],
+        "resolucion": [
+
+        ]
+      },
+      {
+        "numero": 3,
+        "enunciado": "Sea f(x) una función polinómica. Se sabe que -4 es un cero de f. Determinar el valor de a y el conjunto de ceros de f.",
+        "expresiones": [
+          "f(x)=x^5+ax^4-20x^3"
+        ],
+        "resolucion": [
+
+        ]
+      },
+      {
+        "numero": 4,
+        "enunciado": "Sean f(x)=x+2 y g(x)=x^2-4. Calcular h(x)=(g ∘ f)(x) y dar la imagen de h(x).",
+        "expresiones": [],
+        "resolucion": [
+
+        ]
+      },
+      {
+        "numero": 5,
+        "enunciado": "Sea f(x) una función tal que f(-2)=0. Hallar todos los ceros y el conjunto de positividad de f.",
+        "expresiones": [
+          "f(x)=x^3+2x^2-16x-32"
+        ],
+        "resolucion": [
+
+        ]
+      },
+      {
+        "numero": 6,
+        "enunciado": "Hallar la función cuadrática f cuyo conjunto de positividad es el intervalo (-4,8) y cuya imagen es el intervalo (-∞,24].",
+        "expresiones": [],
+        "resolucion": [
+
+        ]
+      },
+      {
+        "numero": 7,
+        "enunciado": "Hallar la función lineal f tal que f(5)=9 y el conjunto de positividad de f es el intervalo (2,+∞).",
+        "expresiones": [],
+        "resolucion": [
+
+        ]
+      },
+      {
+        "numero": 8,
+        "enunciado": "Hallar la función cuadrática f(x) cuyo gráfico es la parábola que pasa por el punto P=(0,2) y el vértice es la intersección de los gráficos de g(x)=-25x y h(x)=5x-6.",
+        "expresiones": [],
+        "resolucion": [
+ 
+        ]
+      },
+      {
+        "numero": 9,
+        "enunciado": "Sea f(x). Hallar el dominio, el conjunto de negatividad y los ceros de f.",
+        "expresiones": [
+           "f(x)=\\frac{7}{x-2}-4"
+        ],
+        "resolucion": [
+ 
+        ]
+      },
+      {
+        "numero": 10,
+        "enunciado": "Sea f(x). Hallar una función cuadrática g(x) tal que los gráficos de f y g tengan el mismo vértice y además se cumpla que g(-3)=0.",
+        "expresiones": [
+          "f(x)=3x^2+6x+6"
+        ],
+        "resolucion": [
+ 
+        ]
+      }
+    ]
+  }
+]
