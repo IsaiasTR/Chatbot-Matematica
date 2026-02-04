@@ -170,7 +170,25 @@
         "numero": 6,
         "enunciado": "Hallar la función cuadrática f cuyo conjunto de positividad es el intervalo (-4,8) y cuya imagen es el intervalo (-∞,24].",
         "expresiones": [],
-        "resolucion": []
+        "resolucion": [
+                   "Sea f(x) = a(x - h)^2 + k la forma canónica de la cuadrática.",
+                   "Sabemos que el conjunto de positividad es (-4, 8), por lo que las raíces son.",
+                   "$$x_1=-4 \\quad \\quad \\quad x_2=8$$",
+                   "El vértice siempre se encuentra a la mitad de las raíces, entonces.",
+                   "$$x_v=\\frac{x_1+x_2}{2}$$",
+                   "$$x_v=\\frac{-4+8}{2}$$",
+                   "$$x_v=2$$",
+                   "Recordemos que el y_v siempre esta en la imagen, por lo tanto",
+                   "$$y_v=24$$",
+                   "Planteamos la forma canónica.",
+                   "$$f(x) = a*(x - 2)^2 + 24$$",
+                   "Usamos una raíz para hallar 'a'",
+                   "$$0 = a*(-4 - 2)^2 + 24$$",
+                   "$$0 = 36a + 24$$",
+                   "$$a = -\\frac{2}{3}$$",
+                   "Por lo tanto, la función cuadrática es:",
+                   "$$f(x) = -\\frac{2}{3}(x - 2)^2 + 24$$." 
+        ]
       },
       {
         "numero": 7,
