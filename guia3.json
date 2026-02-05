@@ -15,9 +15,9 @@
                    "$$f(x)=\\frac{x^2+5x}{x^2-25}$$",
 
                    "Comenzamos factorizando numerador y denominador.",
-                   "Factorizamos el numerador:",
+                   "<strong>Factorizamos el numerador:( otra opción es usar la resolvente)</strong>",
                    "$$x^2+5x=x(x+5)$$",
-                   "Factorizamos el denominador:",
+                   "<strong>Factorizamos el denominador, usamos la diferencia de binomios ( otra opción es usar la resolvente)</strong>",
                    "$$x^2-25=(x-5)(x+5)$$",
 
                    "Reescribimos la función:",
@@ -29,13 +29,13 @@
                    "Ahora, calculamos el dominio",
                    "$$D_f=\\mathbb{R} - \\{5\\}$$",
 
-                   "<strong>Averiguamos, si la función tiene  asíntotas verticales.</strong>",
+                   "<strong>Asíntotas verticales.</strong>",
                    "Calculamos el valor del límite:",
                    "$$\\lim_{x \\to 5} \\frac{x}{x-5}=\\frac{5}{0}=\\infty$$",
                    "Por lo tanto, en x=5 existe una asíntota vertical.",
 
-                   "<strong>Ahora analizamos, si la función tiene asíntotas horizontales.</strong>",
-                   "Como el grado del numerador y del denominador es el mismo, la asíntota horizontal es el cociente de los coeficientes principales.",
+                   "<strong>Asíntotas horizontales.</strong>",
+                   "Como el grado del numerador y del denominador es el mismo, la asíntota horizontal es la división de los coeficientes principales.",
                    "$$\\lim_{x \\to \\infty} \\frac{x}{x-5}=1$$",
                    "Por lo tanto, en y=1 existe una asíntota horizontal.",
 
