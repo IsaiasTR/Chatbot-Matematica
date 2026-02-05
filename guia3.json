@@ -109,7 +109,7 @@
 
                     "<strong>Finalmente analizamos la asíntota horizontal.</strong>",
                     "El grado del numerador es 1 y el del denominador es 2.",
-                    "Como el grado del numerador es menor que el del denominador:",
+                    "Aplicando la técnica de los grados, tenemos que el grado del numerador es menor que el del denominador, entonces el limite tiende a 0",
 
                     "$$\\lim_{x \\to \\pm\\infty} \\frac{x-4}{3x^2+3x-6}=0$$",
 
@@ -119,7 +119,7 @@
       },
       {
         "numero": 3,
-        "enunciado": "Sea f(x) una función polinómica. Se sabe que -4 es un cero de f. Determinar el valor de a y el conjunto de ceros de f.",
+        "enunciado": "Sean f(x) , g(x) y h(x)=(f o g)(x). Hallar h(x) y dar las ecuaciones de todas las asíntotas de h(x).",
         "expresiones": [
           "f(x)=x^5+ax^4-20x^3"
         ],
