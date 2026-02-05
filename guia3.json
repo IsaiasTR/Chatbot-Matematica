@@ -165,17 +165,45 @@
       },
       {
         "numero": 4,
-        "enunciado": "Sean f(x)=x+2 y g(x)=x^2-4. Calcular h(x)=(g ∘ f)(x) y dar la imagen de h(x).",
-        "expresiones": [],
+        "enunciado": "Sean f(x) y g(x). Hallar el valor de k ∈ ℝ tal que (g ∘ f)(1)=2.",
+        "expresiones": [
+              "f(x)=4x+k" , "g(x)=\\frac{10}{x}"
+        ],
         "resolucion": [
+                 "Buscamos el valor de k \\(\\in \\mathbb{R}\\) tal que se cumpla:",
+                 "$$(g \\circ f)(1)=2$$",
 
+                 "Primero recordamos las funciones dadas:",
+                 "$$f(x)=4x+k$$",
+                 "$$g(x)=\\frac{10}{x}$$",
+
+                 "Calculamos la composición (g \\circ f)(x):",
+                 "$$(g \\circ f)(x)=g(f(x))$$",
+                 "$$(g \\circ f)(x)=g(4x+k)$$",
+                 "$$(g \\circ f)(x)=\\frac{10}{4x+k}$$",
+
+                 "Ahora evaluamos la composición en x=1:",
+                 "$$(g \\circ f)(1)=\\frac{10}{4(1)+k}$$",
+                 "$$(g \\circ f)(1)=\\frac{10}{4+k}$$",
+
+                 "Imponemos la condición del ejercicio:",
+                 "$$\\frac{10}{4+k}=2$$",
+
+                 "Resolvemos la ecuación:",
+                 "$$10=2(4+k)$$",
+                 "$$10=8+2k$$",
+                 "$$2k=2$$",
+                 "$$k=1$$",
+
+                 "Por lo tanto, el valor buscado es:",
+                 "$$k=1 \\in \\mathbb{R}$$"
         ]
       },
       {
         "numero": 5,
-        "enunciado": "Sea f(x) una función tal que f(-2)=0. Hallar todos los ceros y el conjunto de positividad de f.",
+        "enunciado": "Analizar la existencia de asíntotas verticales de f(x) y cuando existan dar sus ecuaciones.",
         "expresiones": [
-          "f(x)=x^3+2x^2-16x-32"
+          "f(x)=\\frac{4x}{x^2-x}"
         ],
         "resolucion": [
 
@@ -183,24 +211,30 @@
       },
       {
         "numero": 6,
-        "enunciado": "Hallar la función cuadrática f cuyo conjunto de positividad es el intervalo (-4,8) y cuya imagen es el intervalo (-∞,24].",
-        "expresiones": [],
+        "enunciado": "Sea f(x) la función lineal cuyo gráfico pasa por los puntos (-2,-7) y (1,5). Dar las ecuaciones de todas las asíntotas de h(x).",
+        "expresiones": [
+                "h(x)=\\frac{f(x)}{5x+3}"
+        ],
         "resolucion": [
 
         ]
       },
       {
         "numero": 7,
-        "enunciado": "Hallar la función lineal f tal que f(5)=9 y el conjunto de positividad de f es el intervalo (2,+∞).",
-        "expresiones": [],
+        "enunciado": "Sea f(x). Hallar las ecuaciones de todas las asíntotas de f(x) ",
+        "expresiones": [
+               "f(x)=\\frac{-10x^2+4x}{2x^2-8}"
+        ],
         "resolucion": [
 
         ]
       },
       {
         "numero": 8,
-        "enunciado": "Hallar la función cuadrática f(x) cuyo gráfico es la parábola que pasa por el punto P=(0,2) y el vértice es la intersección de los gráficos de g(x)=-25x y h(x)=5x-6.",
-        "expresiones": [],
+        "enunciado": "Sea f(x) y f(x)^-1 la función inversa de f(x). Calcular f(x)^-1 y dar las ecuaciones de todas sus asíntotas",
+        "expresiones": [
+                "f(x)=\\frac{x}{6x+2}"
+        ],
         "resolucion": [
  
         ]
