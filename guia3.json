@@ -121,10 +121,46 @@
         "numero": 3,
         "enunciado": "Sean f(x) , g(x) y h(x)=(f o g)(x). Hallar h(x) y dar las ecuaciones de todas las asíntotas de h(x).",
         "expresiones": [
-          "f(x)=x^5+ax^4-20x^3"
+          "f(x)=\\frac{x-1}{4x+3}" , "g(x)=x-2"
         ],
         "resolucion": [
+                   "Primero recordamos que la composición h(x)=(f \\circ g)(x) significa reemplazar la variable x de la función f por la función g(x).",
+                   "Es decir:",
+                   "$$h(x)=f(g(x))$$",
 
+                   "Dado que:",
+                   "$$f(x)=\\frac{x-1}{4x+3} \\quad \\text{y} \\quad g(x)=x-2$$",
+
+                   "Reemplazamos g(x) en f:",
+                   "$$h(x)=\\frac{(x-2)-1}{4(x-2)+3}$$",
+
+                   "Simplificamos numerador y denominador:",
+                   "$$(x-2)-1=x-3$$",
+                   "$$4(x-2)+3=4x-8+3=4x-5$$",
+
+                   "Por lo tanto, la función compuesta queda:",
+                   "$$h(x)=\\frac{x-3}{4x-5}$$",
+
+                   "Ahora analizamos las asíntotas de la función h(x).",
+
+                   "<strong>Asíntota vertical</strong>",
+                   "Las asíntotas verticales se obtienen anulando el denominador:",
+                   "$$4x-5=0$$",
+                   "$$4x=5$$",
+                   "$$x=\\frac{5}{4}$$",
+
+                   "Como el numerador no se anula en x=\\frac{5}{4}, existe una asíntota vertical en:",
+                   "$$x=\\frac{5}{4}$$",
+
+                   "<strong>Asíntota horizontal</strong>",
+                   "Como el grado del numerador y del denominador es el mismo, la asíntota horizontal es el cociente de los coeficientes principales.",
+                   "$$y=\\frac{1}{4}$$",
+
+                   "En conclusión, las asíntotas de h(x) son:",
+                   "Asíntota vertical:",
+                   "$$x=\\frac{5}{4}$$",
+                   "Asíntota horizontal:",
+                   "$$y=\\frac{1}{4}$$"
         ]
       },
       {
