@@ -177,7 +177,7 @@
                  "$$f(x)=4x+k$$",
                  "$$g(x)=\\frac{10}{x}$$",
 
-                 "Calculamos la composición (g \\circ f)(x):",
+                 "Calculamos la composición (g ∘ f)(x):",
                  "$$(g \\circ f)(x)=g(f(x))$$",
                  "$$(g \\circ f)(x)=g(4x+k)$$",
                  "$$(g \\circ f)(x)=\\frac{10}{4x+k}$$",
@@ -196,7 +196,7 @@
                  "$$k=1$$",
 
                  "Por lo tanto, el valor buscado es:",
-                 "$$k=1 \\in \\mathbb{R}$$"
+                 "$$k=1$$"
         ]
       },
       {
