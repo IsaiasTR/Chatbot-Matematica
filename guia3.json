@@ -206,7 +206,36 @@
           "f(x)=\\frac{4x}{x^2-x}"
         ],
         "resolucion": [
+                   "Dada la función racional:",
+                   "$$f(x)=\\frac{4x}{x^2-x}$$",
 
+                   "Comenzamos factorizando el denominador:",
+                   "$$x^2-x=x(x-1)$$",
+
+                   "Reescribimos la función:",
+                   "$$f(x)=\\frac{4x}{x(x-1)}$$",
+
+                   "Simplificamos el factor común x, válido solo si x ≠ 0:",
+                   "$$f(x)=\\frac{4}{x-1}$$",
+
+                   "Determinamos el dominio de la función original.",
+                   "Los valores que anulan el denominador son x=0 y x=1.",
+                   "$$D_f=\\mathbb{R}-\\{0,1\\}$$",
+
+                   "Analizamos la existencia de asíntotas verticales utilizando límites.",
+
+                   "Primero analizamos el punto x=1:",
+                   "$$\\lim_{x \\to 1} \\frac{4}{x-1}=\\pm\\infty$$",
+                   "Por lo tanto, en x=1 existe una asíntota vertical.",
+
+                   "Ahora analizamos el punto x=0:",
+                   "Como el factor x fue simplificado, evaluamos el límite:",
+                   "$$\\lim_{x \\to 0} \\frac{4}{x-1}=-4$$",
+                   "El límite es finito, por lo tanto en x=0 no hay asíntota vertical.",
+
+                   "<strong>Conclusión:</strong>",
+                   "La única asíntota vertical de la función es:",
+                   "$$x=1$$"
         ]
       },
       {
