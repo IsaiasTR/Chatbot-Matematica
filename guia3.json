@@ -287,7 +287,50 @@
                "f(x)=\\frac{-10x^2+4x}{2x^2-8}"
         ],
         "resolucion": [
+                   "Dada la función racional:",
+                   "$$f(x)=\\frac{-10x^2+4x}{2x^2-8}$$",
 
+                   "Comenzamos factorizando numerador y denominador.",
+
+                   "Factorizamos el numerador:",
+                   "$$-10x^2+4x=-2x(5x-2)$$",
+
+                   "Factorizamos el denominador:",
+                   "$$2x^2-8=2(x^2-4)=2(x-2)(x+2)$$",
+
+                   "Reescribimos la función:",
+                   "$$f(x)=\\frac{-2x(5x-2)}{2(x-2)(x+2)}$$",
+
+                   "Simplificamos el factor común 2:",
+                   "$$f(x)=\\frac{-x(5x-2)}{(x-2)(x+2)}$$",
+
+                   "<strong>Determinamos el dominio de la función.</strong>",
+                   "Los valores que anulan el denominador son x=2 y x=-2.",
+                   "$$D_f=\\mathbb{R}-\\{-2,2\\}$$",
+
+                   "<strong>Asíntotas verticales.</strong>",
+                   "Analizamos el comportamiento de la función cuando x se aproxima a 2:",
+                   "$$\\lim_{x \\to 2} \\frac{-x(5x-2)}{(x-2)(x+2)}=\\pm\\infty$$",
+                   "Por lo tanto, existe una asíntota vertical en x=2.",
+
+                   "Ahora analizamos el comportamiento de la función cuando x se aproxima a -2:",
+                   "$$\\lim_{x \\to -2} \\frac{-x(5x-2)}{(x-2)(x+2)}=\\pm\\infty$$",
+                   "Por lo tanto, existe una asíntota vertical en x=-2.",
+
+                   "<strong>Asíntota horizontal.</strong>",
+                   "El grado del numerador y del denominador es el mismo.",
+                   "La asíntota horizontal se obtiene como el cociente de los coeficientes principales:",
+                   "$$\\frac{-10}{2}=-5$$",
+
+                   "Por lo tanto, la asíntota horizontal es:",
+                   "$$y=-5$$",
+
+                   "<strong>Conclusión:</strong>",
+                   "Las asíntotas de la función son:",
+                   "Asíntotas verticales:",
+                   "$$x=-2 \\quad \\text{y} \\quad x=2$$",
+                   "Asíntota horizontal:",
+                   "$$y=-5$$"
         ]
       },
       {
