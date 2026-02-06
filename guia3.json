@@ -76,7 +76,7 @@
                     "$$x_1=1 \\quad \\quad \\text{;} \\quad \\quad x_2=-2$$",
 
                     "Reescribimos la función:",
-                    "$$f(x)=\\frac{(x-4)}{3(x-1)(x+2)}$$"
+                    "$$f(x)=\\frac{(x-4)}{3(x-1)(x+2)}$$",
 
                     "<strong>Calculamos el dominio de la función.</strong>",
                     "$$D_f=\\mathbb{R}-\\{-2,1\\}$$",
