@@ -484,25 +484,38 @@
 
                "Imponemos que la asíntota horizontal sea y=3:",
                "$$\\frac{a}{4}=3$$",
+               "$$a=3(4)$$",
                "$$a=12$$",
 
                "<strong>Reemplazamos el valor de a en la función.</strong>",
                "$$f(x)=\\frac{12x^2+5}{4x^2-16}$$",
 
-               "<strong>Ahora determinamos las asíntotas verticales.</strong>",
-               "Las asíntotas verticales se obtienen anulando el denominador.",
-
+               "<strong>Calculamos el dominio de la función.</strong>",
+               "Entonces, calculamos las raíces del denominador factorizando (otra opción es usar la resolvente)",
                "$$4x^2-16=0$$",
                "$$4(x^2-4)=0$$",
                "$$x^2-4=0$$",
 
                "Resolvemos:",
-               "$$x=2 \\quad \\text{y} \\quad x=-2$$",
+               "$$x=2 \\quad \\quad \\text{y} \\quad \\quad x=-2$$",
 
-               "Verificamos que el numerador no se anule en esos puntos:",
-               "$$12(2)^2+5 \\neq 0 \\quad \\text{y} \\quad 12(-2)^2+5 \\neq 0$$",
+               "<strong>El dominio de la función es:</strong>",
+               "$$D_f=\\mathbb{R} - \\{-2 , 2\\}$$",
+               "<strong>Asíntotas verticales</strong>",
+                                   
+               "Ahora analizamos el comportamiento de la función cuando x se aproxima a -2.",
+               "$$\\lim_{x \\to -2} \\frac{12x^2+5}{4x^2-16}$$",
+               "Entonces:",
+               "$$\\lim_{x \\to -2}  \\frac{12x^2+5}{4x^2-16}=\\frac{53}{0}=\\pm\\infty$$",
 
-               "Por lo tanto, ambos valores generan asíntotas verticales.",
+               "<strong>En consecuencia, en x=-2 existe una asíntota vertical.</strong>",
+
+               "Ahora analizamos el comportamiento de la función cuando x se aproxima a 2.",
+               "$$\\lim_{x \\to 2} \\frac{12x^2+5}{4x^2-16}$$",
+               "Entonces:",
+               "$$\\lim_{x \\to 2}  \\frac{12x^2+5}{4x^2-16}=\\frac{53}{0}=\\pm\\infty$$",
+
+               "En consecuencia, en x=2 existe una asíntota vertical.",
 
                "<strong>CONCLUSIÓN:</strong>",
                "<strong>Valor de a:</strong>",
@@ -512,7 +525,7 @@
                "$$y=3$$",
 
                "<strong>Asíntotas verticales:</strong>",
-               "$$x=2 \\quad \\text{y} \\quad x=-2$$"
+               "$$x=2 \\quad \\quad  \\text{y} \\quad \\quad x=-2$$"
         ]
       }
     ]
