@@ -115,7 +115,7 @@
           "f(x)=\\frac{x-1}{4x+3}" , "g(x)=x-2"
         ],
         "resolucion": [
-                   "Primero recordamos que la composición h(x)=(f \\circ g)(x) significa reemplazar la variable x de la función f por la función g(x).",
+                   "Primero recordamos que la composición h(x)=(f o g)(x) significa reemplazar la variable x de la función f por la función g(x).",
                    "Es decir:",
                    "$$h(x)=f(g(x))$$",
 
@@ -132,25 +132,26 @@
                    "Por lo tanto, la función compuesta queda:",
                    "$$h(x)=\\frac{x-3}{4x-5}$$",
 
-                   "Ahora analizamos las asíntotas de la función h(x).",
+                   "<span class="azul">Calculamos el dominio de la función h(x).</span>",
+                   "$$D_h=\\mathbb{R}-\\{\\frac{5}{4}\\}$$",
 
-                   "<strong>Asíntota vertical</strong>",
-                   "Las asíntotas verticales se obtienen anulando el denominador:",
-                   "$$4x-5=0$$",
-                   "$$4x=5$$",
+                   "<strong>Ahora analizamos las asíntotas de la función h(x).</strong>",
+
+                   "<span class="azul">Asíntota vertical:</span>",
+                   "Analizamos el comportamiento de la función cuando x se aproxima a 5/4.",
+                   "$$\\lim_{x \\to \\frac{5}{4}} \\frac{x-3}{4x-5}=\\pm\\infty$$",
+
+                   "Entonces, existe asíntota vertical en x=5/4.",
+
+                   "<span class="azul">Asíntota horizontal:</span>",
+                   "Como el grado del numerador y del denominador es el mismo, entonces la asíntota horizontal es el cociente de los coeficientes principales.",
+                   "$$\\lim_{x \\to \\infty} \\frac{x-3}{4x-5}=\\frac{1}{4}$$",
+                   "Entonces, existe asíntota horizontal en y=1/4",
+
+                   "<strong>En conclusión, las asíntotas de h(x) son:</strong>",
+                   "<span class="azul">Asíntota vertical:</span>",
                    "$$x=\\frac{5}{4}$$",
-
-                   "Como el numerador no se anula en x=\\frac{5}{4}, existe una asíntota vertical en:",
-                   "$$x=\\frac{5}{4}$$",
-
-                   "<strong>Asíntota horizontal</strong>",
-                   "Como el grado del numerador y del denominador es el mismo, la asíntota horizontal es el cociente de los coeficientes principales.",
-                   "$$y=\\frac{1}{4}$$",
-
-                   "En conclusión, las asíntotas de h(x) son:",
-                   "Asíntota vertical:",
-                   "$$x=\\frac{5}{4}$$",
-                   "Asíntota horizontal:",
+                   "<span class="azul">Asíntota horizontal:</span>",
                    "$$y=\\frac{1}{4}$$"
         ]
       },
