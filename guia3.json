@@ -392,12 +392,77 @@
       },
       {
         "numero": 9,
-        "enunciado": "Sea f(x). Hallar el dominio, el conjunto de negatividad y los ceros de f.",
+        "enunciado": "Sean f(x) , g(x) y h(x)=(f ∘ g)(x). Determinar \\{x \\in \\mathbb{R} / h(x)=9 \\} y dar las ecuaciones de todas las asíntotas de h(x).",
         "expresiones": [
-           "f(x)=\\frac{7}{x-2}-4"
+            "f(x)=5x-6",
+            "g(x)=\\frac{x}{x-2}"
         ],
         "resolucion": [
- 
+                 "Dadas las funciones:",
+                 "$$f(x)=5x-6 \\quad \\quad \\text{y} \\quad \\quad g(x)=\\frac{x}{x-2}$$",
+
+                 "<strong>Calculamos la función compuesta h(x)=(f \\circ g)(x).</strong>",
+                 "Recordamos que:",
+                 "$$h(x)=f(g(x))$$",
+
+                 "Reemplazamos g(x) en la expresión de f:",
+                 "$$h(x)=5\\left(\\frac{x}{x-2}\\right)-6$$",
+
+                 "Llevamos a común denominador:",
+                 "$$h(x)=\\frac{5x}{x-2}-6$$",
+                 "$$h(x)=\\frac{5x-6(x-2)}{x-2}$$",
+
+                 "Desarrollamos el numerador:",
+                 "$$5x-6x+12=-x+12$$",
+
+                 "<strong>Por lo tanto, la función compuesta queda:</strong>",
+                 "$$h(x)=\\frac{-x+12}{x-2}$$",
+
+                  "<strong>Determinamos el dominio de h(x).</strong>",
+                  "$$x-2 \\neq 0$$",
+                  "$$x \\neq 2$$",
+                  "Entonces:",
+                  "$$D_h=\\mathbb{R}-\\{2\\}$$",
+
+                  "<strong>Ahora resolvemos la ecuación h(x)=9.</strong>",
+                  "$$\\frac{-x+12}{x-2}=9$$",
+
+                  "Pasamos a multiplicar (x-2) al segundo miembro:",
+                  "$$-x+12=9(x-2)$$",
+
+                  "Desarrollamos:",
+                  "$$-x+12=9x-18$$",
+                  "$$-x-9x=-18-12$$",
+                  "$$-10x=-30$$",
+                  "$$x=3$$",
+
+                  "Como x=3 pertenece al dominio, la solución es válida.",
+                  "Por lo tanto:",
+                  "$$\\{x \\in \\mathbb{R} / h(x)=9\\}=\\{3\\}$$",
+
+                  "<strong>Analizamos las asíntotas de h(x).</strong>",
+
+                  "<strong>Asíntota vertical.</strong>",
+                  "Analizamos el comportamiento cuando x se aproxima a 2:",
+                  "$$\\lim_{x \\to 2} \\frac{-x+12}{x-2}=\\frac{10}{0}=\\pm\\infty$$",
+                  "Por lo tanto, existe una asíntota vertical en:",
+                  "$$x=2$$",
+
+                  "<strong>Asíntota horizontal.</strong>",
+                  "Usamos la técnica de los grados, el grado del numerador y del denominador es el mismo.",
+                  "Entonces, la asíntota horizontal es el cociente de los coeficientes principales:",
+                  "$$\\lim_{x \\to \\infty} \\frac{-x+12}{x-2}=\\frac{-1}{1}=-1$$",
+
+                  "Por lo tanto, la asíntota horizontal es:",
+                  "$$y=-1$$",
+
+                  "<strong>CONCLUSIÓN:</strong>",
+                  "<strong>Solución de h(x)=9:</strong>",
+                  "$$x=3$$",
+                  "<strong>Asíntota vertical:</strong>",
+                  "$$x=2$$",
+                  "<strong>Asíntota horizontal:</strong>",
+                  "$$y=-1$$"
         ]
       },
       {
