@@ -310,26 +310,25 @@
 
                    "<strong>Asíntotas verticales.</strong>",
                    "Analizamos el comportamiento de la función cuando x se aproxima a 2:",
-                   "$$\\lim_{x \\to 2} \\frac{-x(5x-2)}{(x-2)(x+2)}=\\pm\\infty$$",
+                   "$$\\lim_{x \\to 2} \\frac{-x(5x-2)}{(x-2)(x+2)}=\\frac{-16}{0}=\\pm\\infty$$",
                    "Por lo tanto, existe una asíntota vertical en x=2.",
 
                    "Ahora analizamos el comportamiento de la función cuando x se aproxima a -2:",
-                   "$$\\lim_{x \\to -2} \\frac{-x(5x-2)}{(x-2)(x+2)}=\\pm\\infty$$",
+                   "$$\\lim_{x \\to -2} \\frac{-x(5x-2)}{(x-2)(x+2)}=\\frac{-24}{0}=\\pm\\infty$$",
                    "Por lo tanto, existe una asíntota vertical en x=-2.",
 
                    "<strong>Asíntota horizontal.</strong>",
-                   "El grado del numerador y del denominador es el mismo.",
-                   "La asíntota horizontal se obtiene como el cociente de los coeficientes principales:",
-                   "$$\\frac{-10}{2}=-5$$",
-
+                   "Usando la técnica de los grados, observamos que el grado del numerador y del denominador son iguales.",
+                   "Entonces, la asíntota horizontal se obtiene como el cociente de los coeficientes principales:",
+                   "$$\\lim_{x \\to \\infty} \\frac{-10x^2+4x}{2x^2-8}=\\frac{-10}{2}=-5$$",
+          
                    "Por lo tanto, la asíntota horizontal es:",
                    "$$y=-5$$",
 
-                   "<strong>Conclusión:</strong>",
-                   "Las asíntotas de la función son:",
-                   "Asíntotas verticales:",
+                   "<strong>CONCLUSIÓN:</strong>",
+                   "<strong>Asíntotas verticales:</strong>",
                    "$$x=-2 \\quad \\text{y} \\quad x=2$$",
-                   "Asíntota horizontal:",
+                   "<strong>Asíntota horizontal:</strong>",
                    "$$y=-5$$"
         ]
       },
