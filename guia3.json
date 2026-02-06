@@ -339,7 +339,55 @@
                 "f(x)=\\frac{x}{6x+2}"
         ],
         "resolucion": [
- 
+                    "Dada la función:",
+                    "$$f(x)=\\frac{x}{6x+2}$$",
+
+                    "<strong>Calculamos la función inversa.</strong>",
+                    "Comenzamos escribiendo la función como:",
+                    "$$y=\\frac{x}{6x+2}$$",
+
+                    "Pasamos a multiplicar (6x+2) al primer miembro.",
+                    "$$y(6x+2)=x$$",
+
+                    "Aplicamos la propiedad distributiva",
+                    "$$6xy+2y=x$$",
+
+                    "Llevamos todos los términos con x a un mismo miembro:",
+                    "$$6xy-x=-2y$$",
+
+                    "Factorizamos x:",
+                    "$$x(6y-1)=-2y$$",
+
+                    "Despejamos x:",
+                    "$$x=\\frac{-2y}{6y-1}$$",
+
+                    "Intercambiamos x por y para obtener la función inversa:",
+                    "$$f^{-1}(x)=\\frac{-2x}{6x-1}$$",
+
+                    "<strong>Determinamos el dominio de la función inversa.</strong>",
+                    "$$6x-1 \\neq 0$$",
+                    "$$x \\neq \\frac{1}{6}$$",
+
+                    "<strong>Asíntota vertical.</strong>",
+                    "Analizamos el comportamiento cuando x se aproxima a 1/6:",
+                    "$$\\lim_{x \\to \\frac{1}{6}} \\frac{-2x}{6x-1}=\\frac{-\\frac{1}{3}}{0}=\\pm\\infty$$",
+
+                    "Por lo tanto, existe una asíntota vertical en:",
+                    "$$x=\\frac{1}{6}$$",
+
+                    "<strong>Asíntota horizontal.</strong>",
+                    "Usamos la técnica de los grados, el grado del numerador y del denominador es el mismo.",
+                    "Entonces, la asíntota horizontal es el cociente de los coeficientes principales:",
+                    "$$\lim_{x \\to \\infty} \\frac{-2x}{6x-1}=\\frac{-2}{6}=-\\frac{1}{3}$$",
+
+                    "Por lo tanto, la asíntota horizontal es:",
+                    "$$y=-\\frac{1}{3}$$",
+
+                    "<strong>CONCLUSIÓN:</strong>",
+                    "<strong>Asíntota vertical:</strong>",
+                    "$$x=\\frac{1}{6}$$",
+                    "<strong>Asíntota horizontal:</strong>",
+                    "$$y=-\\frac{1}{3}$$"
         ]
       },
       {
