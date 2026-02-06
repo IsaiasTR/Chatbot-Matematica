@@ -143,7 +143,7 @@
 
                    "Entonces, existe asíntota vertical en x=5/4.",
 
-                   "<strong>Asíntota horizontal:<strong>",
+                   "<strong>Asíntota horizontal:</strong>",
                    "Como el grado del numerador y del denominador es el mismo, entonces la asíntota horizontal es el cociente de los coeficientes principales.",
                    "$$\\lim_{x \\to \\infty} \\frac{x-3}{4x-5}=\\frac{1}{4}$$",
                    "Entonces, existe asíntota horizontal en y=1/4",
