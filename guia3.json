@@ -401,7 +401,7 @@
                  "Dadas las funciones:",
                  "$$f(x)=5x-6 \\quad \\quad \\text{y} \\quad \\quad g(x)=\\frac{x}{x-2}$$",
 
-                 "<strong>Calculamos la función compuesta h(x)=(f \\circ g)(x).</strong>",
+                 "<strong>Calculamos la función compuesta h(x)=(f ∘ g)(x).</strong>",
                  "Recordamos que:",
                  "$$h(x)=f(g(x))$$",
 
@@ -467,12 +467,52 @@
       },
       {
         "numero": 10,
-        "enunciado": "Sea f(x). Hallar una función cuadrática g(x) tal que los gráficos de f y g tengan el mismo vértice y además se cumpla que g(-3)=0.",
+        "enunciado": "Sea f(x). Hallar a ∈ ℝ para que la recta de ecuación y=3 sea asíntota horizontal de f. Para el valor de a hallado, dar las ecuaciones de todas las asíntotas verticales de f.",
         "expresiones": [
-          "f(x)=3x^2+6x+6"
+          "f(x)=\\frac{ax^2+5}{4x^2-16}"
         ],
         "resolucion": [
- 
+               "Dada la función racional:",
+               "$$f(x)=\\frac{ax^2+5}{4x^2-16}$$",
+
+               "<strong>Determinamos el valor de a para que y=3 sea asíntota horizontal.</strong>",
+               "Como el grado del numerador y del denominador es el mismo, la asíntota horizontal se obtiene como el cociente de los coeficientes principales.",
+
+               "El coeficiente principal del numerador es a y el del denominador es 4.",
+               "Entonces:",
+               "$$\\lim_{x \\to \\pm\\infty} \\frac{ax^2+5}{4x^2-16}=\\frac{a}{4}$$",
+
+               "Imponemos que la asíntota horizontal sea y=3:",
+               "$$\\frac{a}{4}=3$$",
+               "$$a=12$$",
+
+               "<strong>Reemplazamos el valor de a en la función.</strong>",
+               "$$f(x)=\\frac{12x^2+5}{4x^2-16}$$",
+
+               "<strong>Ahora determinamos las asíntotas verticales.</strong>",
+               "Las asíntotas verticales se obtienen anulando el denominador.",
+
+               "$$4x^2-16=0$$",
+               "$$4(x^2-4)=0$$",
+               "$$x^2-4=0$$",
+
+               "Resolvemos:",
+               "$$x=2 \\quad \\text{y} \\quad x=-2$$",
+
+               "Verificamos que el numerador no se anule en esos puntos:",
+               "$$12(2)^2+5 \\neq 0 \\quad \\text{y} \\quad 12(-2)^2+5 \\neq 0$$",
+
+               "Por lo tanto, ambos valores generan asíntotas verticales.",
+
+               "<strong>CONCLUSIÓN:</strong>",
+               "<strong>Valor de a:</strong>",
+               "$$a=12$$",
+
+               "<strong>Asíntota horizontal:</strong>",
+               "$$y=3$$",
+
+               "<strong>Asíntotas verticales:</strong>",
+               "$$x=2 \\quad \\text{y} \\quad x=-2$$"
         ]
       }
     ]
