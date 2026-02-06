@@ -137,13 +137,13 @@
 
                    "<strong>Ahora analizamos las asíntotas de la función h(x).</strong>",
 
-                   "<span class=\"azul\">Asíntota vertical:</span>",
+                   "<strong>Asíntota vertical:</strong>",
                    "Analizamos el comportamiento de la función cuando x se aproxima a 5/4.",
                    "$$\\lim_{x \\to \\frac{5}{4}} \\frac{x-3}{4x-5}=\\pm\\infty$$",
 
                    "Entonces, existe asíntota vertical en x=5/4.",
 
-                   "<span class=\"azul\">Asíntota horizontal:</span>",
+                   "<strong>Asíntota horizontal:<strong>",
                    "Como el grado del numerador y del denominador es el mismo, entonces la asíntota horizontal es el cociente de los coeficientes principales.",
                    "$$\\lim_{x \\to \\infty} \\frac{x-3}{4x-5}=\\frac{1}{4}$$",
                    "Entonces, existe asíntota horizontal en y=1/4",
