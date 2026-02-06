@@ -408,8 +408,8 @@
                  "Reemplazamos g(x) en la expresión de f:",
                  "$$h(x)=5\\left(\\frac{x}{x-2}\\right)-6$$",
 
-                 "Llevamos a común denominador:",
                  "$$h(x)=\\frac{5x}{x-2}-6$$",
+                 "Aplicamos común denominador:",
                  "$$h(x)=\\frac{5x-6(x-2)}{x-2}$$",
 
                  "Desarrollamos el numerador:",
