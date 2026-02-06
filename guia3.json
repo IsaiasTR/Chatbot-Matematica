@@ -132,26 +132,26 @@
                    "Por lo tanto, la función compuesta queda:",
                    "$$h(x)=\\frac{x-3}{4x-5}$$",
 
-                   "<span class="azul">Calculamos el dominio de la función h(x).</span>",
+                   "<span class=\"azul\">Calculamos el dominio de la función h(x).</span>",
                    "$$D_h=\\mathbb{R}-\\{\\frac{5}{4}\\}$$",
 
                    "<strong>Ahora analizamos las asíntotas de la función h(x).</strong>",
 
-                   "<span class="azul">Asíntota vertical:</span>",
+                   "<span class=\"azul\">Asíntota vertical:</span>",
                    "Analizamos el comportamiento de la función cuando x se aproxima a 5/4.",
                    "$$\\lim_{x \\to \\frac{5}{4}} \\frac{x-3}{4x-5}=\\pm\\infty$$",
 
                    "Entonces, existe asíntota vertical en x=5/4.",
 
-                   "<span class="azul">Asíntota horizontal:</span>",
+                   "<span class=\"azul\">Asíntota horizontal:</span>",
                    "Como el grado del numerador y del denominador es el mismo, entonces la asíntota horizontal es el cociente de los coeficientes principales.",
                    "$$\\lim_{x \\to \\infty} \\frac{x-3}{4x-5}=\\frac{1}{4}$$",
                    "Entonces, existe asíntota horizontal en y=1/4",
 
                    "<strong>En conclusión, las asíntotas de h(x) son:</strong>",
-                   "<span class="azul">Asíntota vertical:</span>",
+                   "<span class=\"azul\">Asíntota vertical:</span>",
                    "$$x=\\frac{5}{4}$$",
-                   "<span class="azul">Asíntota horizontal:</span>",
+                   "<span class=\"azul\">Asíntota horizontal:</span>",
                    "$$y=\\frac{1}{4}$$"
         ]
       },
