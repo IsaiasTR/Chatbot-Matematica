@@ -56,7 +56,7 @@
                     "Dada la función racional:",
                     "$$f(x)=\\frac{x-4}{3x^2+3x-6}$$",
 
-                    "Comenzamos analizando el denominador para hallar sus ceros utilizando la resolvente.",
+                    "Factorizamos el denominador utilizando la resolvente.",
                     "$$3x^2+3x-6=0$$",
 
                     "Identificamos los coeficientes:",
@@ -75,39 +75,30 @@
                     "Obtenemos las raíces del denominador:",
                     "$$x_1=1 \\quad \\quad \\text{;} \\quad \\quad x_2=-2$$",
 
+                    "Reescribimos la función:",
+                    "$$f(x)=\\frac{(x-4)}{3(x-1)(x+2)}$$"
+
                     "<strong>Calculamos el dominio de la función.</strong>",
                     "$$D_f=\\mathbb{R}-\\{-2,1\\}$$",
 
-                    "<strong>Ahora analizamos las asíntotas verticales.</strong>",
-                    "Para que exista una asíntota vertical en x=a, debe cumplirse que:",
-                    "$$\\lim_{x \\to a} f(x)=\\pm\\infty$$",
-
+                    "<strong>Asíntotas verticales.</strong>",
                     "Analizamos primero el comportamiento de la función cuando x se aproxima a 1.",
-                    "$$\\lim_{x \\to 1} \\frac{x-4}{3x^2+3x-6}$$",
-
-                    "Como el denominador se anula en x=1 y el numerador no:",
-                    "$$1-4=-3 \\neq 0$$",
+                    "$$\\lim_{x \\to 1} \\frac{(x-4)}{3(x-1)(x+2)}$$",
 
                     "Entonces:",
-                    "$$\\lim_{x \\to 1} \\frac{x-4}{3x^2+3x-6}=\\pm\\infty$$",
+                    "$$\\lim_{x \\to 1} \\frac{(x-4)}{3(x-1)(x+2)}=\\pm\\infty$$",
 
                     "Por lo tanto, en x=1 existe una asíntota vertical.",
 
                     "Ahora analizamos el comportamiento de la función cuando x se aproxima a -2.",
-                    "$$\\lim_{x \\to -2} \\frac{x-4}{3x^2+3x-6}$$",
+                    "$$\\lim_{x \\to -2} \\frac{(x-4)}{3(x-1)(x+2)}$$",
 
-                    "Evaluamos el numerador en x=-2:",
-                    "$$-2-4=-6 \\neq 0$$",
-
-                    "Y el denominador se anula en x=-2, por lo tanto:",
-                    "$$\\lim_{x \\to -2} \\frac{x-4}{3x^2+3x-6}=\\pm\\infty$$",
+                    "Entonces:",
+                    "$$\\lim_{x \\to -2} \\frac{(x-4)}{3(x-1)(x+2)}=\\pm\\infty$$",
 
                     "En consecuencia, en x=-2 también existe una asíntota vertical.",
 
-                    "<strong>Asíntotas verticales:</strong>",
-                    "$$x=1 \\quad \\text{y} \\quad x=-2$$",
-
-                    "<strong>Finalmente analizamos la asíntota horizontal.</strong>",
+                    "<strong>Asíntota horizontal.</strong>",
                     "El grado del numerador es 1 y el del denominador es 2.",
                     "Aplicando la técnica de los grados, tenemos que el grado del numerador es menor que el del denominador, entonces el limite tiende a 0",
 
