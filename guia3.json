@@ -184,10 +184,11 @@
                  "Resolvemos la ecuación:",
                  "$$10=2(4+k)$$",
                  "$$10=8+2k$$",
-                 "$$2k=2$$",
+                 "$$10-8=2k$$",
+                 "$$2=2k$$",
                  "$$k=1$$",
 
-                 "Por lo tanto, el valor buscado es:",
+                 "<strong>Por lo tanto, el valor buscado es:</strong>",
                  "$$k=1$$"
         ]
       },
