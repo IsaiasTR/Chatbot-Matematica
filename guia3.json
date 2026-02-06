@@ -215,7 +215,7 @@
                    "$$D_f=\\mathbb{R}-\\{1\\}$$",
 
                    "<strong>Asíntotas verticales</strong>",
-                   "$$\\lim_{x \\to 1} \\frac{4}{x-1}=\\frac{4}{0}\\pm\\infty$$",
+                   "$$\\lim_{x \\to 1} \\frac{4}{x-1}=\\frac{4}{0}=\\pm\\infty$$",
                    "Por lo tanto, existe asíntota vertical en x=1.",
 
                    "<strong>Conclusión:</strong>",
