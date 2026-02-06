@@ -230,7 +230,54 @@
                 "h(x)=\\frac{f(x)}{5x+3}"
         ],
         "resolucion": [
+                  "Primero determinamos la expresión de la función lineal f(x).",
 
+                  "Los puntos dados son:",
+                  "$$A=(-2,-7) \\quad \\quad \\text{y} \\quad \\quad B=(1,5)$$",
+
+                  "Calculamos la pendiente de la recta:",
+                  "Consideramos",
+                  "$$x_1=-2 \\quad \\quad y_1=-7 \\quad \\quad x_2=1 \\quad \\quad y_2=5$$",
+                  "$$m=\\frac{y_2-y_1}{x_2-x_1}$$",
+                  "$$m=\\frac{5-(-7)}{1-(-2)}$$",
+                  "$$m=\\frac{12}{3}$$",
+                  "$$m=4$$",
+
+                  "Ahora calculamos la ordenada al origen utilizando uno de los puntos.",
+                  "Usamos el punto B=(1,5):",
+                  "$$f(x)=4x+b$$",
+                  "$$5=4(1)+b$$",
+                  "$$b=1$$",
+
+                  "<strong>Por lo tanto, la función lineal es:</strong>",
+                  "$$f(x)=4x+1$$",
+
+                  "Reemplazamos f(x) en la expresión de h(x):",
+                  "$$h(x)=\\frac{4x+1}{5x+3}$$",
+
+                  "<strong>Calculamos el dominio</strong>",
+                  "$$D_h=\\mathbb{R}-\\left\\{-\\frac{3}{5}\\right\\}$$",
+
+                  "<strong>Asíntota vertical.</strong>",
+                  "Analizamos el comportamiento de la función cuando x se aproxima a -3/5:",
+                  "$$\\lim_{x \\to -\\frac{3}{5}} \\frac{4x+1}{5x+3}=\\frac{-\\frac{7}{5}}{0}=\\pm\\infty$$",
+
+                 "Por lo tanto, existe una asíntota vertical en:",
+                 "$$x=-\\frac{3}{5}$$",
+
+                 "<strong>Asíntota horizontal.</strong>",
+                 "Usando la técnica de los grados, observamos que el grado del numerador y del denominador son iguales.",
+                 "entonces, La asíntota horizontal es el cociente de los coeficientes principales:",
+                 "$$\\lim_{x \\to \\pm\\infty} \\frac{4x+1}{5x+3}=\\frac{4}{5}$$",
+
+                 "Por lo tanto, la asíntota horizontal es:",
+                 "$$y=\\frac{4}{5}$$",
+
+                "<strong>CONCLUSIÓN:</strong>",
+                "<strong>Asíntota vertical:</strong>",
+                "$$x=-\\frac{3}{5}$$",
+                "<strong>Asíntota horizontal:</strong>",
+                "$$y=\\frac{4}{5}$$"
         ]
       },
       {
