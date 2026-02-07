@@ -559,8 +559,8 @@
                  "<strong>Calculamos el dominio:</strong>",
                  "Factorizamos el denominador (otra opción es usar la resolvente)",
                  "$$x^2-4=(x-2)(x+2)=0$$",
-                 "$$x-2=0 \\quad \\quad x+2=0$$",
-                 "$$x=2 \\quad \\quad x=-2$$",
+                 "$$x-2=0 \\quad \\text{;} \\quad x+2=0$$",
+                 "$$x=2 \\quad \\text{;} \\quad x=-2$$",
 
                  "<strong>El dominio de la función es:</strong>",
                  "$$D_f=\\mathbb{R} - \\{-2 , 2\\}$$",
@@ -580,7 +580,7 @@
 
                  "<strong>En consecuencia, en x=2 existe una asíntota vertical.</strong>",
 
-                 "<strong>Asíntotas horizontales.</strong>",
+                 "<strong>Asíntotas horizontales:</strong>",
                  "Usamos la técnica de los grados, el grado del numerador y del denominador es el mismo.",
                  "La asíntota horizontal es el cociente de los coeficientes principales:",
                  "$$\\lim_{x \\to \\pm\\infty} \\frac{-3x^2+x}{x^2-4}=-3$$",
