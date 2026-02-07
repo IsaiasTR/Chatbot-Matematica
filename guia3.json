@@ -592,9 +592,63 @@
                  "Valor de a:",
                  "$$a=4$$",
                  "Asíntotas verticales:",
-                 "$$x=2 \\quad \\text{y} \\quad x=-2$$",
+                 "$$x=2 \\quad \\quad \\text{y} \\quad \\quad x=-2$$",
                  "Asíntota horizontal:",
                  "$$y=-3$$"
+        ]
+      },
+      {
+        "numero": 12,
+        "enunciado": "Sea f(x). Hallar los valores de a ∈ ℝ y b ∈ ℝ de modo  que la recta y=-2 sea asíntota horizontal y x=-3 sea asíntota vertical. Para los valores hallado dar el dominio de f(x).",
+        "expresiones": [
+          "f(x)=\\frac{ax+7}{3x+b}"
+        ],
+        "resolucion": [
+                "Dada la función racional:",
+                "$$f(x)=\\frac{ax+7}{3x+b}$$",
+
+                "<strong>Condición de asíntota horizontal.</strong>",
+                "Se nos pide que la recta y=-2 sea asíntota horizontal.",
+
+                "Usando la técnica de los grados, como el grado del numerador y del denominador es el mismo, la asíntota horizontal es el cociente de los coeficientes principales.",
+                "$$\\lim_{x \\to \\pm\\infty} \\frac{ax+7}{3x+b}=\\frac{a}{3}$$",
+
+                "Imponemos la condición:",
+                "$$\\frac{a}{3}=-2$$",
+                "$$a=-6$$",
+
+                "<strong>Condición de asíntota vertical.</strong>",
+                "Se nos pide que x=-3 sea asíntota vertical, por lo tanto el denominador debe anularse en x=-3.",
+
+                "Imponemos la condición:",
+                "$$3(-3)+b=0$$",
+                "$$-9+b=0$$",
+                "$$b=9$$",
+
+                "<strong>Verificamos que el numerador no se anule en x=-3.</strong>",
+                "$$-6(-3)+7=18+7=25 \\neq 0$$",
+                "Por lo tanto, x=-3 es una asíntota vertical.",
+
+                "<strong>Reemplazamos los valores hallados en la función.</strong>",
+                "$$f(x)=\\frac{-6x+7}{3x+9}$$",
+
+                "<strong>Determinamos el dominio de la función.</strong>",
+                "$$3x+9 \\neq 0$$",
+                "$$x \\neq -3$$",
+
+                "<strong>Por lo tanto, el dominio de la función es:</strong>",
+                "$$D_f=\\mathbb{R}-\\{-3\\}$$",
+
+                "<strong>Conclusión:</strong>",
+                "Valores hallados:",
+                "$$a=-6 \\quad \\quad \\text{y} \\quad \\quad b=9$$",
+                "<strong>Asíntota horizontal:</strong>",
+                "$$y=-2$$",
+                "<strong>Asíntota vertical:</strong>",
+                "$$x=-3$$",
+                "<strong>Dominio:<strong>",
+                "$$D_f=\\mathbb{R}-\\{-3\\}$$"
+          
         ]
       }
     ]
