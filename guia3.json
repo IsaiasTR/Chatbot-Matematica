@@ -527,6 +527,75 @@
                "<strong>Asíntotas verticales:</strong>",
                "$$x=2 \\quad \\quad  \\text{y} \\quad \\quad x=-2$$"
         ]
+      },
+      {
+        "numero": 11,
+        "enunciado": "Sea f(x). Hallar a ∈ ℝ para que la recta de ecuación x=2 sea asíntota vertical de f. Para el valor de a hallado, dar las ecuaciones de todas las asíntotas horizontales y verticales de f.",
+        "expresiones": [
+          "f(x)=\\frac{-3x^2+x}{x^2-a}"
+        ],
+        "resolucion": [
+                 "Dada la función racional:",
+                 "$$f(x)=\\frac{-3x^2+x}{x^2-a}$$",
+
+                 "<strong>Buscamos el valor de a para que x=2 sea asíntota vertical.</strong>",
+                 "Una asíntota vertical ocurre cuando el denominador se anula y el numerador no.",
+
+                 "Imponemos la condición:",
+                 "$$x^2-a=0 \\quad \\quad \\text{en} \\quad \\quad x=2$$",
+
+                 "Reemplazamos x=2 en el denominador:",
+                 "$$2^2-a=0$$",
+                 "$$4-a=0$$",
+                 "$$a=4$$",
+
+                 "<strong>Verificamos que el numerador no se anule en x=2.</strong>",
+                 "$$-3(2)^2+2=-12+2=-10 \\neq 0$$",
+                 "Por lo tanto, x=2 es una asíntota vertical.",
+
+                 "<strong>Reemplazamos a=4 en la función.</strong>",
+                 "$$f(x)=\\frac{-3x^2+x}{x^2-4}$$",
+
+                 "<strong>Calculamos el dominio:</strong>",
+                 "Factorizamos el denominador (otra opción es usar la resolvente)",
+                 "$$x^2-4=(x-2)(x+2)=0$$",
+                 "$$x-2=0 \\quad \\quad x+2=0$$",
+                 "$$x=2 \\quad \\quad x=-2$$",
+
+                 "<strong>El dominio de la función es:</strong>",
+                 "$$D_f=\\mathbb{R} - \\{-2 , 2\\}$$",
+
+                 "<strong>Asíntotas verticales.</strong>",
+                 "Ahora analizamos el comportamiento de la función cuando x se aproxima a -2.",
+                 "$$\\lim_{x \\to -2} \\frac{-3x^2+x}{x^2-4}$$",
+                 "Entonces:",
+                 "$$\\lim_{x \\to -2}  \\frac{-3x^2+x}{x^2-4}=\\frac{-14}{0}=\\pm\\infty$$",
+
+                 "<strong>En consecuencia, en x=-2 existe una asíntota vertical.</strong>",
+
+                 "Ahora analizamos el comportamiento de la función cuando x se aproxima a 2.",
+                 "$$\\lim_{x \\to 2} \\frac{-3x^2+x}{x^2-4}$$",
+                 "Entonces:",
+                 "$$\\lim_{x \\to 2}  \\frac{-3x^2+x}{x^2-4}=\\frac{-10}{0}=\\pm\\infty$$",
+
+                 "<strong>En consecuencia, en x=2 existe una asíntota vertical.</strong>",
+
+                 "<strong>Asíntotas horizontales.</strong>",
+                 "Usamos la técnica de los grados, el grado del numerador y del denominador es el mismo.",
+                 "La asíntota horizontal es el cociente de los coeficientes principales:",
+                 "$$\\lim_{x \\to \\pm\\infty} \\frac{-3x^2+x}{x^2-4}=-3$$",
+
+                 "Por lo tanto, la asíntota horizontal es:",
+                 "$$y=-3$$",
+
+                 "<strong>CONCLUSIÓN:</strong>",
+                 "Valor de a:",
+                 "$$a=4$$",
+                 "Asíntotas verticales:",
+                 "$$x=2 \\quad \\text{y} \\quad x=-2$$",
+                 "Asíntota horizontal:",
+                 "$$y=-3$$"
+        ]
       }
     ]
   }
