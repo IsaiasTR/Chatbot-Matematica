@@ -38,64 +38,45 @@
       },
       {
         "numero": 2,
-        "enunciado": "Sea f(x). Hallar dominio y las ecuaciones de las asíntotas verticales y horizontales.",
+        "enunciado": "Sea f(x). Calcular f^(-1)(x) (inversa) y dar su dominio e imagen.",
         "expresiones": [
-               "f(x)=\\frac{x-4}{3x^2+3x-6}"
+               "f(x)=3e^{2-x}+4"
         ],
         "resolucion": [
-                    "Dada la función racional:",
-                    "$$f(x)=\\frac{x-4}{3x^2+3x-6}$$",
+                   "Partimos de la función dada:",
+                   "$$f(x)=3e^{2-x}+4$$",
 
-                    "Factorizamos el denominador utilizando la resolvente.",
-                    "$$3x^2+3x-6=0$$",
+                   "Escribimos la función usando la variable y:",
+                   "$$y=3e^{2-x}+4$$",
 
-                    "Identificamos los coeficientes:",
-                    "$$a=3 \\quad \\quad b=3 \\quad \\quad c=-6$$",
+                   "Pasamos el 4 restando al primer miembro:",
+                   "$$y-4=3e^{2-x}$$",
 
-                    "Aplicamos la fórmula resolvente:",
-                    "$$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$$",
+                   "Pasamos el 3 dividiendo al primer miembro:",
+                   "$$\\frac{y-4}{3}=e^{2-x}$$",
 
-                    "Calculamos el valor que esta dentro de la raíz de la resolvente:",
-                    "$$b^2-4ac=3^2-4(3)(-6)=9+72=81$$",
+                   "Aplicamos logaritmo natural a ambos miembros:",
+                   "$$\\ln\\left(\\frac{y-4}{3}\\right)=2-x$$",
 
-                    "Entonces, la resolvente nos queda expresado de la siguiente forma.",
-                    "$$x=\\frac{-3\\pm\\sqrt{81}}{6}$$",
-                    "$$x=\\frac{-3\\pm9}{6}$$",
+                   "Despejamos x:",
+                   "$$x=2-\\ln\\left(\\frac{y-4}{3}\\right)$$",
 
-                    "Obtenemos las raíces del denominador:",
-                    "$$x_1=1 \\quad \\quad \\text{;} \\quad \\quad x_2=-2$$",
+                   "<strong>Intercambiamos las variables para obtener la función inversa.</strong>",
+                   "$$f^{-1}(x)=2-\\ln\\left(\\frac{x-4}{3}\\right)$$",
 
-                    "Reescribimos la función:",
-                    "$$f(x)=\\frac{(x-4)}{3(x-1)(x+2)}$$",
+                   "<strong>Determinamos el dominio de la función inversa.</strong>",
+                   "El argumento del logaritmo debe ser positivo:",
+                   "$$\\frac{x-4}{3}>0$$",
+                   "$$x-4>0$$",
+                   "$$x>4$$",
 
-                    "<strong>Calculamos el dominio de la función.</strong>",
-                    "$$D_f=\\mathbb{R}-\\{-2,1\\}$$",
+                   "<strong>Por lo tanto, el dominio de la función inversa es:</strong>",
+                   "$$Dom\\left(f^{-1}\\right)=(4,+\\infty)$$",
 
-                    "<strong>Asíntotas verticales.</strong>",
-                    "Analizamos primero el comportamiento de la función cuando x se aproxima a 1.",
-                    "$$\\lim_{x \\to 1} \\frac{(x-4)}{3(x-1)(x+2)}$$",
-
-                    "Entonces:",
-                    "$$\\lim_{x \\to 1} \\frac{(x-4)}{3(x-1)(x+2)}=\\pm\\infty$$",
-
-                    "Por lo tanto, en x=1 existe una asíntota vertical.",
-
-                    "Ahora analizamos el comportamiento de la función cuando x se aproxima a -2.",
-                    "$$\\lim_{x \\to -2} \\frac{(x-4)}{3(x-1)(x+2)}$$",
-
-                    "Entonces:",
-                    "$$\\lim_{x \\to -2} \\frac{(x-4)}{3(x-1)(x+2)}=\\pm\\infty$$",
-
-                    "En consecuencia, en x=-2 también existe una asíntota vertical.",
-
-                    "<strong>Asíntota horizontal.</strong>",
-                    "El grado del numerador es 1 y el del denominador es 2.",
-                    "Aplicando la técnica de los grados, tenemos que el grado del numerador es menor que el del denominador, entonces el limite tiende a 0",
-
-                    "$$\\lim_{x \\to \\pm\\infty} \\frac{x-4}{3x^2+3x-6}=0$$",
-
-                    "Por lo tanto, la asíntota horizontal es:",
-                    "$$y=0$$"
+                   "<strong>Determinamos la imagen de la función inversa.</strong>",
+                   "La imagen de la función inversa coincide con el dominio de la función original.",
+                   "Como la función exponencial está definida para todo número real:",
+                   "$$Im\\left(f^{-1}\\right)=\\mathbb{R}$$"
         ]
       },
       {
