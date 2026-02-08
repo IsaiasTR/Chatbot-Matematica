@@ -135,13 +135,6 @@
                      "Partimos de la función dada:",
                      "$$f(x)=\\frac{3}{x-5}+2$$",
 
-                     "<strong>Determinamos el dominio de la función f(x).</strong>",
-                     "El denominador no puede anularse:",
-                     "$$x-5 \\neq 0$$",
-                     "$$x \\neq 5$$",
-                     "<strong>Por lo tanto:</strong>",
-                     "$$Dom(f)=\\mathbb{R}\\setminus\\{5\\}$$",
-
                      "<strong>Calculamos la función inversa.</strong>",
                      "Escribimos la función como:",
                      "$$y=\\frac{3}{x-5}+2$$",
@@ -163,13 +156,10 @@
                      "$$x-2 \\neq 0$$",
                      "$$x \\neq 2$$",
                      "<strong>Por lo tanto:</strong>",
-                     "$$Dom(f^{-1})=\\mathbb{R}\\setminus\\{2\\}$$",
+                     "$$Dom(f^{-1})=\\mathbb{R}-\\{2\\}$$",
 
-                     "<strong>Determinamos la imagen de la función f.</strong>",
-                     "Observamos que la fracción nunca vale 0, por lo tanto:",
-                     "$$y \\neq 2$$",
-                     "<strong>Entonces:</strong>",
-                     "$$Im(f)=\\mathbb{R}\\setminus\\{2\\}$$"
+                     "<strong>Determinamos la imagen de la función inversa.</strong>",
+                     "$$Im(f^{-1})=\\mathbb{R}-\\{5\\}$$"
         ]
       },
       {
