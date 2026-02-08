@@ -132,34 +132,44 @@
               "f(x)=\\frac{3}{x-5}+2"
         ],
         "resolucion": [
-                 "Buscamos el valor de k \\(\\in \\mathbb{R}\\) tal que se cumpla:",
-                 "$$(g \\circ f)(1)=2$$",
+                     "Partimos de la función dada:",
+                     "$$f(x)=\\frac{3}{x-5}+2$$",
 
-                 "Primero recordamos las funciones dadas:",
-                 "$$f(x)=4x+k$$",
-                 "$$g(x)=\\frac{10}{x}$$",
+                     "<strong>Determinamos el dominio de la función f(x).</strong>",
+                     "El denominador no puede anularse:",
+                     "$$x-5 \\neq 0$$",
+                     "$$x \\neq 5$$",
+                     "<strong>Por lo tanto:</strong>",
+                     "$$Dom(f)=\\mathbb{R}\\setminus\\{5\\}$$",
 
-                 "Calculamos la composición (g ∘ f)(x):",
-                 "$$(g \\circ f)(x)=g(f(x))$$",
-                 "$$(g \\circ f)(x)=g(4x+k)$$",
-                 "$$(g \\circ f)(x)=\\frac{10}{4x+k}$$",
+                     "<strong>Calculamos la función inversa.</strong>",
+                     "Escribimos la función como:",
+                     "$$y=\\frac{3}{x-5}+2$$",
 
-                 "Ahora evaluamos la composición en x=1:",
-                 "$$(g \\circ f)(1)=\\frac{10}{4(1)+k}$$",
-                 "$$(g \\circ f)(1)=\\frac{10}{4+k}$$",
+                     "Pasamos el 2 restando al primer miembro:",
+                     "$$y-2=\\frac{3}{x-5}$$",
 
-                 "Imponemos la condición del ejercicio:",
-                 "$$\\frac{10}{4+k}=2$$",
+                     "Intercambiamos los miembros:",
+                     "$$x-5=\\frac{3}{y-2}$$",
 
-                 "Resolvemos la ecuación:",
-                 "$$10=2(4+k)$$",
-                 "$$10=8+2k$$",
-                 "$$10-8=2k$$",
-                 "$$2=2k$$",
-                 "$$k=1$$",
+                     "Despejamos x:",
+                     "$$x=\\frac{3}{y-2}+5$$",
 
-                 "<strong>Por lo tanto, el valor buscado es:</strong>",
-                 "$$k=1$$"
+                     "<strong>Intercambiamos las variables para obtener la función inversa:</strong>",
+                     "$$f^{-1}(x)=\\frac{3}{x-2}+5$$",
+
+                     "<strong>Determinamos el dominio de la función inversa.</strong>",
+                     "El denominador no puede ser cero:",
+                     "$$x-2 \\neq 0$$",
+                     "$$x \\neq 2$$",
+                     "<strong>Por lo tanto:</strong>",
+                     "$$Dom(f^{-1})=\\mathbb{R}\\setminus\\{2\\}$$",
+
+                     "<strong>Determinamos la imagen de la función f.</strong>",
+                     "Observamos que la fracción nunca vale 0, por lo tanto:",
+                     "$$y \\neq 2$$",
+                     "<strong>Entonces:</strong>",
+                     "$$Im(f)=\\mathbb{R}\\setminus\\{2\\}$$"
         ]
       },
       {
