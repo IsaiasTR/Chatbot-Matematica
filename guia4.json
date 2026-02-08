@@ -127,9 +127,9 @@
       },
       {
         "numero": 4,
-        "enunciado": "Sean f(x) y g(x). Hallar el valor de k ∈ ℝ tal que (g ∘ f)(1)=2.",
+        "enunciado": "Sea f(x). Calcular f^(-1)(x) y dar su dominio e imagen.",
         "expresiones": [
-              "f(x)=4x+k" , "g(x)=\\frac{10}{x}"
+              "f(x)=\\frac{3}{x-5}+2"
         ],
         "resolucion": [
                  "Buscamos el valor de k \\(\\in \\mathbb{R}\\) tal que se cumpla:",
