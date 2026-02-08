@@ -8,7 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const archivos = [
     "guia1.json",
     "guia2.json",
-    "guia3.json"
+    "guia3.json",
+    "guia4.json"
   ];
 
   Promise.all(
