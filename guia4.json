@@ -81,49 +81,48 @@
       },
       {
         "numero": 3,
-        "enunciado": "Sean f(x) , g(x) y h(x)=(f o g)(x). Hallar h(x) y dar las ecuaciones de todas las asíntotas de h(x).",
+        "enunciado": "Sea f(x). Hallar el dominio de f(x) y calcular la f^{-1}(x).",
         "expresiones": [
-          "f(x)=\\frac{x-1}{4x+3}" , "g(x)=x-2"
+          "f(x)=2ln(x-5)+3"
         ],
         "resolucion": [
-                   "Primero recordamos que la composición h(x)=(f o g)(x) significa reemplazar la variable x de la función f por la función g(x).",
-                   "Es decir:",
-                   "$$h(x)=f(g(x))$$",
+                    "Partimos de la función dada:",
+                    "$$f(x)=2\\ln(x-5)+3$$",
 
-                   "Dado que:",
-                   "$$f(x)=\\frac{x-1}{4x+3} \\quad \\text{y} \\quad g(x)=x-2$$",
+                    "<strong>Determinamos el dominio de f(x).</strong>",
+                    "El argumento del logaritmo debe ser positivo:",
+                    "$$x-5>0$$",
+                    "$$x>5$$",
 
-                   "Reemplazamos g(x) en f:",
-                   "$$h(x)=\\frac{(x-2)-1}{4(x-2)+3}$$",
+                    "<strong>Por lo tanto, el dominio de f es:</strong>",
+                    "$$Dom(f)=(5,+\\infty)$$",
 
-                   "Simplificamos numerador y denominador:",
-                   "$$(x-2)-1=x-3$$",
-                   "$$4(x-2)+3=4x-8+3=4x-5$$",
+                    "<strong>Calculamos la función inversa.</strong>",
+                    "Escribimos la función usando la variable y:",
+                    "$$y=2\\ln(x-5)+3$$",
 
-                   "Por lo tanto, la función compuesta queda:",
-                   "$$h(x)=\\frac{x-3}{4x-5}$$",
+                    "Pasamos el 3 restando al primer miembro:",
+                    "$$y-3=2\\ln(x-5)$$",
 
-                   "<span class=\"azul\">Calculamos el dominio de la función h(x).</span>",
-                   "$$D_h=\\mathbb{R}-\\{\\frac{5}{4}\\}$$",
+                    "Pasamos el 2 dividiendo al primer miembro:",
+                    "$$\\frac{y-3}{2}=\\ln(x-5)$$",
 
-                   "<strong>Ahora analizamos las asíntotas de la función h(x).</strong>",
+                    "Aplicamos la función exponencial a ambos miembros:",
+                    "$$e^{\\frac{y-3}{2}}=x-5$$",
 
-                   "<strong>Asíntota vertical:</strong>",
-                   "Analizamos el comportamiento de la función cuando x se aproxima a 5/4.",
-                   "$$\\lim_{x \\to \\frac{5}{4}} \\frac{x-3}{4x-5}=\\pm\\infty$$",
+                    "Despejamos x:",
+                    "$$x=e^{\\frac{y-3}{2}}+5$$",
 
-                   "Entonces, existe asíntota vertical en x=5/4.",
+                    "<strong>Intercambiamos las variables para obtener la función inversa.</strong>",
+                    "$$f^{-1}(x)=e^{\\frac{x-3}{2}}+5$$",
 
-                   "<strong>Asíntota horizontal:</strong>",
-                   "Como el grado del numerador y del denominador es el mismo, entonces la asíntota horizontal es el cociente de los coeficientes principales.",
-                   "$$\\lim_{x \\to \\infty} \\frac{x-3}{4x-5}=\\frac{1}{4}$$",
-                   "Entonces, existe asíntota horizontal en y=1/4",
+                    "<strong>Determinamos el dominio de la función inversa.</strong>",
+                    "La función exponencial está definida para todo número real:",
+                    "$$Dom\\left(f^{-1}\\right)=\\mathbb{R}$$",
 
-                   "<strong>En conclusión, las asíntotas de h(x) son:</strong>",
-                   "<span class=\"azul\">Asíntota vertical:</span>",
-                   "$$x=\\frac{5}{4}$$",
-                   "<span class=\"azul\">Asíntota horizontal:</span>",
-                   "$$y=\\frac{1}{4}$$"
+                    "<strong>Determinamos la imagen de la función inversa.</strong>",
+                    "Como la exponencial es siempre positiva:",
+                    "$$Im\\left(f^{-1}\\right)=(5,+\\infty)$$"
         ]
       },
       {
