@@ -1,4 +1,4 @@
-const CACHE_NAME = "chatbot-v6"; // 👈 número nuevo OBLIGATORIO
+const CACHE_NAME = "chatbot-v7"; // 👈 número nuevo OBLIGATORIO
 
 const FILES_TO_CACHE = [
   "./",
