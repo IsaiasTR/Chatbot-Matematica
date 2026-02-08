@@ -164,33 +164,32 @@
       },
       {
         "numero": 5,
-        "enunciado": "Analizar la existencia de asíntotas verticales de f(x) y cuando existan dar sus ecuaciones.",
+        "enunciado": "Sea f(x) y g(x). Hallar el dominio de (f o g)(x)",
         "expresiones": [
-          "f(x)=\\frac{4x}{x^2-x}"
+            "f(x)=\\ln(x)" , "g(x)=x^2-25"
         ],
         "resolucion": [
-                   "Dada la función racional:",
-                   "$$f(x)=\\frac{4x}{x^2-x}$$",
+                     "Recordamos que la composición (f ∘ g)(x) se define como:",
+                     "$$(f \\circ g)(x)=f(g(x))$$",
 
-                   "Comenzamos factorizando el denominador (otra opción es usar la resolvente)",
-                   "$$x^2-x=x(x-1)$$",
+                     "Reemplazamos g(x) en la expresión de f:",
+                     "$$(f \\circ g)(x)=\\ln(x^2-25)$$",
 
-                   "Reescribimos la función:",
-                   "$$f(x)=\\frac{4x}{x(x-1)}$$",
+                     "<strong>Determinamos el dominio de la función compuesta.</strong>",
 
-                   "Simplificamos el factor común que se repite, en este caso es x",
-                   "$$f(x)=\\frac{4}{x-1}$$",
+                     "Sabemos que el logaritmo natural solo está definido cuando su argumento es positivo:",
+                     "$$x^2-25>0$$",
 
-                   "<strong>Determinamos el dominio de la función.</strong>",
-                   "$$D_f=\\mathbb{R}-\\{1\\}$$",
+                     "Resolvemos la desigualdad:",
+                     "$$x^2>25$$",
+                     "$$|x|>5$$",
 
-                   "<strong>Asíntotas verticales</strong>",
-                   "$$\\lim_{x \\to 1} \\frac{4}{x-1}=\\frac{4}{0}=\\pm\\infty$$",
-                   "Por lo tanto, existe asíntota vertical en x=1.",
+                     "Esto equivale a:",
+                     "$$x<-5 \\quad \\text{o} \\quad x>5$$",
 
-                   "<strong>Conclusión:</strong>",
-                   "La única asíntota vertical de la función es:",
-                   "$$x=1$$"
+                     "<strong>Conclusión:</strong>",
+                     "El dominio de la función compuesta es:",
+                     "$$Dom(f \\circ g)=(-\\infty,-5)\\cup(5,+\\infty)$$"
         ]
       },
       {
