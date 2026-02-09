@@ -194,59 +194,52 @@
       },
       {
         "numero": 6,
-        "enunciado": "Sea f(x) la función lineal cuyo gráfico pasa por los puntos (-2,-7) y (1,5). Dar las ecuaciones de todas las asíntotas de h(x).",
+        "enunciado": "Sea f(x). Hallar el dominio de f(x) y calcular f^(-1)(x).",
         "expresiones": [
-                "h(x)=\\frac{f(x)}{5x+3}"
+                "f(x)=4+\\ln(\\frac{x-5}{2})"
         ],
         "resolucion": [
-                  "Primero determinamos la expresión de la función lineal f(x).",
+                    "Partimos de la función dada:",
+                    "$$f(x)=4+\\ln\\left(\\frac{x-5}{2}\\right)$$",
 
-                  "Los puntos dados son:",
-                  "$$A=(-2,-7) \\quad \\quad \\text{y} \\quad \\quad B=(1,5)$$",
+                    "<strong>1) Determinamos el dominio de f(x).</strong>",
+                    "El argumento del logaritmo debe ser positivo:",
+                    "$$\\frac{x-5}{2} > 0$$",
+                    "Como el denominador es positivo, la desigualdad depende del numerador:",
+                    "$$x-5 > 0$$",
+                    "$$x > 5$$",
 
-                  "Calculamos la pendiente de la recta:",
-                  "Consideramos",
-                  "$$x_1=-2 \\quad \\quad y_1=-7 \\quad \\quad x_2=1 \\quad \\quad y_2=5$$",
-                  "$$m=\\frac{y_2-y_1}{x_2-x_1}$$",
-                  "$$m=\\frac{5-(-7)}{1-(-2)}$$",
-                  "$$m=\\frac{12}{3}$$",
-                  "$$m=4$$",
+                    "<strong>Por lo tanto, el dominio de f(x) es:</strong>",
+                    "$$Dom(f) = (5,+\\infty)$$",
 
-                  "Ahora calculamos la ordenada al origen utilizando uno de los puntos.",
-                  "Usamos el punto B=(1,5):",
-                  "$$f(x)=4x+b$$",
-                  "$$5=4(1)+b$$",
-                  "$$b=1$$",
+                    "<strong>2) Calculamos la función inversa.</strong>",
+                    "Escribimos la función como:",
+                    "$$y = 4+\\ln\\left(\\frac{x-5}{2}\\right)$$",
 
-                  "<strong>Por lo tanto, la función lineal es:</strong>",
-                  "$$f(x)=4x+1$$",
+                    "Pasamos el 4 restando al primer miembro:",
+                    "$$y-4 = \\ln\\left(\\frac{x-5}{2}\\right)$$",
 
-                  "Reemplazamos f(x) en la expresión de h(x):",
-                  "$$h(x)=\\frac{4x+1}{5x+3}$$",
+                    "Aplicamos exponencial en ambos miembros:",
+                    "$$e^{\,y-4} = \\frac{x-5}{2}$$",
 
-                  "<strong>Calculamos el dominio</strong>",
-                  "$$D_h=\\mathbb{R}-\\left\\{-\\frac{3}{5}\\right\\}$$",
+                    "Multiplicamos por 2:",
+                    "$$2e^{\,y-4} = x-5$$",
 
-                  "<strong>Asíntota vertical.</strong>",
-                  "Analizamos el comportamiento de la función cuando x se aproxima a -3/5:",
-                  "$$\\lim_{x \\to -\\frac{3}{5}} \\frac{4x+1}{5x+3}=\\frac{-\\frac{7}{5}}{0}=\\pm\\infty$$",
+                    "Despejamos x:",
+                    "$$x = 2e^{\,y-4} + 5$$",
 
-                 "Por lo tanto, existe una asíntota vertical en:",
-                 "$$x=-\\frac{3}{5}$$",
+                    "<strong>Intercambiamos las variables para obtener la función inversa:</strong>",
+                    "$$f^{-1}(x) = 2e^{\,x-4} + 5$$",
 
-                 "<strong>Asíntota horizontal.</strong>",
-                 "Usando la técnica de los grados, observamos que el grado del numerador y del denominador son iguales.",
-                 "entonces, La asíntota horizontal es el cociente de los coeficientes principales:",
-                 "$$\\lim_{x \\to \\pm\\infty} \\frac{4x+1}{5x+3}=\\frac{4}{5}$$",
+                    "<strong>3) Dominio e imagen de la función inversa.</strong>",
+                    "La función exponencial está definida para todo número real.",
+                    "Por lo tanto:",
 
-                 "Por lo tanto, la asíntota horizontal es:",
-                 "$$y=\\frac{4}{5}$$",
+                    "<strong>Dominio de la inversa:</strong>",
+                    "$$Dom(f^{-1}) = \\mathbb{R}$$",
 
-                "<strong>CONCLUSIÓN:</strong>",
-                "<strong>Asíntota vertical:</strong>",
-                "$$x=-\\frac{3}{5}$$",
-                "<strong>Asíntota horizontal:</strong>",
-                "$$y=\\frac{4}{5}$$"
+                    "<strong>La imagen de la inversa coincide con el dominio de la función original:</strong>",
+                    "$$Im(f^{-1}) = (5,+\\infty)$$"
         ]
       },
       {
