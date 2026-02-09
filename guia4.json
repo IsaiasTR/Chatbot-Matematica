@@ -281,20 +281,66 @@
       },
       {
         "numero": 8,
-        "enunciado": "Sea f(x) y f(x)^-1 la función inversa de f(x). Calcular f(x)^-1 y dar las ecuaciones de todas sus asíntotas",
+        "enunciado": "Sean f(x) , g(x) y h(x)=(f o g)(x). Determinar a de modo que h(5)=0 para el valor de a hallado, dar el dominio de h(x) y su conjunto de positividad.",
         "expresiones": [
-                "f(x)=\\frac{x}{6x+2}"
+                "f(x)=\\ln(2x+a)" , "g(x)=x-1"
         ],
         "resolucion": [
-                    
+                        "Dadas las funciones:",
+                        "$$f(x)=\\ln(2x+a)$$",
+                        "$$g(x)=x-1$$",
+
+                        "<strong>Calculamos la función compuesta h(x)=(f \\circ g)(x).</strong>",
+                        "$$h(x)=f(g(x))$$",
+                        "$$h(x)=\\ln(2(x-1)+a)$$",
+                        "$$h(x)=\\ln(2x-2+a)$$",
+
+                        "<strong>Determinamos el valor de a usando la condición h(5)=0.</strong>",
+                        "$$h(5)=\\ln(2\\cdot5-2+a)=0$$",
+                        "$$\\ln(8+a)=0$$",
+
+                        "Aplicamos que:",
+                        "$$\\ln(1)=0$$",
+
+                        "Entonces:",
+                        "$$8+a=1$$",
+                        "$$a=-7$$",
+
+                        "<strong>Para a=-7, escribimos la función h(x).</strong>",
+                        "$$h(x)=\\ln(2x-9)$$",
+
+                         "<strong>Determinamos el dominio de h(x).</strong>",
+                         "El argumento del logaritmo debe ser positivo:",
+                         "$$2x-9>0$$",
+                         "$$2x>9$$",
+                         "$$x>\\frac{9}{2}$$",
+
+                         "<strong>Por lo tanto, el dominio de h(x) es:</strong>",
+                         "$$Dom(h)=\\left(\\frac{9}{2},+\\infty\\right)$$",
+
+                         "<strong>Determinamos el conjunto de positividad de h(x).</strong>",
+                         "La función logarítmica es positiva cuando su argumento es mayor que 1:",
+                         "$$2x-9>1$$",
+                         "$$2x>10$$",
+                         "$$x>5$$",
+
+                          "<strong>Por lo tanto, el conjunto de positividad es:</strong>",
+                          "$$\\{x\\in\\mathbb{R} : x>5\\}$$",
+
+                          "<strong>CONCLUSIÓN:</strong>",
+                          "Valor de a:",
+                          "$$a=-7$$",
+                          "Dominio de h(x):",
+                          "$$\\left(\\frac{9}{2},+\\infty\\right)$$",
+                          "Conjunto de positividad:",
+                          "$$(5,+\\infty)$$"
         ]
       },
       {
         "numero": 9,
-        "enunciado": "Sean f(x) , g(x) y h(x)=(f ∘ g)(x). Determinar \\{x \\in \\mathbb{R} / h(x)=9 \\} y dar las ecuaciones de todas las asíntotas de h(x).",
+        "enunciado": "Sean f(x). Determinar el valor de k ∈ ℝ. de manera que f(7)=5. con el valor de k encontrado calcular f^(-1)(x).",
         "expresiones": [
-            "f(x)=5x-6",
-            "g(x)=\\frac{x}{x-2}"
+            "f(x)=3e^{x+k}+2"
         ],
         "resolucion": [
 
