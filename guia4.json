@@ -244,54 +244,48 @@
       },
       {
         "numero": 7,
-        "enunciado": "Sea f(x). Hallar las ecuaciones de todas las asíntotas de f(x) ",
+        "enunciado": "Sea f(x). Hallar el dominio de f(x)",
         "expresiones": [
-               "f(x)=\\frac{-10x^2+4x}{2x^2-8}"
+               "f(x)=\\ln(\\frac{4x+1}{7x-6})"
         ],
         "resolucion": [
-                   "Dada la función racional:",
-                   "$$f(x)=\\frac{-10x^2+4x}{2x^2-8}$$",
+                          "Dada la función:",
+                          "$$f(x)=\\ln\\left(\\frac{4x+1}{7x-6}\\right)$$",
+ 
+                          "<strong>Condición de existencia del logaritmo.</strong>",
+                          "El argumento del logaritmo debe ser positivo:",
+                          "$$\\frac{4x+1}{7x-6} > 0$$",
 
-                   "Comenzamos factorizando numerador y denominador.",
+                          "<strong>Determinamos los puntos críticos.</strong>",
+                          "Los puntos críticos se obtienen anulando numerador y denominador:",
+                          "$$4x+1=0 \\Rightarrow x=-\\frac{1}{4}$$",
+                          "$$7x-6=0 \\Rightarrow x=\\frac{6}{7}$$",
 
-                   "Factorizamos el numerador:",
-                   "$$-10x^2+4x=-2x(5x-2)$$",
+                          "<strong>Ubicamos los puntos críticos en la recta real.</strong>",
+                          "$$-\\infty \\quad | \\quad -\\frac{1}{4} \\quad | \\quad \\frac{6}{7} \\quad | \\quad +\\infty$$",
 
-                   "Factorizamos el denominador:",
-                   "$$2x^2-8=2(x^2-4)=2(x-2)(x+2)$$",
+                          "<strong>Analizamos el signo de la expresión en cada intervalo.</strong>",
 
-                   "Reescribimos la función:",
-                   "$$f(x)=\\frac{-2x(5x-2)}{2(x-2)(x+2)}$$",
+                          "Tomamos un punto de prueba en $(-\\infty,-\\frac{1}{4})$, por ejemplo $x=-1$:",
+                          "$$\\frac{4(-1)+1}{7(-1)-6}=\\frac{-3}{-13}>0$$",
+                          "El cociente es positivo.",
 
-                   "Simplificamos el factor común 2:",
-                   "$$f(x)=\\frac{-x(5x-2)}{(x-2)(x+2)}$$",
+                          "Tomamos un punto de prueba en $(-\\frac{1}{4},\\frac{6}{7})$, por ejemplo $x=0$:",
+                          "$$\\frac{1}{-6}<0$$",
+                          "El cociente es negativo.",
 
-                   "<strong>Determinamos el dominio de la función.</strong>",
-                   "Los valores que anulan el denominador son x=2 y x=-2.",
-                   "$$D_f=\\mathbb{R}-\\{-2,2\\}$$",
+                          "Tomamos un punto de prueba en $(\\frac{6}{7},+\\infty)$, por ejemplo $x=1$:",
+                          "$$\\frac{5}{1}>0$$",
+                          "El cociente es positivo.",
 
-                   "<strong>Asíntotas verticales.</strong>",
-                   "Analizamos el comportamiento de la función cuando x se aproxima a 2:",
-                   "$$\\lim_{x \\to 2} \\frac{-x(5x-2)}{(x-2)(x+2)}=\\frac{-16}{0}=\\pm\\infty$$",
-                   "Por lo tanto, existe una asíntota vertical en x=2.",
+                          "<strong>Seleccionamos los intervalos que cumplen la condición.</strong>",
+                          "Como el argumento del logaritmo debe ser positivo, tomamos los intervalos donde el cociente es mayor que cero:",
 
-                   "Ahora analizamos el comportamiento de la función cuando x se aproxima a -2:",
-                   "$$\\lim_{x \\to -2} \\frac{-x(5x-2)}{(x-2)(x+2)}=\\frac{-24}{0}=\\pm\\infty$$",
-                   "Por lo tanto, existe una asíntota vertical en x=-2.",
+                          "$$Dom(f)=(-\\infty,-\\tfrac{1}{4}) \\cup (\\tfrac{6}{7},+\\infty)$$",
 
-                   "<strong>Asíntota horizontal.</strong>",
-                   "Usando la técnica de los grados, observamos que el grado del numerador y del denominador son iguales.",
-                   "Entonces, la asíntota horizontal se obtiene como el cociente de los coeficientes principales:",
-                   "$$\\lim_{x \\to \\infty} \\frac{-10x^2+4x}{2x^2-8}=\\frac{-10}{2}=-5$$",
-          
-                   "Por lo tanto, la asíntota horizontal es:",
-                   "$$y=-5$$",
-
-                   "<strong>CONCLUSIÓN:</strong>",
-                   "<strong>Asíntotas verticales:</strong>",
-                   "$$x=-2 \\quad \\text{y} \\quad x=2$$",
-                   "<strong>Asíntota horizontal:</strong>",
-                   "$$y=-5$$"
+                          "<strong>Conclusión:</strong>",
+                          "El dominio de la función es:",
+                          "$$Dom(f)=(-\\infty,-\\tfrac{1}{4}) \\cup (\\tfrac{6}{7},+\\infty)$$"
         ]
       },
       {
@@ -301,55 +295,7 @@
                 "f(x)=\\frac{x}{6x+2}"
         ],
         "resolucion": [
-                    "Dada la función:",
-                    "$$f(x)=\\frac{x}{6x+2}$$",
-
-                    "<strong>Calculamos la función inversa.</strong>",
-                    "Comenzamos escribiendo la función como:",
-                    "$$y=\\frac{x}{6x+2}$$",
-
-                    "Pasamos a multiplicar (6x+2) al primer miembro.",
-                    "$$y(6x+2)=x$$",
-
-                    "Aplicamos la propiedad distributiva",
-                    "$$6xy+2y=x$$",
-
-                    "Llevamos todos los términos con x a un mismo miembro:",
-                    "$$6xy-x=-2y$$",
-
-                    "Factorizamos x:",
-                    "$$x(6y-1)=-2y$$",
-
-                    "Despejamos x:",
-                    "$$x=\\frac{-2y}{6y-1}$$",
-
-                    "Intercambiamos x por y para obtener la función inversa:",
-                    "$$f^{-1}(x)=\\frac{-2x}{6x-1}$$",
-
-                    "<strong>Determinamos el dominio de la función inversa.</strong>",
-                    "$$6x-1 \\neq 0$$",
-                    "$$x \\neq \\frac{1}{6}$$",
-
-                    "<strong>Asíntota vertical.</strong>",
-                    "Analizamos el comportamiento cuando x se aproxima a 1/6:",
-                    "$$\\lim_{x \\to \\frac{1}{6}} \\frac{-2x}{6x-1}=\\frac{-\\frac{1}{3}}{0}=\\pm\\infty$$",
-
-                    "Por lo tanto, existe una asíntota vertical en:",
-                    "$$x=\\frac{1}{6}$$",
-
-                    "<strong>Asíntota horizontal.</strong>",
-                    "Usamos la técnica de los grados, el grado del numerador y del denominador es el mismo.",
-                    "Entonces, la asíntota horizontal es el cociente de los coeficientes principales:",
-                    "$$\\lim_{x \\to \\infty} \\frac{-2x}{6x-1}=\\frac{-2}{6}=-\\frac{1}{3}$$",
-
-                    "Por lo tanto, la asíntota horizontal es:",
-                    "$$y=-\\frac{1}{3}$$",
-
-                    "<strong>CONCLUSIÓN:</strong>",
-                    "<strong>Asíntota vertical:</strong>",
-                    "$$x=\\frac{1}{6}$$",
-                    "<strong>Asíntota horizontal:</strong>",
-                    "$$y=-\\frac{1}{3}$$"
+                    
         ]
       },
       {
@@ -360,71 +306,7 @@
             "g(x)=\\frac{x}{x-2}"
         ],
         "resolucion": [
-                 "Dadas las funciones:",
-                 "$$f(x)=5x-6 \\quad \\quad \\text{y} \\quad \\quad g(x)=\\frac{x}{x-2}$$",
 
-                 "<strong>Calculamos la función compuesta h(x)=(f ∘ g)(x).</strong>",
-                 "Recordamos que:",
-                 "$$h(x)=f(g(x))$$",
-
-                 "Reemplazamos g(x) en la expresión de f:",
-                 "$$h(x)=5\\left(\\frac{x}{x-2}\\right)-6$$",
-
-                 "$$h(x)=\\frac{5x}{x-2}-6$$",
-                 "Aplicamos común denominador:",
-                 "$$h(x)=\\frac{5x-6(x-2)}{x-2}$$",
-
-                 "Desarrollamos el numerador:",
-                 "$$5x-6x+12=-x+12$$",
-
-                 "<strong>Por lo tanto, la función compuesta queda:</strong>",
-                 "$$h(x)=\\frac{-x+12}{x-2}$$",
-
-                  "<strong>Determinamos el dominio de h(x).</strong>",
-                  "$$x-2 \\neq 0$$",
-                  "$$x \\neq 2$$",
-                  "Entonces:",
-                  "$$D_h=\\mathbb{R}-\\{2\\}$$",
-
-                  "<strong>Ahora resolvemos la ecuación h(x)=9.</strong>",
-                  "$$\\frac{-x+12}{x-2}=9$$",
-
-                  "Pasamos a multiplicar (x-2) al segundo miembro:",
-                  "$$-x+12=9(x-2)$$",
-
-                  "Desarrollamos:",
-                  "$$-x+12=9x-18$$",
-                  "$$-x-9x=-18-12$$",
-                  "$$-10x=-30$$",
-                  "$$x=3$$",
-
-                  "Como x=3 pertenece al dominio, la solución es válida.",
-                  "Por lo tanto:",
-                  "$$\\{x \\in \\mathbb{R} / h(x)=9\\}=\\{3\\}$$",
-
-                  "<strong>Analizamos las asíntotas de h(x).</strong>",
-
-                  "<strong>Asíntota vertical.</strong>",
-                  "Analizamos el comportamiento cuando x se aproxima a 2:",
-                  "$$\\lim_{x \\to 2} \\frac{-x+12}{x-2}=\\frac{10}{0}=\\pm\\infty$$",
-                  "Por lo tanto, existe una asíntota vertical en:",
-                  "$$x=2$$",
-
-                  "<strong>Asíntota horizontal.</strong>",
-                  "Usamos la técnica de los grados, el grado del numerador y del denominador es el mismo.",
-                  "Entonces, la asíntota horizontal es el cociente de los coeficientes principales:",
-                  "$$\\lim_{x \\to \\infty} \\frac{-x+12}{x-2}=\\frac{-1}{1}=-1$$",
-
-                  "Por lo tanto, la asíntota horizontal es:",
-                  "$$y=-1$$",
-
-                  "<strong>CONCLUSIÓN:</strong>",
-                  "<strong>Solución de h(x)=9:</strong>",
-                  "$$x=3$$",
-                  "<strong>Asíntota vertical:</strong>",
-                  "$$x=2$$",
-                  "<strong>Asíntota horizontal:</strong>",
-                  "$$y=-1$$"
         ]
       },
       {
@@ -434,60 +316,7 @@
           "f(x)=\\frac{ax^2+5}{4x^2-16}"
         ],
         "resolucion": [
-               "Dada la función racional:",
-               "$$f(x)=\\frac{ax^2+5}{4x^2-16}$$",
-
-               "<strong>Determinamos el valor de a para que y=3 sea asíntota horizontal.</strong>",
-               "Como el grado del numerador y del denominador es el mismo, la asíntota horizontal se obtiene como el cociente de los coeficientes principales.",
-
-               "El coeficiente principal del numerador es a y el del denominador es 4.",
-               "Entonces:",
-               "$$\\lim_{x \\to \\pm\\infty} \\frac{ax^2+5}{4x^2-16}=\\frac{a}{4}$$",
-
-               "Imponemos que la asíntota horizontal sea y=3:",
-               "$$\\frac{a}{4}=3$$",
-               "$$a=3(4)$$",
-               "$$a=12$$",
-
-               "<strong>Reemplazamos el valor de a en la función.</strong>",
-               "$$f(x)=\\frac{12x^2+5}{4x^2-16}$$",
-
-               "<strong>Calculamos el dominio de la función.</strong>",
-               "Entonces, calculamos las raíces del denominador factorizando (otra opción es usar la resolvente)",
-               "$$4x^2-16=0$$",
-               "$$4(x^2-4)=0$$",
-               "$$x^2-4=0$$",
-
-               "Resolvemos:",
-               "$$x=2 \\quad \\quad \\text{y} \\quad \\quad x=-2$$",
-
-               "<strong>El dominio de la función es:</strong>",
-               "$$D_f=\\mathbb{R} - \\{-2 , 2\\}$$",
-               "<strong>Asíntotas verticales</strong>",
-                                   
-               "Ahora analizamos el comportamiento de la función cuando x se aproxima a -2.",
-               "$$\\lim_{x \\to -2} \\frac{12x^2+5}{4x^2-16}$$",
-               "Entonces:",
-               "$$\\lim_{x \\to -2}  \\frac{12x^2+5}{4x^2-16}=\\frac{53}{0}=\\pm\\infty$$",
-
-               "<strong>En consecuencia, en x=-2 existe una asíntota vertical.</strong>",
-
-               "Ahora analizamos el comportamiento de la función cuando x se aproxima a 2.",
-               "$$\\lim_{x \\to 2} \\frac{12x^2+5}{4x^2-16}$$",
-               "Entonces:",
-               "$$\\lim_{x \\to 2}  \\frac{12x^2+5}{4x^2-16}=\\frac{53}{0}=\\pm\\infty$$",
-
-               "En consecuencia, en x=2 existe una asíntota vertical.",
-
-               "<strong>CONCLUSIÓN:</strong>",
-               "<strong>Valor de a:</strong>",
-               "$$a=12$$",
-
-               "<strong>Asíntota horizontal:</strong>",
-               "$$y=3$$",
-
-               "<strong>Asíntotas verticales:</strong>",
-               "$$x=2 \\quad \\quad  \\text{y} \\quad \\quad x=-2$$"
+              
         ]
       },
       {
@@ -497,66 +326,7 @@
           "f(x)=\\frac{-3x^2+x}{x^2-a}"
         ],
         "resolucion": [
-                 "Dada la función racional:",
-                 "$$f(x)=\\frac{-3x^2+x}{x^2-a}$$",
-
-                 "<strong>Buscamos el valor de a para que x=2 sea asíntota vertical.</strong>",
-                 "Una asíntota vertical ocurre cuando el denominador se anula y el numerador no.",
-
-                 "Imponemos la condición:",
-                 "$$x^2-a=0 \\quad \\quad \\text{en} \\quad \\quad x=2$$",
-
-                 "Reemplazamos x=2 en el denominador:",
-                 "$$2^2-a=0$$",
-                 "$$4-a=0$$",
-                 "$$a=4$$",
-
-                 "<strong>Verificamos que el numerador no se anule en x=2.</strong>",
-                 "$$-3(2)^2+2=-12+2=-10 \\neq 0$$",
-                 "Por lo tanto, x=2 es una asíntota vertical.",
-
-                 "<strong>Reemplazamos a=4 en la función.</strong>",
-                 "$$f(x)=\\frac{-3x^2+x}{x^2-4}$$",
-
-                 "<strong>Calculamos el dominio:</strong>",
-                 "Factorizamos el denominador (otra opción es usar la resolvente)",
-                 "$$x^2-4=(x-2)(x+2)=0$$",
-                 "$$x-2=0 \\quad \\text{;} \\quad x+2=0$$",
-                 "$$x=2 \\quad \\text{;} \\quad x=-2$$",
-
-                 "<strong>El dominio de la función es:</strong>",
-                 "$$D_f=\\mathbb{R} - \\{-2 , 2\\}$$",
-
-                 "<strong>Asíntotas verticales.</strong>",
-                 "Ahora analizamos el comportamiento de la función cuando x se aproxima a -2.",
-                 "$$\\lim_{x \\to -2} \\frac{-3x^2+x}{x^2-4}$$",
-                 "Entonces:",
-                 "$$\\lim_{x \\to -2}  \\frac{-3x^2+x}{x^2-4}=\\frac{-14}{0}=\\pm\\infty$$",
-
-                 "<strong>En consecuencia, en x=-2 existe una asíntota vertical.</strong>",
-
-                 "Ahora analizamos el comportamiento de la función cuando x se aproxima a 2.",
-                 "$$\\lim_{x \\to 2} \\frac{-3x^2+x}{x^2-4}$$",
-                 "Entonces:",
-                 "$$\\lim_{x \\to 2}  \\frac{-3x^2+x}{x^2-4}=\\frac{-10}{0}=\\pm\\infty$$",
-
-                 "<strong>En consecuencia, en x=2 existe una asíntota vertical.</strong>",
-
-                 "<strong>Asíntotas horizontales:</strong>",
-                 "Usamos la técnica de los grados, el grado del numerador y del denominador es el mismo.",
-                 "La asíntota horizontal es el cociente de los coeficientes principales:",
-                 "$$\\lim_{x \\to \\pm\\infty} \\frac{-3x^2+x}{x^2-4}=-3$$",
-
-                 "Por lo tanto, la asíntota horizontal es:",
-                 "$$y=-3$$",
-
-                 "<strong>CONCLUSIÓN:</strong>",
-                 "Valor de a:",
-                 "$$a=4$$",
-                 "Asíntotas verticales:",
-                 "$$x=2 \\quad \\quad \\text{y} \\quad \\quad x=-2$$",
-                 "Asíntota horizontal:",
-                 "$$y=-3$$"
+                 
         ]
       },
       {
@@ -566,51 +336,7 @@
           "f(x)=\\frac{ax+7}{3x+b}"
         ],
         "resolucion": [
-                "Dada la función racional:",
-                "$$f(x)=\\frac{ax+7}{3x+b}$$",
-
-                "<strong>Condición de asíntota horizontal.</strong>",
-                "Se nos pide que la recta y=-2 sea asíntota horizontal.",
-
-                "Usando la técnica de los grados, como el grado del numerador y del denominador es el mismo, la asíntota horizontal es el cociente de los coeficientes principales.",
-                "$$\\lim_{x \\to \\pm\\infty} \\frac{ax+7}{3x+b}=\\frac{a}{3}$$",
-
-                "Imponemos la condición:",
-                "$$\\frac{a}{3}=-2$$",
-                "$$a=-6$$",
-
-                "<strong>Condición de asíntota vertical.</strong>",
-                "Se nos pide que x=-3 sea asíntota vertical, por lo tanto el denominador debe anularse en x=-3.",
-
-                "Imponemos la condición:",
-                "$$3(-3)+b=0$$",
-                "$$-9+b=0$$",
-                "$$b=9$$",
-
-                "<strong>Verificamos que el numerador no se anule en x=-3.</strong>",
-                "$$-6(-3)+7=18+7=25 \\neq 0$$",
-                "Por lo tanto, x=-3 es una asíntota vertical.",
-
-                "<strong>Reemplazamos los valores hallados en la función.</strong>",
-                "$$f(x)=\\frac{-6x+7}{3x+9}$$",
-
-                "<strong>Determinamos el dominio de la función.</strong>",
-                "$$3x+9 \\neq 0$$",
-                "$$x \\neq -3$$",
-
-                "<strong>Por lo tanto, el dominio de la función es:</strong>",
-                "$$D_f=\\mathbb{R}-\\{-3\\}$$",
-
-                "<strong>Conclusión:</strong>",
-                "Valores hallados:",
-                "$$a=-6 \\quad \\quad \\text{y} \\quad \\quad b=9$$",
-                "<strong>Asíntota horizontal:</strong>",
-                "$$y=-2$$",
-                "<strong>Asíntota vertical:</strong>",
-                "$$x=-3$$",
-                "<strong>Dominio:<strong>",
-                "$$D_f=\\mathbb{R}-\\{-3\\}$$"
-          
+                
         ]
       }
     ]
