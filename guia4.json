@@ -220,16 +220,16 @@
                     "$$y-4 = \\ln\\left(\\frac{x-5}{2}\\right)$$",
 
                     "Aplicamos exponencial en ambos miembros:",
-                    "$$e^{\,y-4} = \\frac{x-5}{2}$$",
+                    "$$e^{y-4} = \\frac{x-5}{2}$$",
 
                     "Multiplicamos por 2:",
-                    "$$2e^{\,y-4} = x-5$$",
+                    "$$2e^{y-4} = x-5$$",
 
                     "Despejamos x:",
-                    "$$x = 2e^{\,y-4} + 5$$",
+                    "$$x = 2e^{y-4} + 5$$",
 
                     "<strong>Intercambiamos las variables para obtener la función inversa:</strong>",
-                    "$$f^{-1}(x) = 2e^{\,x-4} + 5$$",
+                    "$$f^{-1}(x) = 2e^{x-4} + 5$$",
 
                     "<strong>3) Dominio e imagen de la función inversa.</strong>",
                     "La función exponencial está definida para todo número real.",
