@@ -264,20 +264,11 @@
                           "<strong>Ubicamos los puntos críticos en la recta real.</strong>",
                           "$$-\\infty \\quad | \\quad -\\frac{1}{4} \\quad | \\quad \\frac{6}{7} \\quad | \\quad +\\infty$$",
 
-                          "<strong>Analizamos el signo de la expresión en cada intervalo.</strong>",
-
-                          "Tomamos un punto de prueba en $(-\\infty,-\\frac{1}{4})$, por ejemplo $x=-1$:",
-                          "$$\\frac{4(-1)+1}{7(-1)-6}=\\frac{-3}{-13}>0$$",
-                          "El cociente es positivo.",
-
-                          "Tomamos un punto de prueba en $(-\\frac{1}{4},\\frac{6}{7})$, por ejemplo $x=0$:",
-                          "$$\\frac{1}{-6}<0$$",
-                          "El cociente es negativo.",
-
-                          "Tomamos un punto de prueba en $(\\frac{6}{7},+\\infty)$, por ejemplo $x=1$:",
-                          "$$\\frac{5}{1}>0$$",
-                          "El cociente es positivo.",
-
+                          "Analizamos el signo del numerador y del denominador.",
+                          "En este caso resulta: + / + = + , por lo que comenzamos por la derecha con el signo positivo.",
+                          "Quedan los intervalos de la siguiente forma:",
+                          "$$ + \\quad \\quad - \\quad \\quad + $$",
+                          "Como el ejercicio pide los valores mayores que cero (>0):",
                           "<strong>Seleccionamos los intervalos que cumplen la condición.</strong>",
                           "Como el argumento del logaritmo debe ser positivo, tomamos los intervalos donde el cociente es mayor que cero:",
 
