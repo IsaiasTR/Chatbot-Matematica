@@ -547,7 +547,47 @@
                "El valor de la función en x=-1 es:",
                "$$f(-1)=\\frac{4}{3}$$"
         ]
-      }
+      },
+      {
+        "numero": 13,
+        "enunciado": "Sean f(x) , g(x) . Hallar el valor de k ∈ ℝ tal que (g o f)(1)=2.",
+        "expresiones": [
+          "f(x)=4x+k" ,  "g(x)=\\frac{10}{x}"
+        ],
+          "resolucion": [
+                 "Comenzamos calculando la función compuesta h(x)=(g o f)(x).",
+                 "Por definición:",
+                 "$$h(x)=g(f(x))$$",
+
+                 "Reemplazamos f(x) en g(x):",
+                 "$$h(x)=g(4x+k)=\\frac{10}{4x+k}$$",
+
+                 "<strong>Evaluamos la función compuesta en x=1.</strong>",
+                 "$$h(1)=\\frac{10}{4(1)+k}=\\frac{10}{4+k}$$",
+
+                "Según el enunciado se cumple que:",
+                "$$(g \\circ f)(1)=2$$",
+
+                "Igualamos:",
+                "$$\\frac{10}{4+k}=2$$",
+
+                "Pasamos el denominador al segundo miembro:",
+                "$$10=2(4+k)$$",
+
+                "Aplicamos la distributiva:",
+                "$$10=8+2k$$",
+
+                "Pasamos el 8 a restar:",
+                "$$2k=2$$",
+
+                "Dividimos por 2:",
+                "$$k=1$$",
+
+                "<strong>Conclusión:</strong>",
+                "El valor de k que verifica la condición pedida es:",
+                "$$k=1$$"
+         ]
+      }  
     ]
   }
 ]
