@@ -462,12 +462,49 @@
       },
       {
         "numero": 11,
-        "enunciado": "Sea f(x). Hallar a ∈ ℝ para que la recta de ecuación x=2 sea asíntota vertical de f. Para el valor de a hallado, dar las ecuaciones de todas las asíntotas horizontales y verticales de f.",
+        "enunciado": "Sean f(x) , g(x) y h(x)=(f o g)(x). Calcular h^{-1}(5)",
         "expresiones": [
-          "f(x)=\\frac{-3x^2+x}{x^2-a}"
+          "f(x)=4+x" ,  "g(x)=e^{3x-2}"
         ],
         "resolucion": [
-                 
+                 "Comenzamos definiendo la función composición.",
+                 "Como h(x)=(f o g)(x), se tiene:",
+                 "$$h(x)=f(g(x))$$",
+
+                 "Reemplazamos g(x) en f(x):",
+                 "$$h(x)=f(e^{3x-2})$$",
+
+                 "Usamos la definición de f(x)=4+x:",
+                 "$$h(x)=4+e^{3x-2}$$",
+
+                 "<strong>Calculamos la función inversa de h(x).</strong>",
+                 "Comenzamos escribiendo:",
+                 "$$y=4+e^{3x-2}$$",
+
+                 "El 4 lo pasamos a restar al primer miembro:",
+                 "$$y-4=e^{3x-2}$$",
+
+                 "Pasamos e como logaritmo natural al segundo miembro:",
+                 "$$\\ln(y-4)=3x-2$$",
+
+                 "Despejamos x:",
+                 "$$3x=\\ln(y-4)+2$$",
+                 "$$x=\\frac{\\ln(y-4)+2}{3}$$",
+
+                 "Intercambiamos variables para obtener la inversa:",
+                 "$$h^{-1}(x)=\\frac{\\ln(x-4)+2}{3}$$",
+
+                 "<strong>Calculamos h^{-1}(5).</strong>",
+                 "Reemplazamos x=5 en la expresión obtenida:",
+                 "$$h^{-1}(5)=\\frac{\\ln(5-4)+2}{3}$$",
+ 
+                 "Simplificamos:",
+                 "$$h^{-1}(5)=\\frac{\\ln(1)+2}{3}$$",
+                 "$$h^{-1}(5)=\\frac{2}{3}$$",
+
+                  "<strong>Conclusión:</strong>",
+                  "El valor buscado es:",
+                  "$$h^{-1}(5)=\\frac{2}{3}$$"                 
         ]
       },
       {
