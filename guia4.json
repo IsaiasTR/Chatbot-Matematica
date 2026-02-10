@@ -290,7 +290,7 @@
                         "$$f(x)=\\ln(2x+a)$$",
                         "$$g(x)=x-1$$",
 
-                        "<strong>Calculamos la función compuesta h(x)=(f \\circ g)(x).</strong>",
+                        "<strong>Calculamos la función compuesta h(x)=(f o g)(x).</strong>",
                         "$$h(x)=f(g(x))$$",
                         "$$h(x)=\\ln(2(x-1)+a)$$",
                         "$$h(x)=\\ln(2x-2+a)$$",
@@ -338,12 +338,64 @@
       },
       {
         "numero": 9,
-        "enunciado": "Sean f(x). Determinar el valor de k ∈ ℝ. de manera que f(7)=5. con el valor de k encontrado calcular f^(-1)(x).",
+        "enunciado": "Sean f(x). Determinar el valor de k ∈ ℝ de manera que f(7)=5. con el valor de k encontrado calcular f^{-1}(x).",
         "expresiones": [
             "f(x)=3e^{x+k}+2"
         ],
         "resolucion": [
+                   "Partimos de la función dada:",
+                   "$$f(x)=3e^{x+k}+2$$",
 
+                   "<strong>Determinamos el valor de k usando la condición f(7)=5.</strong>",
+                   "Evaluamos la función en x=7:",
+                   "$$f(7)=3e^{7+k}+2$$",
+
+                   "Imponemos la condición:",
+                   "$$3e^{7+k}+2=5$$",
+
+                   "Pasamos el 2 a restar al primer miembro:",
+                   "$$3e^{7+k}=3$$",
+
+                   "Pasamos el 3 a dividir al primer miembro:",
+                   "$$e^{7+k}=1$$",
+
+                   "Pasamos e como logaritmo natural al segundo miembro:",
+                   "$$\\ln(e^{7+k})=\\ln(1)$$",
+
+                   "Simplificamos:",
+                   "$$7+k=0$$",
+
+                   "Despejamos k:",
+                   "$$k=-7$$",
+
+                   "<strong>Reescribimos la función con el valor de k hallado.</strong>",
+                   "$$f(x)=3e^{x-7}+2$$",
+
+                   "<strong>Calculamos la función inversa.</strong>",
+                   "Comenzamos escribiendo la función como:",
+                   "$$y=3e^{x-7}+2$$",
+
+                   "Pasamos el 2 a restar al primer miembro:",
+                   "$$y-2=3e^{x-7}$$",
+
+                   "Pasamos el 3 a dividir al primer miembro:",
+                   "$$\\frac{y-2}{3}=e^{x-7}$$",
+
+                   "Pasamos e como logaritmo natural al segundo miembro:",
+                   "$$\\ln\\left(\\frac{y-2}{3}\\right)=x-7$$",
+
+                   "Despejamos x:",
+                   "$$x=7+\\ln\\left(\\frac{y-2}{3}\\right)$$",
+
+                   "<strong>Intercambiamos variables para obtener la función inversa.</strong>",
+                   "$$f^{-1}(x)=7+\\ln\\left(\\frac{x-2}{3}\\right)$$",
+
+                   "<strong>Conclusión:</strong>",
+                   "El valor de k es:",
+                   "$$k=-7$$",
+
+                    "<strong>La función inversa es:</strong>",
+                    "$$f^{-1}(x)=7+\\ln\\left(\\frac{x-2}{3}\\right)$$"
         ]
       },
       {
