@@ -400,12 +400,64 @@
       },
       {
         "numero": 10,
-        "enunciado": "Sea f(x). Hallar a ∈ ℝ para que la recta de ecuación y=3 sea asíntota horizontal de f. Para el valor de a hallado, dar las ecuaciones de todas las asíntotas verticales de f.",
+        "enunciado": "Sean f(x) , g(x) y h(x)=(g o f)(x). Hallar los ceros de h^{-1}(x)",
         "expresiones": [
-          "f(x)=\\frac{ax^2+5}{4x^2-16}"
+          "f(x)=\\frac{1}{x-4}" , "g(x)=2x+3"
         ],
         "resolucion": [
-              
+                  "Comenzamos calculando la función compuesta h(x)=(g o f)(x).",
+                  "Reemplazamos f(x) en g(x):",
+                  "$$h(x)=g\\left(\\frac{1}{x-4}\\right)$$",
+
+                  "Sustituimos en la expresión de g:",
+                  "$$h(x)=2\\left(\\frac{1}{x-4}\\right)+3$$",
+
+                   "Unificamos en una sola fracción:",
+                   "$$h(x)=\\frac{2}{x-4}+3$$",
+                   "$$h(x)=\\frac{2+3(x-4)}{x-4}$$",
+                   "$$h(x)=\\frac{3x-10}{x-4}$$",
+
+                   "<strong>Calculamos la función inversa de h(x).</strong>",
+                   "Escribimos la función como:",
+                   "$$y=\\frac{3x-10}{x-4}$$",
+
+                  "Multiplicamos ambos miembros por (x-4):",
+                  "$$y(x-4)=3x-10$$",
+
+                  "Aplicamos distributiva:",
+                  "$$yx-4y=3x-10$$",
+
+                  "Llevamos los términos con x a un mismo miembro:",
+                  "$$yx-3x=4y-10$$",
+
+                  "Factorizamos x:",
+                  "$$x(y-3)=4y-10$$",
+
+                  "Despejamos x:",
+                  "$$x=\\frac{4y-10}{y-3}$$",
+
+                  "Intercambiamos x por y para obtener la inversa:",
+                  "$$h^{-1}(x)=\\frac{4x-10}{x-3}$$",
+
+                  "<strong>Buscamos los ceros de h^{-1}(x).</strong>",
+                  "Los ceros se obtienen igualando el numerador a cero, verificando que el denominador no se anule.",
+
+                  "Igualamos el numerador a cero:",
+                  "$$4x-10=0$$",
+
+                  "Resolvemos la ecuación:",
+                  "$$4x=10$$",
+                  "$$x=\\frac{5}{2}$$",
+
+                  "<strong>Verificamos el dominio.</strong>",
+                  "El denominador no debe anularse:",
+                  "$$x-3 \\neq 0 \\Rightarrow x \\neq 3$$",
+
+                  "Como \\( \\frac{5}{2} \\neq 3 \\), el valor es válido.",
+
+                  "<strong>Conclusión:</strong>",
+                  "El único cero de la función inversa es:",
+                  "$$x=\\frac{5}{2}$$"
         ]
       },
       {
