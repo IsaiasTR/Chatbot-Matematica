@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
     "guia1.json",
     "guia2.json",
     "guia3.json",
-    "guia4.json"
+    "guia4.json",
+    "guia5.json"
   ];
 
   Promise.all(
