@@ -1,0 +1,414 @@
+[
+  {
+    "archivo": "Guia 5.pdf",
+    "pagina": 5,
+    "titulo": "Derivadas",
+    "ejercicios": [
+      {
+        "numero": 1,
+        "enunciado": "Sea f(x). Hallar la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x₀=-4.",
+        "expresiones": [
+          "f(x)=e^{16-x^2}-3"
+        ],
+        "resolucion": [
+            "<strong>Primero derivamos la función.</strong>",
+            "Aplicamos regla de la cadena:",
+            "$$f'(x)=e^{16-x^2}(-2x)$$",
+            "$$f'(x)=-2x e^{16-x^2}$$",
+
+            "Calculamos la pendiente en x₀=-4.",
+            "$$f'(-4)=-2(-4)e^{16-(-4)^2}$$",
+            "$$f'(-4)=8e^{0}$$",
+            "$$f'(-4)=8$$",
+            "La pendiente de la recta tangente es m=8.",
+
+           "<strong>Ahora buscamos el punto de paso.</strong>",
+           "Evaluamos la función en x₀=-4.",
+            "$$f(-4)=e^{16-(-4)^2}-3$$",
+            "$$f(-4)=e^{16-16}-3$$",
+            "$$f(-4)=e^{0}-3$$",
+            "$$f(-4)=1-3=-2$$",
+            "El punto de paso es P=(-4 , -2).",
+
+            "<strong>Ecuación de la recta tangente.</strong>",
+            "Reemplazamos el punto de paso en la ecuación general de la recta:",
+            "$$y=8x+b$$",
+            "$$-2=8(-4)+b$$",
+            "$$-2=-32+b$$",
+            "$$b=30$$",
+
+            "<strong>Conclusión.</strong>",
+            "La ecuación de la recta tangente es:",
+            "$$y=8x+30$$"
+        ]
+      },
+      {
+        "numero": 2,
+        "enunciado": "Sea f(x). Hallar la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x₀=1.",
+        "expresiones": [
+               "f(x)=2+\\ln(5x^3-4)"
+        ],
+        "resolucion": [
+                       "<strong>Primero derivamos la función.</strong>",
+                       "Aplicamos regla de la cadena:",
+                       "$$f'(x)=\\frac{1}{5x^3-4} \\cdot 15x^2$$",
+                       "$$f'(x)=\\frac{15x^2}{5x^3-4}$$",
+
+                       "Calculamos la pendiente en x₀=1.",
+                       "$$f'(1)=\\frac{15(1)^2}{5(1)^3-4}$$",
+                       "$$f'(1)=\\frac{15}{5-4}$$",
+                       "$$f'(1)=15$$",
+                       "La pendiente de la recta tangente es m=15.",
+
+                       "<strong>Ahora buscamos el punto de paso.</strong>",
+                       "Evaluamos la función en x₀=1.",
+                       "$$f(1)=2+\\ln(5(1)^3-4)$$",
+                       "$$f(1)=2+\\ln(5-4)$$",
+                       "$$f(1)=2+\\ln(1)$$",
+                       "$$f(1)=2+0=2$$",
+                       "El punto de paso es P=(1 , 2).",
+
+                       "<strong>Ecuación de la recta tangente.</strong>",
+                       "Reemplazamos el punto de paso en la ecuación general de la recta:",
+                       "$$y=15x+b$$",
+                       "$$2=15(1)+b$$",
+                       "$$2=15+b$$",
+                       "$$b=-13$$",
+
+                       "<strong>Conclusión.</strong>",
+                       "La ecuación de la recta tangente es:",
+                       "$$y=15x-13$$"
+        ]
+      },
+      {
+        "numero": 3,
+        "enunciado": "Hallar la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x₀=0.",
+        "expresiones": [
+          "f(x)=2+5x+\\sin(3x)"
+        ],
+        "resolucion": [
+                      "<strong>Primero derivamos la función.</strong>",
+                      "Derivamos término a término:",
+                      "$$f'(x)=0+5+\\cos(3x)\\cdot 3$$",
+                      "$$f'(x)=5+3\\cos(3x)$$",
+
+                      "Calculamos la pendiente en x₀=0.",
+                      "$$f'(0)=5+3\\cos(0)$$",
+                      "$$f'(0)=5+3(1)$$",
+                      "$$f'(0)=8$$",
+                      "La pendiente de la recta tangente es m=8.",
+
+                      "<strong>Ahora buscamos el punto de paso.</strong>",
+                      "Evaluamos la función en x₀=0.",
+                      "$$f(0)=2+5(0)+\\sin(0)$$",
+                      "$$f(0)=2+0+0$$",
+                      "$$f(0)=2$$",
+                      "El punto de paso es P=(0 , 2).",
+
+                      "<strong>Ecuación de la recta tangente.</strong>",
+                      "Reemplazamos el punto de paso en la ecuación general de la recta:",
+                      "$$y=8x+b$$",
+                      "$$2=8(0)+b$$",
+                      "$$2=b$$",
+
+                      "<strong>Conclusión.</strong>",
+                      "La ecuación de la recta tangente es:",
+                      "$$y=8x+2$$"
+        ]
+      },
+      {
+        "numero": 4,
+        "enunciado": "Sea f(x). Hallar la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x₀=0.",
+        "expresiones": [
+              "f(x)=(4x+1)^4"
+        ],
+        "resolucion": [
+                     "<strong>Primero derivamos la función.</strong>",
+                     "Aplicamos regla de la cadena:",
+                     "$$f'(x)=4(4x+1)^3 \\cdot 4$$",
+                     "$$f'(x)=16(4x+1)^3$$",
+
+                     "Calculamos la pendiente en x₀=0.",
+                     "$$f'(0)=16(4(0)+1)^3$$",
+                     "$$f'(0)=16(1)^3$$",
+                     "$$f'(0)=16$$",
+                     "La pendiente de la recta tangente es m=16.",
+
+                     "<strong>Ahora buscamos el punto de paso.</strong>",
+                     "Evaluamos la función en x₀=0.",
+                     "$$f(0)=(4(0)+1)^4$$",
+                     "$$f(0)=(1)^4$$",
+                     "$$f(0)=1$$",
+                     "El punto de paso es P=(0 , 1).",
+
+                     "<strong>Ecuación de la recta tangente.</strong>",
+                     "Reemplazamos el punto de paso en la ecuación general de la recta:",
+                     "$$y=16x+b$$",
+                     "$$1=16(0)+b$$",
+                     "$$1=b$$",
+
+                     "<strong>Conclusión.</strong>",
+                     "La ecuación de la recta tangente es:",
+                     "$$y=16x+1$$"    
+        ]
+      },
+      {
+        "numero": 5,
+        "enunciado": "Sea f(x). Dar la ecuación de la recta tangente al gráfico de f(x) en (-5;f(-5)).",
+        "expresiones": [
+            "f(x)=x\\ln(x^2-24)+6"
+        ],
+        "resolucion": [
+                      "<strong>Primero derivamos la función.</strong>",
+                      "Aplicamos regla del producto:",
+                      "$$f'(x)=1\\cdot\\ln(x^2-24)+x\\cdot\\frac{1}{x^2-24}\\cdot 2x$$",
+                      "$$f'(x)=\\ln(x^2-24)+\\frac{2x^2}{x^2-24}$$",
+
+                      "Calculamos la pendiente en x=-5.",
+                      "$$f'(-5)=\\ln((-5)^2-24)+\\frac{2(-5)^2}{(-5)^2-24}$$",
+                      "$$f'(-5)=\\ln(25-24)+\\frac{2\\cdot25}{25-24}$$",
+                      "$$f'(-5)=\\ln(1)+\\frac{50}{1}$$",
+                      "$$f'(-5)=0+50$$",
+                      "$$f'(-5)=50$$",
+                      "La pendiente de la recta tangente es m=50.",
+
+                      "<strong>Ahora buscamos el punto de paso.</strong>",
+                      "Evaluamos la función en x=-5.",
+                      "$$f(-5)=(-5)\\ln((-5)^2-24)+6$$",
+                      "$$f(-5)=(-5)\\ln(25-24)+6$$",
+                      "$$f(-5)=(-5)\\ln(1)+6$$",
+                      "$$f(-5)=(-5)\\cdot0+6$$",
+                      "$$f(-5)=6$$",
+                      "El punto de paso es P=(-5 , 6).",
+
+                      "<strong>Ecuación de la recta tangente.</strong>",
+                      "Reemplazamos el punto de paso en la ecuación general de la recta:",
+                      "$$y=50x+b$$",
+                      "$$6=50(-5)+b$$",
+                      "$$6=-250+b$$",
+                      "$$b=256$$",
+
+                      "<strong>Conclusión.</strong>",
+                      "La ecuación de la recta tangente es:",
+                      "$$y=50x+256$$"
+        ]
+      },
+      {
+        "numero": 6,
+        "enunciado": "Sea f(x). Hallar a para que la pendiente de la recta tangente al gráfico de f(x) en el punto (6;f(6)) sea 8. Dar la ecuación de la recta tangente en dicho punto.",
+        "expresiones": [
+                "f(x)=4e^{2x-a}+5"
+        ],
+        "resolucion": [
+                    "<strong>Primero derivamos la función.</strong>",
+                    "Aplicamos regla de la cadena:",
+                    "$$f'(x)=4e^{2x-a}\\cdot 2$$",
+                    "$$f'(x)=8e^{2x-a}$$",
+
+                    "<strong>Imponemos la condición sobre la pendiente.</strong>",
+                    "Queremos que la pendiente en x=6 sea 8.",
+                    "$$f'(6)=8$$",
+                    "$$8e^{2(6)-a}=8$$",
+                    "$$8e^{12-a}=8$$",
+                    "$$e^{12-a}=1$$",
+
+                    "Sabemos que e^0=1, entonces:",
+                    "$$12-a=0$$",
+                    "$$a=12$$",
+
+                    "<strong>Ahora buscamos el punto de paso.</strong>",
+                    "Reemplazamos a=12 en la función.",
+                    "$$f(x)=4e^{2x-12}+5$$",
+                    "Evaluamos en x=6.",
+                    "$$f(6)=4e^{12-12}+5$$",
+                    "$$f(6)=4e^{0}+5$$",
+                    "$$f(6)=4(1)+5$$",
+                    "$$f(6)=9$$",
+                    "El punto de paso es P=(6 , 9).",
+
+                    "<strong>Ecuación de la recta tangente.</strong>",
+                    "La pendiente es m=8.",
+                    "$$y=8x+b$$",
+                    "$$9=8(6)+b$$",
+                    "$$9=48+b$$",
+                    "$$b=-39$$",
+
+                    "<strong>Conclusión.</strong>",
+                    "El valor de a es:",
+                    "$$a=12$$",
+                    "La ecuación de la recta tangente es:",
+                    "$$y=8x-39$$"
+        ]
+      },
+      {
+        "numero": 7,
+        "enunciado": "Hallar a y b para que la ecuación de la recta tangente al gráfico de f(x) en x₀=4 sea y=1. ",
+        "expresiones": [
+               "f(x)=e^{x^3+ax^2+b}"
+        ],
+        "resolucion": [
+                    "<strong>Condiciones que debe cumplir la función.</strong>",
+                    "Si la recta tangente es y=1, entonces:",
+                    "1) La pendiente debe ser 0.",
+                    "$$f'(4)=0$$",
+                    "2) El punto de tangencia debe pertenecer a la recta.",
+                    "$$f(4)=1$$",
+
+                     "<strong>Primero derivamos la función.</strong>",
+                     "Aplicamos regla de la cadena:",
+                     "$$f'(x)=e^{x^3+ax^2+b}(3x^2+2ax)$$",
+
+                     "<strong>Imponemos la condición f'(4)=0.</strong>",
+                     "$$f'(4)=e^{64+16a+b}(3(4)^2+2a(4))$$",
+                     "$$f'(4)=e^{64+16a+b}(48+8a)$$",
+                     "Como la función exponencial nunca es cero, debe cumplirse:",
+                     "$$48+8a=0$$",
+                     "$$8a=-48$$",
+                     "$$a=-6$$",
+
+                     "<strong>Ahora imponemos la condición f(4)=1.</strong>",
+                     "Reemplazamos a=-6 en la función:",
+                     "$$f(4)=e^{64+16(-6)+b}$$",
+                     "$$f(4)=e^{64-96+b}$$",
+                     "$$f(4)=e^{-32+b}$$",
+
+                     "Imponemos la condición:",
+                     "$$e^{-32+b}=1$$",
+
+                     "Sabemos que e^0=1, entonces:",
+                     "$$-32+b=0$$",
+                     "$$b=32$$",
+
+                     "<strong>Conclusión.</strong>",
+                     "Los valores que verifican la condición son:",
+                     "$$a=-6$$",
+                     "$$b=32$$"      
+        ]
+      },
+      {
+        "numero": 8,
+        "enunciado": "Sean f(x). Hallar a para que la recta tangente al gráfico de f(x) en (1;f(1)) sea paralela a la recta de ecuación y=3x+2.",
+        "expresiones": [
+                "f(x)=ax+1+e^{1-x^2}"
+        ],
+        "resolucion": [
+                        "<strong>Condición de paralelismo.</strong>",
+                        "La recta y=3x+2 tiene pendiente 3.",
+                        "Para que la recta tangente sea paralela, debe cumplirse:",
+                        "$$f'(1)=3$$",
+
+                        "<strong>Primero derivamos la función.</strong>",
+                        "Derivamos término a término.",
+                        "$$f'(x)=a+e^{1-x^2}(-2x)$$",
+                        "$$f'(x)=a-2x e^{1-x^2}$$",
+
+                        "<strong>Imponemos la condición en x=1.</strong>",
+                        "$$f'(1)=a-2(1)e^{1-1^2}$$",
+                        "$$f'(1)=a-2e^{0}$$",
+                        "$$f'(1)=a-2$$",
+
+                        "Igualamos a la pendiente 3:",
+                        "$$a-2=3$$",
+                        "$$a=5$$",
+
+                        "<strong>Conclusión.</strong>",
+                        "El valor de a para que la recta tangente sea paralela a y=3x+2 es:",
+                        "$$a=5$$"
+        ]
+      },
+      {
+        "numero": 9,
+        "enunciado": "Encontrar el punto del gráfico de f(x) en el que la recta tangente tiene pendiente m=3. Escribir la ecuación de dicha recta tangente.",
+        "expresiones": [
+            "f(x)=e^{x^2-8x+16}+3x+7"
+        ],
+        "resolucion": [
+                    "<strong>Primero derivamos la función.</strong>",
+                    "Observamos que x^2-8x+16=(x-4)^2.",
+                    "Derivamos aplicando regla de la cadena:",
+                    "$$f'(x)=e^{x^2-8x+16}(2x-8)+3$$",
+                    "$$f'(x)=e^{(x-4)^2}(2x-8)+3$$",
+
+                    "<strong>Buscamos donde la pendiente sea 3.</strong>",
+                    "$$f'(x)=3$$",
+                    "$$e^{(x-4)^2}(2x-8)+3=3$$",
+
+                    "Pasamos el 3 a restar:",
+                    "$$e^{(x-4)^2}(2x-8)=0$$",
+
+                   "La función exponencial nunca es cero, entonces debe cumplirse:",
+                   "$$2x-8=0$$",
+                   "$$x=4$$",
+
+                   "<strong>Ahora buscamos el punto del gráfico.</strong>",
+                   "Evaluamos la función en x=4.",
+                   "$$f(4)=e^{(4-4)^2}+3(4)+7$$",
+                   "$$f(4)=e^{0}+12+7$$",
+                   "$$f(4)=1+12+7$$",
+                   "$$f(4)=20$$",
+                   "El punto buscado es P=(4 , 20).",
+
+                   "<strong>Ecuación de la recta tangente.</strong>",
+                   "La pendiente es m=3.",
+                   "$$y=3x+b$$",
+                   "$$20=3(4)+b$$",
+                   "$$20=12+b$$",
+                   "$$b=8$$",
+
+                  "<strong>Conclusión.</strong>",
+                  "El punto donde la pendiente es 3 es:",
+                  "$$P=(4 , 20)$$",
+                  "La ecuación de la recta tangente es:",
+                  "$$y=3x+8$$"
+        ]
+      },
+      {
+        "numero": 10,
+        "enunciado": "Dada f(x), hallar a de modo que f'(1)=1/5. Para el valor de a hallado, escribir la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x=1.",
+        "expresiones": [
+          "f(x)=\\frac{x+a}{x-6}"
+        ],
+        "resolucion": [
+                     "<strong>Primero derivamos la función.</strong>",
+                     "Aplicamos regla del cociente:",
+                     "$$f'(x)=\\frac{(1)(x-6)-(x+a)(1)}{(x-6)^2}$$",
+                     "$$f'(x)=\\frac{x-6-x-a}{(x-6)^2}$$",
+                     "$$f'(x)=\\frac{-6-a}{(x-6)^2}$$",
+
+                     "<strong>Imponemos la condición f'(1)=1/5.</strong>",
+                     "$$f'(1)=\\frac{-6-a}{(1-6)^2}$$",
+                     "$$f'(1)=\\frac{-6-a}{25}$$",
+                     "Igualamos a 1/5:",
+                     "$$\\frac{-6-a}{25}=\\frac{1}{5}$$",
+
+                     "Multiplicamos ambos miembros por 25:",
+                     "$$-6-a=5$$",
+                     "$$-a=11$$",
+                     "$$a=-11$$",
+
+                     "<strong>Ahora buscamos el punto de paso.</strong>",
+                     "Reemplazamos a=-11 en la función:",
+                     "$$f(x)=\\frac{x-11}{x-6}$$",
+                     "Evaluamos en x=1:",
+                     "$$f(1)=\\frac{1-11}{1-6}$$",
+                     "$$f(1)=\\frac{-10}{-5}$$",
+                     "$$f(1)=2$$",
+                     "El punto de paso es P=(1 , 2).",
+
+                     "<strong>Ecuación de la recta tangente.</strong>",
+                     "La pendiente es m=1/5.",
+                     "$$y=\\frac{1}{5}x+b$$",
+                     "$$2=\\frac{1}{5}(1)+b$$",
+                     "$$2=\\frac{1}{5}+b$$",
+                     "$$b=\\frac{9}{5}$$",
+
+                     "<strong>Conclusión.</strong>",
+                     "El valor de a es:",
+                     "$$a=-11$$",
+                     "La ecuación de la recta tangente es:",
+                     "$$y=\\frac{1}{5}x+\\frac{9}{5}$$"
+         ]
+      }  
+    ]
+  }
+]
