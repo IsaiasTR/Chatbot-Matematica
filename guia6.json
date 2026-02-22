@@ -64,13 +64,14 @@
                  "f(0)=0.",
                  "<strong>Máximo local: (0,0).</strong>",
                  "En x=4 cambia de - a +, entonces hay mínimo local.",
-                 "f(4)=\\frac{16}{2}=8.",
+                 "$$f(4)=\\frac{16}{2}=8$$",
                  "<strong>Mínimo local: (4,8).</strong>",
                  "",
                  "<strong>RESPUESTA FINAL:</strong>",
                  "Dominio:",
                  "$$(-\\infty,2) \\cup (2,+\\infty).$$",
-                 "Asíntota vertical: x=2.",
+                 "Asíntota vertical:",
+                 "$$x=2$$",
                  "Intervalo de crecimiento:",
                  "$$(-\\infty,0) \\cup (4,+\\infty).$$",
                  "Intervalo de decrecimiento:",
@@ -139,7 +140,7 @@
                      "Calculamos su valor:",
                      "$$f(3)=3^2+\\frac{54}{3}=9+18=27.$$",
                      "<strong>Mínimo local: (3,27).</strong>",
-
+                     "",
                      "<strong>RESPUESTA FINAL:</strong>",
                      "Dominio:",
                      "$$(-\\infty,0) \\cup (0,+\\infty).$$",
@@ -204,7 +205,7 @@
                           "Calculamos su valor:",
                           "$$f(6)=\\frac{6-3}{6^2}=\\frac{3}{36}=\\frac{1}{12}.$$",
                           "<strong>Máximo local: \\left(6,\\frac{1}{12}\\right).</strong>",
-
+                          "",
                           "<strong>RESPUESTA FINAL:</strong>",
                           "Dominio:",
                           "$$(-\\infty,0) \\cup (0,+\\infty).$$",
@@ -280,7 +281,7 @@
                         "En x=0 la derivada cambia de negativa a positiva, entonces hay mínimo local.",
                         "$$f(0)=0.$$",
                         "<strong>Mínimo local: (0,0).</strong>",
-
+                        "",
                         "<strong>RESPUESTA FINAL:</strong>",
                         "Dominio:",
                         "$$(-\\infty,-\\frac{5}{2}) \\cup (-\\frac{5}{2},+\\infty).$$",
@@ -352,7 +353,7 @@
                         "En x=4 la derivada cambia de positiva a negativa, entonces hay máximo local.",
                         "$$f(4)=\\frac{20}{32}=\\frac{5}{8}.$$",
                         "<strong>Máximo local: (4,\\frac{5}{8}).</strong>",
-
+                        "",
                         "<strong>RESPUESTA FINAL:</strong>",
                         "Dominio:",
                         "$$(-\\infty,+\\infty).$$",
@@ -430,7 +431,7 @@
                      "En x=25 la derivada cambia de positiva a negativa, entonces hay máximo local.",
                      "$$f(25)=\\frac{25-13}{625-25}=\\frac{12}{600}=\\frac{1}{50}.$$",
                      "<strong>Máximo local: (25,\\frac{1}{50}).</strong>",
-
+                     "",
                      "<strong>RESPUESTA FINAL:</strong>",
                      "Dominio:",
                      "$$(-\\infty,-5) \\cup (-5,5) \\cup (5,+\\infty).$$",
@@ -446,12 +447,64 @@
       },
       {
         "numero": 7,
-        "enunciado": "Hallar a y b para que la ecuación de la recta tangente al gráfico de f(x) en x₀=4 sea y=1. ",
+        "enunciado": "Hallar los puntos críticos de f(x) y decidir si son máximos o mínimos.",
         "expresiones": [
-               "f(x)=e^{x^3+ax^2+b}"
+               "f(x)=x^4-50x^2+2"
         ],
         "resolucion": [
-                   
+                      "<strong>Primero calculamos el dominio de la función.</strong>",
+                      "Dado que es un polinomio, entonces su dominio son todos los reales.",
+                      "$$D_f=\\mathbb{R}$$",
+
+                      "<strong>Ahora calculamos la derivada de la función</strong>",
+                      "$$f'(x)=4x^3-100x$$",
+
+                      "Luego igualamos a cero",
+                      "$$f'(x)=0$$",
+                      "$$4x^3-100x=0$$",
+                      "Factorizamos:",
+                      "$$4x(x^2-25)=0$$",
+
+                      "Igualamos a cero cada factor",
+                      "$$4x=0 \\Rightarrow x=0$$",
+                      "$$x^2-25=0$$",
+                      "$$x^2=25$$",
+                      "$$x=5 \\quad \\text{ó} \\quad x=-5$$",
+
+                      "<strong>Entonces los puntos críticos son:</strong>",
+                      "$$x=-5 \\quad \\quad x=0 \\quad \\quad x=5$$",
+
+                      "<strong>Análisis de signo de la derivada:</strong>",
+                      "Intervalos de estudio:",
+                      "$$(-\\infty,-5), \\quad (-5,0), \\quad (0,5), \\quad (5,+\\infty).$$",
+
+                      "Tomamos puntos de prueba:",
+                      "En $$(-\\infty,-5)$$ tomamos $$x=-6$$:",
+                      "$$f'(-6)<0$$",
+
+                      "En $$(-5,0)$$ tomamos $$x=-1$$:",
+                      "$$f'(-1)>0$$",
+
+                      "En $$(0,5)$$ tomamos $$x=1$$:",
+                      "$$f'(1)<0$$",
+
+                      "En $$(5,+\\infty)$$ tomamos $$x=6$$:",
+                      "$$f'(6)>0$$",
+                      "",
+                      "<strong>Conclusión sobre crecimiento y extremos:</strong>",
+                      "En x=-5 la derivada cambia de negativa a positiva, entonces hay mínimo local.",
+                      "Calculamos su valor:",
+                      "$$f(-5)=(-5)^4-50(-5)^2+2$$",
+                      "$$f(-5)=625-1250+2=-623$$",
+                      "<strong>Mínimo local: (-5,-623).</strong>",
+
+                      "En x=0 la derivada cambia de positiva a negativa, entonces hay máximo local.",
+                      "$$f(0)=2$$",
+                      "<strong>Máximo local: (0,2).</strong>",
+
+                      "En x=5 la derivada cambia de negativa a positiva, entonces hay mínimo local.",
+                      "$$f(5)=625-1250+2=-623$$",
+                      "<strong>Mínimo local: (5,-623).</strong>" 
         ]
       },
       {
