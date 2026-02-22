@@ -1,0 +1,237 @@
+[
+  {
+    "archivo": "Guia 6.pdf",
+    "pagina": 6,
+    "titulo": "Estudio de Funciones",
+    "ejercicios": [
+      {
+        "numero": 1,
+        "enunciado": "Sea f(x). Determinar el dominio, la ecuación de la asíntota vertical, los intervalos de crecimiento, de decrecimiento y los extremos locales de f(x).",
+        "expresiones": [
+          "f(x)=\\frac{x^2}{x-2}"
+        ],
+        "resolucion": [
+                 "<strong>Calculamos el dominio</strong>",
+                 "La función es racional. El denominador no puede ser cero.",
+                 "$$x-2 \\neq 0 \\Rightarrow x \\neq 2.$$",
+                 "$$D_{f} = (-\\infty,2) \\cup (2,+\\infty)$$",
+    
+                 "<strong>Calculamos la asíntota vertical:</strong>",
+                 "El único candidato a asíntota vertical es x=2.",
+                 "$$\\lim_{x \\to 2} \\frac{x^2}{x-2}=\\frac{4}{0}=\\pm\\infty$$",
+                 "Como el límite tiende a infinito, concluimos que:",
+                 "$$x=2 \\text{ es una asíntota vertical.}$$",
+    
+                 "<strong>Calculamos la derivada:</strong>",
+                 "Aplicamos regla del cociente:",
+                 "$$f'(x)=\\frac{(2x)(x-2)-x^2(1)}{(x-2)^2}.$$",
+                 "Simplificamos el numerador:",
+                 "$$f'(x)=\\frac{2x^2-4x-x^2}{(x-2)^2}.$$",
+                 "$$f'(x)=\\frac{x^2-4x}{(x-2)^2}.$$",
+                 "Factorizamos:",
+                 "$$f'(x)=\\frac{x(x-4)}{(x-2)^2}.$$",
+    
+                 "Calculamos los puntos críticos:",
+                 "Se anula cuando el numerador es cero.",
+                 "$$x(x-4)=0.$$",
+                 "Resolviendo obtenemos los siguientes resultados",
+                 "$$x=0 \\quad \\quad  \\text{y} \\quad \\quad x-4=0.$$",
+                 "$$x=0 \\quad \\quad  \\text{y} \\quad \\quad x=4.$$",
+    
+                 "<strong>Análisis de signo de f'(x):</strong>",
+                 "Los puntos relevantes son",
+                 "$$ 0 \\quad \\text{,} \\quad 2 \\quad \\text{,} \\quad 4.$$",
+                 "Intervalos:",
+                 "$$(-\\infty,0), (0,2), (2,4), (4,+\\infty).$$",
+                 "<strong>Evaluamos un punto de prueba en cada intervalo (Teorema de Bolzano):</strong>",
+                 "En $$(-\\infty,0)$$ tomamos $$x=-1$$:",
+                 "$$f'(-1)>0.$$",
+                 "En $$(0,2)$$ tomamos $$x=1$$:",
+                 "$$f'(1)<0.$$",
+                 "En $$(2,4)$$ tomamos $$x=3$$:",
+                 "$$f'(3)<0.$$",
+                 "En $$(4,+\\infty)$$ tomamos $$x=5$$:",
+                 "$$f'(5)>0.$$",
+    
+                "<strong>Intervalos de crecimiento y decrecimiento:</strong>",
+                "Crecimiento:",
+                "$$(-\\infty,0) \\cup (4,+\\infty).$$",
+                "Decrecimiento:",
+                "$$(0,2) \\cup (2,4).$$",
+    
+                 "<strong>Extremos locales (Máximos y mínimos):</strong>",
+                 "En x=0 cambia de + a -, entonces hay máximo local.",
+                 "f(0)=0.",
+                 "<strong>Máximo local: (0,0).</strong>",
+                 "En x=4 cambia de - a +, entonces hay mínimo local.",
+                 "f(4)=\\frac{16}{2}=8.",
+                 "<strong>Mínimo local: (4,8).</strong>",
+                 "<strong>RESPUESTA FINAL:</strong>",
+                 "Dominio:",
+                 "$$(-\\infty,2) \\cup (2,+\\infty).$$",
+                 "Asíntota vertical: x=2.",
+                 "Intervalo de crecimiento:",
+                 "$$(-\\infty,0) \\cup (4,+\\infty).$$",
+                 "Intervalo de decrecimiento:",
+                 "$$(0,2) \\cup (2,4).$$",
+                 "Máximo local:",
+                 "$$(0,0).$$",
+                 "Mínimo local:",
+                 "$$(4,8)$$"
+        ]
+      },
+      {
+        "numero": 2,
+        "enunciado": "Determinar el dominio, la ecuación de la asíntota vertical, los intervalos de crecimiento, de decrecimiento y los extremos locales de f(x)",
+        "expresiones": [
+               "f(x)=x^2+\\frac{54}{x}"
+        ],
+        "resolucion": [
+                      "<strong>Calculamos el dominio</strong>",
+                      "La función contiene un término racional. El denominador no puede ser cero.",
+                      "$$x \\neq 0.$$",
+                      "$$D_f = (-\\infty,0) \\cup (0,+\\infty).$$",
+
+                      "<strong>Calculamos la asíntota vertical:</strong>",
+                      "El único candidato a asíntota vertical es x=0.",
+                      "Analizamos el límite:",
+                      "$$\\lim_{x \\to 0} \\left(x^2+\\frac{54}{x}\\right).$$",
+                      "Cuando x \\to 0, el término dominante es \\frac{54}{x}, que diverge.",
+                      "$$\\lim_{x \\to 0} f(x)=\\pm\\infty.$$",
+                      "Por lo tanto:",
+                      "$$x=0 \\text{ es una asíntota vertical.}$$",
+
+                       "<strong>Calculamos la derivada:</strong>",
+                       "Derivamos término a término:",
+                       "$$f'(x)=2x-\\frac{54}{x^2}.$$",
+
+                       "<strong>Calculamos los puntos críticos:</strong>",
+                       "Igualamos la derivada a cero:",
+                       "$$2x-\\frac{54}{x^2}=0.$$",
+                       "Multiplicamos por x^2 (con x \\neq 0):",
+                       "$$2x^3-54=0.$$",
+                       "$$2x^3=54.$$",
+                       "$$x^3=27.$$",
+                       "$$x=3.$$",
+
+                       "<strong>Análisis de signo de f'(x):</strong>",
+                       "Los puntos relevantes son:",
+                       "$$0 \\quad \\text{y} \\quad 3.$$",
+                       "Intervalos de estudio:",
+                       "$$(-\\infty,0), \\quad (0,3), \\quad (3,+\\infty).$$",
+                       "Como f'(x) es continua en cada intervalo de su dominio, evaluamos un punto de prueba en cada uno.",
+                       "En $$(-\\infty,0)$$ tomamos $$x=-1$$:",
+                       "$$f'(-1)<0.$$",
+                       "En $$(0,3)$$ tomamos $$x=1$$:",
+                       "$$f'(1)<0.$$",
+                       "En $$(3,+\\infty)$$ tomamos $$x=4$$:",
+                       "$$f'(4)>0.$$",
+
+                     "<strong>Intervalos de crecimiento y decrecimiento:</strong>",
+                     "Decrecimiento:",
+                     "$$(-\\infty,0) \\cup (0,3).$$",
+                     "Crecimiento:",
+                     "$$(3,+\\infty).$$",
+
+                     "<strong>Extremos locales:</strong>",
+                     "En x=3 la derivada cambia de negativa a positiva, por lo tanto hay mínimo local.",
+                     "Calculamos su valor:",
+                     "$$f(3)=3^2+\\frac{54}{3}=9+18=27.$$",
+                     "<strong>Mínimo local: (3,27).</strong>",
+
+                     "<strong>RESPUESTA FINAL:</strong>",
+                     "Dominio:",
+                     "$$(-\\infty,0) \\cup (0,+\\infty).$$",
+                     "Asíntota vertical:",
+                     "$$x=0.$$",
+                     "Intervalos de decrecimiento:",
+                     "$$(-\\infty,0) \\cup (0,3).$$",
+                     "Intervalo de crecimiento:",
+                     "$$(3,+\\infty).$$",
+                     "Extremo local:",
+                     "$$\\text{Mínimo en } (3,27).$$"     
+        ]
+      },
+      {
+        "numero": 3,
+        "enunciado": "Hallar la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x₀=0.",
+        "expresiones": [
+          "f(x)=2+5x+\\sin(3x)"
+        ],
+        "resolucion": [
+                     
+        ]
+      },
+      {
+        "numero": 4,
+        "enunciado": "Sea f(x). Hallar la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x₀=0.",
+        "expresiones": [
+              "f(x)=(4x+1)^4"
+        ],
+        "resolucion": [
+                     
+        ]
+      },
+      {
+        "numero": 5,
+        "enunciado": "Sea f(x). Dar la ecuación de la recta tangente al gráfico de f(x) en (-5;f(-5)).",
+        "expresiones": [
+            "f(x)=x\\ln(x^2-24)+6"
+        ],
+        "resolucion": [
+                      
+        ]
+      },
+      {
+        "numero": 6,
+        "enunciado": "Sea f(x). Hallar a para que la pendiente de la recta tangente al gráfico de f(x) en el punto (6;f(6)) sea 8. Dar la ecuación de la recta tangente en dicho punto.",
+        "expresiones": [
+                "f(x)=4e^{2x-a}+5"
+        ],
+        "resolucion": [
+                   
+        ]
+      },
+      {
+        "numero": 7,
+        "enunciado": "Hallar a y b para que la ecuación de la recta tangente al gráfico de f(x) en x₀=4 sea y=1. ",
+        "expresiones": [
+               "f(x)=e^{x^3+ax^2+b}"
+        ],
+        "resolucion": [
+                   
+        ]
+      },
+      {
+        "numero": 8,
+        "enunciado": "Sean f(x). Hallar a para que la recta tangente al gráfico de f(x) en (1;f(1)) sea paralela a la recta de ecuación y=3x+2.",
+        "expresiones": [
+                "f(x)=ax+1+e^{1-x^2}"
+        ],
+        "resolucion": [
+                       
+        ]
+      },
+      {
+        "numero": 9,
+        "enunciado": "Encontrar el punto del gráfico de f(x) en el que la recta tangente tiene pendiente m=3. Escribir la ecuación de dicha recta tangente.",
+        "expresiones": [
+            "f(x)=e^{x^2-8x+16}+3x+7"
+        ],
+        "resolucion": [
+                    
+        ]
+      },
+      {
+        "numero": 10,
+        "enunciado": "Dada f(x), hallar a de modo que f'(1)=1/5. Para el valor de a hallado, escribir la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x=1.",
+        "expresiones": [
+          "f(x)=\\frac{x+a}{x-6}"
+        ],
+        "resolucion": [
+                     
+         ]
+      }  
+    ]
+  }
+]
