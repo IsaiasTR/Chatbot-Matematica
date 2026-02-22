@@ -44,7 +44,7 @@
                  "Intervalos:",
                  "$$(-\\infty,0), (0,2), (2,4), (4,+\\infty).$$",
                  "<strong>Evaluamos un punto de prueba en cada intervalo (Teorema de Bolzano):</strong>",
-                 "En (-\\infty,0) tomamos x=-1:",
+                 "En (-∞ , 0) tomamos x = -1:",
                  "$$f'(-1)>0.$$",
                  "En $$(0,2)$$ tomamos $$x=1$$:",
                  "$$f'(1)<0.$$",
