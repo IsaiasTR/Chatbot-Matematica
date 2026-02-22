@@ -154,12 +154,65 @@
       },
       {
         "numero": 3,
-        "enunciado": "Hallar la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x₀=0.",
+        "enunciado": "Sea f(x). Determinar el dominio, los intervalos de crecimiento, de decrecimiento y los extremos locales de f(x).",
         "expresiones": [
-          "f(x)=2+5x+\\sin(3x)"
+          "f(x)=\\frac{x-3}{x^2}"
         ],
         "resolucion": [
-                     
+                         "<strong>Calculamos el dominio</strong>",
+                         "La función es racional. El denominador no puede ser cero.",
+                         "$$x^2 \\neq 0 \\Rightarrow x \\neq 0.$$",
+                         "$$D_f = (-\\infty,0) \\cup (0,+\\infty).$$",
+
+                         "<strong>Calculamos la derivada:</strong>",
+                         "Reescribimos la función:",
+                         "$$f(x)=\\frac{x-3}{x^2}=x^{-1}-3x^{-2}.$$",
+                         "Derivamos término a término:",
+                         "$$f'(x)=-x^{-2}+6x^{-3}.$$",
+                         "Expresamos con denominador común:",
+                         "$$f'(x)=\\frac{-x+6}{x^3}.$$",
+
+                         "<strong>Calculamos los puntos críticos:</strong>",
+                         "Igualamos la derivada a cero:",
+                         "$$\\frac{-x+6}{x^3}=0.$$",
+                         "La fracción se anula cuando el numerador es cero:",
+                         "$$-x+6=0.$$",
+                         "$$x=6.$$",
+
+                         "<strong>Análisis de signo de f'(x):</strong>",
+                         "Los puntos relevantes son:",
+                         "$$0 \\quad \\text{y} \\quad 6.$$",
+                         "Intervalos de estudio:",
+                         "$$(-\\infty,0), \\quad (0,6), \\quad (6,+\\infty).$$",
+                         "Como f'(x) es continua en cada intervalo de su dominio, evaluamos un punto de prueba en cada uno.",
+                         "En $$(-\\infty,0)$$ tomamos $$x=-1$$:",
+                         "$$f'(-1)>0.$$",
+                         "En $$(0,6)$$ tomamos $$x=1$$:",
+                         "$$f'(1)>0.$$",
+                         "En $$(6,+\\infty)$$ tomamos $$x=7$$:",
+                         "$$f'(7)<0.$$",
+
+                         "<strong>Intervalos de crecimiento y decrecimiento:</strong>",
+                         "Crecimiento:",
+                         "$$(-\\infty,0) \\cup (0,6).$$",
+                         "Decrecimiento:",
+                         "$$(6,+\\infty).$$",
+
+                          "<strong>Extremos locales:</strong>",
+                          "En x=6 la derivada cambia de positiva a negativa, por lo tanto hay máximo local.",
+                          "Calculamos su valor:",
+                          "$$f(6)=\\frac{6-3}{6^2}=\\frac{3}{36}=\\frac{1}{12}.$$",
+                          "<strong>Máximo local: \\left(6,\\frac{1}{12}\\right).</strong>",
+
+                          "<strong>RESPUESTA FINAL:</strong>",
+                          "Dominio:",
+                          "$$(-\\infty,0) \\cup (0,+\\infty).$$",
+                          "Intervalos de crecimiento:",
+                          "$$(-\\infty,0) \\cup (0,6).$$",
+                          "Intervalo de decrecimiento:",
+                          "$$(6,+\\infty).$$",
+                          "Extremo local:",
+                          "$$\\text{Máximo en } \\left(6,\\frac{1}{12}\\right).$$"
         ]
       },
       {
