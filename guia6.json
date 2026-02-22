@@ -509,32 +509,224 @@
       },
       {
         "numero": 8,
-        "enunciado": "Sean f(x). Hallar a para que la recta tangente al gráfico de f(x) en (1;f(1)) sea paralela a la recta de ecuación y=3x+2.",
+        "enunciado": "Sea f(x). Determinar los intervalos de crecimiento, de decrecimiento y los extremos locales de f(x).",
         "expresiones": [
-                "f(x)=ax+1+e^{1-x^2}"
+                "f(x)=3+9e^{x^3-12x}"
         ],
         "resolucion": [
-                       
+                      "<strong>Calculamos el dominio</strong>",
+                      "La función exponencial está definida para todo número real.",
+                      "$$D_f=(-\\infty,+\\infty).$$",
+
+                      "<strong>Calculamos la derivada:</strong>",
+                      "Aplicamos regla de la cadena.",
+                      "$$f'(x)=9e^{x^3-12x}\\cdot(3x^2-12).$$",
+                      "Factorizamos:",
+                      "$$f'(x)=9e^{x^3-12x}\\cdot3(x^2-4).$$",
+                      "$$f'(x)=27e^{x^3-12x}(x^2-4).$$",
+                      "Factorizamos diferencia de cuadrados:",
+                      "$$f'(x)=27e^{x^3-12x}(x-2)(x+2).$$",
+
+                      "<strong>Calculamos los puntos críticos:</strong>",
+                      "La derivada se anula cuando algún factor es cero.",
+                      "Como la función exponencial nunca es cero, resolvemos:",
+                      "$$(x-2)(x+2)=0.$$",
+                      "$$x=2 \\quad \\text{o} \\quad x=-2.$$",
+
+                      "<strong>Análisis de signo de f'(x):</strong>",
+                      "Los puntos relevantes son:",
+                      "$$-2 \\quad \\text{y} \\quad 2.$$",
+                      "Intervalos de estudio:",
+                      "$$(-\\infty,-2), \\quad (-2,2), \\quad (2,+\\infty).$$",
+                      "El factor 27e^{x^3-12x} es siempre positivo.",
+                      "El signo depende únicamente de (x-2)(x+2).",
+                      "En $$(-\\infty,-2)$$ tomamos $$x=-3$$:",
+                      "$$f'(-3)>0.$$",
+                      "En $$(-2,2)$$ tomamos $$x=0$$:",
+                      "$$f'(0)<0.$$",
+                      "En $$(2,+\\infty)$$ tomamos $$x=3$$:",
+                      "$$f'(3)>0.$$",
+
+                      "<strong>Intervalos de crecimiento y decrecimiento:</strong>",
+                      "Crecimiento:",
+                      "$$(-\\infty,-2) \\cup (2,+\\infty).$$",
+                      "Decrecimiento:",
+                      "$$(-2,2).$$",
+
+                      "<strong>Extremos locales:</strong>",
+                      "En x=-2 la derivada cambia de positiva a negativa, entonces hay máximo local.",
+                      "Calculamos su valor:",
+                      "$$f(-2)=3+9e^{(-2)^3-12(-2)}$$",
+                      "$$f(-2)=3+9e^{-8+24}$$",
+                      "$$f(-2)=3+9e^{16}.$$",
+                      "<strong>Máximo local: (-2,3+9e^{16}).</strong>",
+
+                      "En x=2 la derivada cambia de negativa a positiva, entonces hay mínimo local.",
+                      "$$f(2)=3+9e^{8-24}$$",
+                      "$$f(2)=3+9e^{-16}.$$",
+                      "<strong>Mínimo local: (2,3+9e^{-16}).</strong>",
+                      "",
+                      "<strong>RESPUESTA FINAL:</strong>",
+                      "Dominio:",
+                      "$$(-\\infty,+\\infty).$$",
+                      "Intervalos de crecimiento:",
+                      "$$(-\\infty,-2) \\cup (2,+\\infty).$$",
+                      "Intervalo de decrecimiento:",
+                      "$$(-2,2).$$",
+                      "Máximo local:",
+                      "$$(-2,3+9e^{16}).$$",
+                      "Mínimo local:",
+                      "$$(2,3+9e^{-16}).$$"
         ]
       },
       {
         "numero": 9,
-        "enunciado": "Encontrar el punto del gráfico de f(x) en el que la recta tangente tiene pendiente m=3. Escribir la ecuación de dicha recta tangente.",
+        "enunciado": "Sea f(x). Determinar los intervalos de crecimiento, de decrecimiento y los extremos locales de f(x).",
         "expresiones": [
-            "f(x)=e^{x^2-8x+16}+3x+7"
+             "f(x)=x-\\ln(2x^2+\\frac{15}{8})"
         ],
         "resolucion": [
+                      "<strong>Calculamos el dominio</strong>",
+                      "El argumento del logaritmo debe ser positivo.",
+                      "$$2x^2+\\frac{15}{8}>0.$$",
+                      "Como $$2x^2 \\ge 0$$ y $$\\frac{15}{8}>0$$, la suma es siempre positiva.",
+                      "$$D_f=(-\\infty,+\\infty).$$",
+
+                      "<strong>Calculamos la derivada:</strong>",
+                      "Derivamos término a término.",
+                      "$$f'(x)=1-\\frac{1}{2x^2+\\frac{15}{8}}\\cdot(4x).$$",
+                      "$$f'(x)=1-\\frac{4x}{2x^2+\\frac{15}{8}}.$$",
+
+                      "<strong>Igualamos la derivada a cero:</strong>",
+                      "$$1-\\frac{4x}{2x^2+\\frac{15}{8}}=0.$$",
+                      "$$1=\\frac{4x}{2x^2+\\frac{15}{8}}.$$",
+                      "$$2x^2+\\frac{15}{8}=4x.$$",
+                      "Multiplicamos por 8 para eliminar denominadores:",
+                      "$$16x^2+15=32x.$$",
+                      "$$16x^2-32x+15=0.$$",
+
+                      "<strong>Resolvemos la ecuación cuadrática:</strong>",
+                      "$$\\Delta=(-32)^2-4(16)(15).$$",
+                      "$$\\Delta=1024-960=64.$$",
+                      "$$x=\\frac{32\\pm8}{32}.$$",
+                      "$$x=\\frac{40}{32}=\\frac{5}{4} \\quad \\text{o} \\quad x=\\frac{24}{32}=\\frac{3}{4}.$$",
+
+                      "<strong>Puntos críticos:</strong>",
+                      "$$x=\\frac{3}{4} \\quad \\text{y} \\quad x=\\frac{5}{4}.$$",
+                  
+                      "<strong>Análisis de signo de f'(x):</strong>",
+                      "Intervalos de estudio:",
+                      "$$(-\\infty,\\frac{3}{4}), \\quad (\\frac{3}{4},\\frac{5}{4}), \\quad (\\frac{5}{4},+\\infty).$$",
+                  
+                      "Tomamos puntos de prueba:",
+                      "En $$(-\\infty,\\frac{3}{4})$$ tomamos $$x=0$$:",
+                      "$$f'(0)>0.$$",
+                  
+                      "En $$(\\frac{3}{4},\\frac{5}{4})$$ tomamos $$x=1$$:",
+                      "$$f'(1)<0.$$",
+                  
+                      "En $$(\\frac{5}{4},+\\infty)$$ tomamos $$x=2$$:",
+                      "$$f'(2)>0.$$",
                     
+                      "<strong>Intervalos de crecimiento y decrecimiento:</strong>",
+                      "Crecimiento:",
+                      "$$(-\\infty,\\frac{3}{4}) \\cup (\\frac{5}{4},+\\infty).$$",
+                      "Decrecimiento:",
+                      "$$(\\frac{3}{4},\\frac{5}{4}).$$",
+                  
+                      "<strong>Extremos locales:</strong>",
+                      "En x=\\frac{3}{4} la derivada cambia de positiva a negativa, entonces hay máximo local.",
+                      "$$f\\left(\\frac{3}{4}\\right)=\\frac{3}{4}-\\ln\\left(2\\left(\\frac{3}{4}\\right)^2+\\frac{15}{8}\\right).$$",
+                      "$$f\\left(\\frac{3}{4}\\right)=\\frac{3}{4}-\\ln(3).$$",
+                      "<strong>Máximo local: \\left(\\frac{3}{4},\\frac{3}{4}-\\ln(3)\\right).</strong>",
+                  
+                      "En x=\\frac{5}{4} la derivada cambia de negativa a positiva, entonces hay mínimo local.",
+                      "$$f\\left(\\frac{5}{4}\\right)=\\frac{5}{4}-\\ln\\left(2\\left(\\frac{5}{4}\\right)^2+\\frac{15}{8}\\right).$$",
+                      "$$f\\left(\\frac{5}{4}\\right)=\\frac{5}{4}-\\ln(5).$$",
+                      "<strong>Mínimo local: \\left(\\frac{5}{4},\\frac{5}{4}-\\ln(5)\\right).</strong>",
+          
+                      "",
+                      "<strong>RESPUESTA FINAL:</strong>",
+                      "Dominio:",
+                      "$$(-\\infty,+\\infty).$$",
+                      "Intervalos de crecimiento:",
+                      "$$(-\\infty,\\frac{3}{4}) \\cup (\\frac{5}{4},+\\infty).$$",
+                      "Intervalo de decrecimiento:",
+                      "$$(\\frac{3}{4},\\frac{5}{4}).$$",
+                      "Máximo local:",
+                      "$$\\left(\\frac{3}{4},\\frac{3}{4}-\\ln(3)\\right).$$",
+                      "Mínimo local:",
+                      "$$\\left(\\frac{5}{4},\\frac{5}{4}-\\ln(5)\\right).$$"                     
         ]
       },
       {
         "numero": 10,
-        "enunciado": "Dada f(x), hallar a de modo que f'(1)=1/5. Para el valor de a hallado, escribir la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x=1.",
+        "enunciado": "Sea f(x). Determinar el valor de a para el cual f alcanza un extremo local en x=3. Para el valor de a hallado, encontrar todos los extremos locales de f(x) y decidir si son máximos o mínimos.",
         "expresiones": [
-          "f(x)=\\frac{x+a}{x-6}"
+          "f(x)=ax^3+2x^2-30x+2"
         ],
         "resolucion": [
-                     
+                  "<strong>Primero imponemos la condición de extremo en x=3</strong>",
+                  "Si f tiene un extremo local en x=3 entonces:",
+                  "$$f'(3)=0.$$",
+              
+                  "<strong>Calculamos la derivada:</strong>",
+                  "$$f'(x)=3ax^2+4x-30.$$",
+
+                  "Evaluamos en x=3:",
+                  "$$f'(3)=3a(3)^2+4(3)-30.$$",
+                  "$$f'(3)=27a+12-30.$$",
+                  "$$f'(3)=27a-18.$$",
+              
+                  "Imponemos la condición:",
+                  "$$27a-18=0.$$",
+                  "$$27a=18.$$",
+                  "$$a=\\frac{18}{27}=\\frac{2}{3}.$$",
+              
+                  "<strong>Entonces el valor buscado es:</strong>",
+                  "$$a=\\frac{2}{3}.$$",
+              
+                  "<strong>Reemplazamos en la función:</strong>",
+                  "$$f(x)=\\frac{2}{3}x^3+2x^2-30x+2.$$",
+              
+                  "<strong>Derivada con el valor hallado:</strong>",
+                  "$$f'(x)=2x^2+4x-30.$$",
+
+                  "<strong>Buscamos todos los puntos críticos:</strong>",
+                  "$$2x^2+4x-30=0.$$",
+                  "Dividimos por 2:",
+                  "$$x^2+2x-15=0.$$",
+                  "Factorizamos:",
+                  "$$(x+5)(x-3)=0.$$",
+                  "$$x=-5 \\quad \\text{y} \\quad x=3.$$",
+              
+                  "<strong>Clasificamos usando la segunda derivada:</strong>",
+                  "$$f''(x)=4x+4.$$",
+              
+                  "Evaluamos en x=3:",
+                  "$$f''(3)=4(3)+4=16>0.$$",
+                  "Entonces en x=3 hay mínimo local.",
+              
+                  "Evaluamos en x=-5:",
+                  "$$f''(-5)=4(-5)+4=-16<0.$$",
+                  "Entonces en x=-5 hay máximo local.",
+              
+                  "<strong>Calculamos los valores de la función:</strong>",
+
+                  "$$f(3)=\\frac{2}{3}(27)+2(9)-30(3)+2.$$",
+                  "$$f(3)=18+18-90+2=-52.$$",
+              
+                  "$$f(-5)=\\frac{2}{3}(-125)+2(25)-30(-5)+2.$$",
+                  "$$f(-5)=-\\frac{250}{3}+50+150+2.$$",
+                  "$$f(-5)=\\frac{356}{3}.$$",
+                  "",
+                  "<strong>RESPUESTA FINAL:</strong>",
+                  "Valor de a:",
+                  "$$a=\\frac{2}{3}.$$",
+                  "Máximo local:",
+                  "$$(-5,\\frac{356}{3}).$$",
+                  "Mínimo local:",
+                  "$$(3,-52).$$"                     
          ]
       }  
     ]
