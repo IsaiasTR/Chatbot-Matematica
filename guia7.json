@@ -47,18 +47,18 @@
                     "<strong>Se resuelve por el método de sustitución.</strong>",
                     "El u correcto es:",
                     "$$u=\\ln(5x)$$",
-                    "$$du=\\frac{(5x)'}{5x}$$",
+                    "$$du=\\frac{(5x)'}{5x}.dx$$",
                     "$$du=\\frac{5}{5x}dx$$",
-                    "$$du=\\frac{1}{x}$$",
+                    "$$du=\\frac{1}{x}.dx$$",
                 
                     "La integral queda:",
                     "$$\\int u\\,du$$",
                 
                     "<strong>Aplicamos integral por tabla.</strong>",
-                    "$$\\int u\\,du=\\frac{u^2}{2}$$",
+                    "$$\\int u\\,du=\\frac{u^2}{2}+C$$",
                 
                     "<strong>Volvemos a la variable original, reemplazo u por ln(5x).</strong>",
-                    "$$\\frac{(\\ln(5x))^2}{2}$$",
+                    "$$\\frac{(\\ln(5x))^2}{2}+C$$",
                 
                     "<strong>Conclusión.</strong>",
                     "La integral buscada es:",
