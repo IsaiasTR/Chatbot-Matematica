@@ -21,7 +21,7 @@
                 "El u correcto es:",
                 "$$u=\\ln(8x)$$",
                 "$$du=\\frac{(8x)'}{(8x)}.dx$$",
-                "$$du==\\frac{8}{8x}.dx$$",
+                "$$du=\\frac{8}{8x}.dx$$",
                 "$$du= \\frac{1}{x}.dx$$.",
             
                 "La integral queda:",
@@ -116,8 +116,8 @@
                       "$$=\\int x^{3/2}dx + 3\\int x^{1/2}dx$$",
                   
                       "<strong>Aplicamos la integral por tabla.</strong>",
-                      "$$\\int x^{3/2}dx=\\frac{x^{5/2}}{5/2}=\\frac{2}{5}x^{5/2}+C$$",
-                      "$$3\\int x^{1/2}dx=3\\cdot\\frac{x^{3/2}}{3/2}=2x^{3/2}+C$$",
+                      "$$\\int x^{3/2}dx=\\frac{x^{5/2}}{5/2}=\\frac{2}{5}x^{5/2}$$",
+                      "$$3\\int x^{1/2}dx=3\\cdot\\frac{x^{3/2}}{3/2}=2x^{3/2}$$",
                   
                       "<strong>Sumamos los resultados.</strong>",
                       "$$\\frac{2}{5}x^{5/2}+2x^{3/2}+C$$",
@@ -181,11 +181,11 @@
                         "$$=\\int 3e^u du$$",
                         "$$=3\\int e^u du$$",
                     
-                        "<strong>Integramos.</strong>",
-                        "$$3e^u$$",
+                        "<strong>Aplicamos la integral por tabla.</strong>",
+                        "$$3e^{u}+C$$",
                     
                         "<strong>Volvemos a la variable original.</strong>",
-                        "$$3e^{x^2+5x}$$",
+                        "$$3e^{x^2+5x}+C$$",
                     
                         "<strong>Conclusión.</strong>",
                         "La integral buscada es:",
@@ -207,10 +207,8 @@
                       "$$\\int 5\\,dx=5x$$",
                   
                       "<strong>Identificamos el método para el segundo término.</strong>",
-                      "Se resuelve por el método de sustitución,",
-                      "porque la derivada de \\sin(x) es \\cos(x).",
-                  
-                      "<strong>Hacemos el cambio de variable.</strong>",
+                      "<strong>Se resuelve por el método de sustitución</strong>",             
+                      "<strong>El u correcto es.</strong>",
                       "$$u=\\sin(x)$$",
                       "$$du=\\cos(x)dx$$",
                   
@@ -219,12 +217,12 @@
                       "$$=\\int \\frac{1}{u^4}du$$",
                       "$$=\\int u^{-4}du$$",
                   
-                      "<strong>Integramos.</strong>",
-                      "$$\\frac{u^{-3}}{-3}$$",
-                      "$$=-\\frac{1}{3u^3}$$",
+                      "<strong>Aplicamos la integral por tabla.</strong>",
+                      "$$\\frac{u^{-3}}{-3}+C$$",
+                      "$$=-\\frac{1}{3u^3}+C$$",
                   
                       "<strong>Volvemos a la variable original.</strong>",
-                      "$$-\\frac{1}{3\\sin(x)^3}$$",
+                      "$$-\\frac{1}{3\\sin(x)^3}+C$$",
                   
                       "<strong>Conclusión.</strong>",
                       "La integral buscada es:",
@@ -238,11 +236,8 @@
               "\\int \\left(3-\\sqrt{2+7e^{x}}\\right)e^x dx"
         ],
         "resolucion": [
-                      "<strong>Identificamos el método.</strong>",
-                      "La integral se resuelve por el método de sustitución,",
-                      "porque dentro de la raíz aparece 2+7e^x y su derivada es proporcional a e^x.",
-                  
-                      "<strong>Hacemos el cambio de variable.</strong>",
+                      "<strong>La integral se resuelve por el método de sustitución</strong>",                
+                      "<strong>El u correcto es.</strong>",
                       "$$u=2+7e^x$$",
                       "$$du=7e^x dx$$",
                   
@@ -261,11 +256,11 @@
                       "$$\\int 3du=3u$$",
                       "$$\\int u^{1/2}du=\\frac{u^{3/2}}{3/2}=\\frac{2}{3}u^{3/2}$$",
                   
-                      "Entonces:",
-                      "$$\\frac{1}{7}\\left(3u-\\frac{2}{3}u^{3/2}\\right)$$",
+                      "<strong>Entonces:</strong>",
+                      "$$\\frac{1}{7}\\left(3u-\\frac{2}{3}u^{3/2}\\right)+C$$",
                   
                       "<strong>Volvemos a la variable original.</strong>",
-                      "$$\\frac{1}{7}\\left(3(2+7e^x)-\\frac{2}{3}(2+7e^x)^{3/2}\\right)$$",
+                      "$$\\frac{1}{7}\\left(3(2+7e^x)-\\frac{2}{3}(2+7e^x)^{3/2}\\right)+C$$",
                   
                       "<strong>Conclusión.</strong>",
                       "La integral buscada es:",
@@ -279,10 +274,7 @@
                        "\\int (2x-1)e^{2x^2-2x} dx"
         ],
         "resolucion": [
-                        "<strong>Identificamos el método.</strong>",
-                        "La integral se resuelve por el método de sustitución,",
-                        "porque el exponente es 2x^2-2x y su derivada es 4x-2, que es proporcional a 2x-1.",
-                    
+                        "<strong>La integral se resuelve por el método de sustitución</strong>",
                         "<strong>Hacemos el cambio de variable.</strong>",
                         "$$u=2x^2-2x$$",
                         "$$du=(4x-2)dx$$",
@@ -298,11 +290,11 @@
                         "$$=\\int e^u \\cdot \\frac{1}{2}du$$",
                         "$$=\\frac{1}{2}\\int e^u du$$",
                     
-                        "<strong>Integramos.</strong>",
-                        "$$\\frac{1}{2}e^u$$",
+                        "<strong>Aplicamos integral por tabla.</strong>",
+                        "$$\\frac{1}{2}e^{u}+C$$",
                     
                         "<strong>Volvemos a la variable original.</strong>",
-                        "$$\\frac{1}{2}e^{2x^2-2x}$$",
+                        "$$\\frac{1}{2}e^{2x^2-2x}+C$$",
                     
                         "<strong>Conclusión.</strong>",
                         "La integral buscada es:",
@@ -324,10 +316,9 @@
                     "$$\\int 6\\,dx = 6x$$",
                 
                     "<strong>Identificamos el método para el segundo término.</strong>",
-                    "Se resuelve por el método de sustitución,",
-                    "porque la derivada de 4x^2+3 es 8x, proporcional a x.",
+                    "<strong>Se resuelve por el método de sustitución</strong>",
                 
-                    "<strong>Hacemos el cambio de variable.</strong>",
+                    "<strong>El u correcto es.</strong>",
                     "$$u=4x^2+3$$",
                     "$$du=8x\\,dx$$",
                 
@@ -339,12 +330,12 @@
                     "$$=\\int \\sin(u)\\frac{1}{8}du$$",
                     "$$=\\frac{1}{8}\\int \\sin(u)du$$",
                 
-                    "<strong>Integramos.</strong>",
-                    "$$\\frac{1}{8}(-\\cos u)$$",
-                    "$$=-\\frac{1}{8}\\cos u$$",
+                    "<strong>Aplicamos la integral por tabla.</strong>",
+                    "$$\\frac{1}{8}(-\\cos u)+C$$",
+                    "$$=-\\frac{1}{8}\\cos u + C$$",
                 
                     "<strong>Volvemos a la variable original.</strong>",
-                    "$$-\\frac{1}{8}\\cos(4x^2+3)$$",
+                    "$$-\\frac{1}{8}\\cos(4x^2+3)+C$$",
                 
                     "<strong>Conclusión.</strong>",
                     "La integral buscada es:",
