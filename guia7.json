@@ -11,23 +11,25 @@
            "\\int \\left(3+\\frac{\\ln(8x)}{x}\\right) dx"
         ],
         "resolucion": [
-                "<strong>Separamos la integral.</strong>",
+                "<strong>Aplicamos la propiedad de linealidad (distributiva).</strong>",
                 "$$\\int \\left(3+\\frac{\\ln(8x)}{x}\\right) dx=\\int 3\\,dx+\\int \\frac{\\ln(8x)}{x}dx$$",
             
-                "<strong>Integramos el primer término.</strong>",
+                "<strong>Integramos el primer término (las constantes afuera de la integral).</strong>",
                 "$$\\int 3\\,dx=3x$$",
             
-                "<strong>Integramos el segundo término.</strong>",
-                "Observamos que la derivada de \\ln(8x) es \\frac{1}{x}.",
-                "Hacemos el cambio de variable:",
+                "<strong>Aplicamos el método de sustitución en el segundo término.</strong>",
+                "El u correcto es:",
                 "$$u=\\ln(8x)$$",
-                "$$du=\\frac{1}{x}dx$$",
+                "$$du=\\frac{(8x)'}{(8x)}.dx",
+                "$$du==\\frac{8}{8x}.dx$$",
+                "$$du= \\frac{1}{x}.dx$$.",
             
                 "La integral queda:",
                 "$$\\int u\\,du$$",
+                "Aplicamos la integral por tabla.",
                 "$$\\frac{u^2}{2}$$",
             
-                "Volvemos a la variable original:",
+                "<strong>Volvemos a la variable original, es decir reemplazamos u por ln(8x)</strong>:",
                 "$$\\frac{(\\ln(8x))^2}{2}$$",
             
                 "<strong>Conclusión.</strong>",
@@ -41,22 +43,21 @@
         "expresiones": [
                "\\int \\left(\\frac{\\ln(5x)}{x}\\right) dx"
         ],
-        "resolucion": [
-                    "<strong>Observamos la estructura de la integral.</strong>",
-                    "Notamos que la derivada de \\ln(5x) es \\frac{1}{x}.",
-                    "Esto sugiere hacer un cambio de variable.",
-                
-                    "<strong>Hacemos el cambio de variable.</strong>",
+        "resolucion": [                
+                    "<strong>Se resuelve por el método de sustitución.</strong>",
+                    "El u correcto es:",
                     "$$u=\\ln(5x)$$",
-                    "$$du=\\frac{1}{x}dx$$",
+                    "$$du=\\frac{(5x)'}{5x}$$",
+                    "$$du=\\frac{5}{5x}dx$$",
+                    "$$du=\\frac{1}{x}$$",
                 
                     "La integral queda:",
                     "$$\\int u\\,du$$",
                 
-                    "<strong>Integramos.</strong>",
+                    "<strong>Aplicamos integral por tabla.</strong>",
                     "$$\\int u\\,du=\\frac{u^2}{2}$$",
                 
-                    "<strong>Volvemos a la variable original.</strong>",
+                    "<strong>Volvemos a la variable original, reemplazo u por ln(5x).</strong>",
                     "$$\\frac{(\\ln(5x))^2}{2}$$",
                 
                     "<strong>Conclusión.</strong>",
@@ -71,11 +72,8 @@
                "\\int 10x (x^2+2)^{1/4} dx"
         ],
         "resolucion": [
-                  "<strong>Observamos la estructura de la integral.</strong>",
-                  "Notamos que la derivada de x^2+2 es 2x.",
-                  "Esto sugiere hacer un cambio de variable.",
-              
-                  "<strong>Hacemos el cambio de variable.</strong>",
+                  "<strong>Aplicamos el método de sustitución.</strong>",
+                  "El u correcto es:",
                   "$$u=x^2+2$$",
                   "$$du=2x\\,dx$$",
               
@@ -83,12 +81,12 @@
                   "$$\\int 10x (x^2+2)^{1/4} dx$$",
                   "$$=10\\int x (x^2+2)^{1/4} dx$$",
               
-                  "Como du=2x dx, entonces x dx=\\frac{1}{2}du.",
+                  "Como du=2x dx, entonces x dx=(1/2)du.",
                   "$$=10\\int (x^2+2)^{1/4} \\cdot x dx$$",
                   "$$=10\\int u^{1/4} \\cdot \\frac{1}{2}du$$",
                   "$$=5\\int u^{1/4}du$$",
               
-                  "<strong>Integramos.</strong>",
+                  "<strong>Aplicamos la integral por tabla.</strong>",
                   "$$5\\cdot \\frac{u^{5/4}}{5/4}$$",
                   "$$=5\\cdot \\frac{4}{5}u^{5/4}$$",
                   "$$=4u^{5/4}$$",
@@ -136,11 +134,8 @@
               "\\int \\left(\\frac{e^x}{3+4e^{x}}\\right) dx"
         ],
         "resolucion": [
-                  "<strong>Identificamos el método.</strong>",
-                  "La integral se resuelve por el método de sustitución,",
-                  "porque el denominador es 3+4e^x y su derivada es proporcional a e^x, que aparece en el numerador.",
-              
-                  "<strong>Hacemos el cambio de variable.</strong>",
+                  "<strong>La integral se resuelve por el método de sustitución.</strong>",              
+                  "<strong>El u correcto es.</strong>",
                   "$$u=3+4e^x$$",
                   "$$du=4e^x dx$$",
               
@@ -170,11 +165,8 @@
                 "\\int (6x+15)e^{x^2+5x} dx"
         ],
         "resolucion": [
-                        "<strong>Identificamos el método.</strong>",
-                        "La integral se resuelve por el método de sustitución,",
-                        "porque el exponente es x^2+5x y su derivada es proporcional a 6x+15.",
-                    
-                        "<strong>Hacemos el cambio de variable.</strong>",
+                        "<strong>La integral se resuelve por el método de sustitución.</strong>",                    
+                        "<strong>El u correcto es.</strong>",
                         "$$u=x^2+5x$$",
                         "$$du=(2x+5)dx$$",
                     
