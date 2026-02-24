@@ -147,11 +147,11 @@
                   "$$=\\int \\frac{1}{u}\\cdot\\frac{1}{4}du$$",
                   "$$=\\frac{1}{4}\\int \\frac{1}{u}du$$",
               
-                  "<strong>Integramos.</strong>",
-                  "$$\\frac{1}{4}\\ln|u|$$",
+                  "<strong>Aplicamos la integral por tabla.</strong>",
+                  "$$\\frac{1}{4}\\ln|u|+C$$",
               
                   "<strong>Volvemos a la variable original.</strong>",
-                  "$$\\frac{1}{4}\\ln|3+4e^x|$$",
+                  "$$\\frac{1}{4}\\ln|3+4e^x|+C$$",
               
                   "<strong>Conclusión.</strong>",
                   "La integral buscada es:",
