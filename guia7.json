@@ -87,12 +87,12 @@
                   "$$=5\\int u^{1/4}du$$",
               
                   "<strong>Aplicamos la integral por tabla.</strong>",
-                  "$$5\\cdot \\frac{u^{5/4}}{5/4}$$",
-                  "$$=5\\cdot \\frac{4}{5}u^{5/4}$$",
-                  "$$=4u^{5/4}$$",
+                  "$$5\\cdot \\frac{u^{5/4}}{5/4}+C$$",
+                  "$$=5\\cdot \\frac{4}{5}u^{5/4}+C$$",
+                  "$$=4u^{5/4}+C$$",
               
                   "<strong>Volvemos a la variable original.</strong>",
-                  "$$4(x^2+2)^{5/4}$$",
+                  "$$4(x^2+2)^{5/4}+C$$",
               
                   "<strong>Conclusión.</strong>",
                   "La integral buscada es:",
