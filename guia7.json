@@ -1,0 +1,364 @@
+[
+  {
+    "archivo": "Guia 7.pdf",
+    "pagina": 7,
+    "titulo": "Integrales",
+    "ejercicios": [
+      {
+        "numero": 1,
+        "enunciado": "Calcular la siguiente integral.",
+        "expresiones": [
+           "\\int \\left(3+\\frac{\\ln(8x)}{x}\\right) dx"
+        ],
+        "resolucion": [
+                "<strong>Separamos la integral.</strong>",
+                "$$\\int \\left(3+\\frac{\\ln(8x)}{x}\\right) dx=\\int 3\\,dx+\\int \\frac{\\ln(8x)}{x}dx$$",
+            
+                "<strong>Integramos el primer término.</strong>",
+                "$$\\int 3\\,dx=3x$$",
+            
+                "<strong>Integramos el segundo término.</strong>",
+                "Observamos que la derivada de \\ln(8x) es \\frac{1}{x}.",
+                "Hacemos el cambio de variable:",
+                "$$u=\\ln(8x)$$",
+                "$$du=\\frac{1}{x}dx$$",
+            
+                "La integral queda:",
+                "$$\\int u\\,du$$",
+                "$$\\frac{u^2}{2}$$",
+            
+                "Volvemos a la variable original:",
+                "$$\\frac{(\\ln(8x))^2}{2}$$",
+            
+                "<strong>Conclusión.</strong>",
+                "La integral buscada es:",
+                "$$3x+\\frac{(\\ln(8x))^2}{2}+C$$"
+        ]
+      },
+      {
+        "numero": 2,
+        "enunciado": "Calcular la siguiente integral.",
+        "expresiones": [
+               "\\int \\left(\\frac{\\ln(5x)}{x}\\right) dx"
+        ],
+        "resolucion": [
+                    "<strong>Observamos la estructura de la integral.</strong>",
+                    "Notamos que la derivada de \\ln(5x) es \\frac{1}{x}.",
+                    "Esto sugiere hacer un cambio de variable.",
+                
+                    "<strong>Hacemos el cambio de variable.</strong>",
+                    "$$u=\\ln(5x)$$",
+                    "$$du=\\frac{1}{x}dx$$",
+                
+                    "La integral queda:",
+                    "$$\\int u\\,du$$",
+                
+                    "<strong>Integramos.</strong>",
+                    "$$\\int u\\,du=\\frac{u^2}{2}$$",
+                
+                    "<strong>Volvemos a la variable original.</strong>",
+                    "$$\\frac{(\\ln(5x))^2}{2}$$",
+                
+                    "<strong>Conclusión.</strong>",
+                    "La integral buscada es:",
+                    "$$\\frac{(\\ln(5x))^2}{2}+C$$"     
+        ]
+      },
+      {
+        "numero": 3,
+        "enunciado": "Calcular la siguiente integral.",
+        "expresiones": [
+               "\\int 10x (x^2+2)^{1/4} dx"
+        ],
+        "resolucion": [
+                  "<strong>Observamos la estructura de la integral.</strong>",
+                  "Notamos que la derivada de x^2+2 es 2x.",
+                  "Esto sugiere hacer un cambio de variable.",
+              
+                  "<strong>Hacemos el cambio de variable.</strong>",
+                  "$$u=x^2+2$$",
+                  "$$du=2x\\,dx$$",
+              
+                  "Reescribimos la integral.",
+                  "$$\\int 10x (x^2+2)^{1/4} dx$$",
+                  "$$=10\\int x (x^2+2)^{1/4} dx$$",
+              
+                  "Como du=2x dx, entonces x dx=\\frac{1}{2}du.",
+                  "$$=10\\int (x^2+2)^{1/4} \\cdot x dx$$",
+                  "$$=10\\int u^{1/4} \\cdot \\frac{1}{2}du$$",
+                  "$$=5\\int u^{1/4}du$$",
+              
+                  "<strong>Integramos.</strong>",
+                  "$$5\\cdot \\frac{u^{5/4}}{5/4}$$",
+                  "$$=5\\cdot \\frac{4}{5}u^{5/4}$$",
+                  "$$=4u^{5/4}$$",
+              
+                  "<strong>Volvemos a la variable original.</strong>",
+                  "$$4(x^2+2)^{5/4}$$",
+              
+                  "<strong>Conclusión.</strong>",
+                  "La integral buscada es:",
+                  "$$4(x^2+2)^{5/4}+C$$"
+        ]
+      },
+      {
+        "numero": 4,
+        "enunciado": "Calcular la siguiente integral.",
+        "expresiones": [
+              "\\int (x+3)\\sqrt(x) dx"
+        ],
+        "resolucion": [
+                      "<strong>Reescribimos la raíz como potencia.</strong>",
+                      "$$\\sqrt{x}=x^{1/2}$$",
+                      "$$\\int (x+3)x^{1/2} dx$$",
+                  
+                      "<strong>Aplicamos la propiedad de linealidad (distributiva).</strong>",
+                      "$$(x+3)x^{1/2}=x^{3/2}+3x^{1/2}$$",
+                      "$$\\int (x^{3/2}+3x^{1/2})dx$$",
+                      "$$=\\int x^{3/2}dx + 3\\int x^{1/2}dx$$",
+                  
+                      "<strong>Aplicamos la regla de la potencia.</strong>",
+                      "$$\\int x^{3/2}dx=\\frac{x^{5/2}}{5/2}=\\frac{2}{5}x^{5/2}$$",
+                      "$$3\\int x^{1/2}dx=3\\cdot\\frac{x^{3/2}}{3/2}=2x^{3/2}$$",
+                  
+                      "<strong>Sumamos los resultados.</strong>",
+                      "$$\\frac{2}{5}x^{5/2}+2x^{3/2}$$",
+                  
+                      "<strong>Conclusión.</strong>",
+                      "La integral buscada es:",
+                      "$$\\frac{2}{5}x^{5/2}+2x^{3/2}+C$$"  
+        ]
+      },
+      {
+        "numero": 5,
+        "enunciado": "Calcular la siguiente integral.",
+        "expresiones": [
+              "\\int \\left(\\frac{e^x}{3+4e^{x}}\\right) dx"
+        ],
+        "resolucion": [
+                  "<strong>Identificamos el método.</strong>",
+                  "La integral se resuelve por el método de sustitución,",
+                  "porque el denominador es 3+4e^x y su derivada es proporcional a e^x, que aparece en el numerador.",
+              
+                  "<strong>Hacemos el cambio de variable.</strong>",
+                  "$$u=3+4e^x$$",
+                  "$$du=4e^x dx$$",
+              
+                  "Despejamos:",
+                  "$$e^x dx=\\frac{1}{4}du$$",
+              
+                  "<strong>Reescribimos la integral en función de u.</strong>",
+                  "$$\\int \\frac{e^x}{3+4e^x}dx$$",
+                  "$$=\\int \\frac{1}{u}\\cdot\\frac{1}{4}du$$",
+                  "$$=\\frac{1}{4}\\int \\frac{1}{u}du$$",
+              
+                  "<strong>Integramos.</strong>",
+                  "$$\\frac{1}{4}\\ln|u|$$",
+              
+                  "<strong>Volvemos a la variable original.</strong>",
+                  "$$\\frac{1}{4}\\ln|3+4e^x|$$",
+              
+                  "<strong>Conclusión.</strong>",
+                  "La integral buscada es:",
+                  "$$\\frac{1}{4}\\ln|3+4e^x|+C$$"     
+        ]
+      },
+      {
+        "numero": 6,
+        "enunciado": "Calcular la siguiente integral.",
+        "expresiones": [
+                "\\int (6x+15)e^{x^2+5x} dx"
+        ],
+        "resolucion": [
+                        "<strong>Identificamos el método.</strong>",
+                        "La integral se resuelve por el método de sustitución,",
+                        "porque el exponente es x^2+5x y su derivada es proporcional a 6x+15.",
+                    
+                        "<strong>Hacemos el cambio de variable.</strong>",
+                        "$$u=x^2+5x$$",
+                        "$$du=(2x+5)dx$$",
+                    
+                        "Observamos que:",
+                        "$$6x+15=3(2x+5)$$",
+                    
+                        "Entonces:",
+                        "$$(6x+15)dx=3(2x+5)dx=3du$$",
+                    
+                        "<strong>Reescribimos la integral en función de u.</strong>",
+                        "$$\\int (6x+15)e^{x^2+5x} dx$$",
+                        "$$=\\int 3e^u du$$",
+                        "$$=3\\int e^u du$$",
+                    
+                        "<strong>Integramos.</strong>",
+                        "$$3e^u$$",
+                    
+                        "<strong>Volvemos a la variable original.</strong>",
+                        "$$3e^{x^2+5x}$$",
+                    
+                        "<strong>Conclusión.</strong>",
+                        "La integral buscada es:",
+                        "$$3e^{x^2+5x}+C$$"
+        ]
+      },
+      {
+        "numero": 7,
+        "enunciado": "Calcular la siguiente integral. ",
+        "expresiones": [
+                 "\\int \\left(5+ \\frac{\\cos(x)}{\\sin(x)^4}\\right) dx"
+        ],
+        "resolucion": [
+                      "<strong>Separamos la integral usando la propiedad de linealidad.</strong>",
+                      "$$\\int \\left(5+ \\frac{\\cos(x)}{\\sin(x)^4}\\right) dx$$",
+                      "$$=\\int 5\\,dx + \\int \\frac{\\cos(x)}{\\sin(x)^4}dx$$",
+                  
+                      "<strong>Integramos el primer término.</strong>",
+                      "$$\\int 5\\,dx=5x$$",
+                  
+                      "<strong>Identificamos el método para el segundo término.</strong>",
+                      "Se resuelve por el método de sustitución,",
+                      "porque la derivada de \\sin(x) es \\cos(x).",
+                  
+                      "<strong>Hacemos el cambio de variable.</strong>",
+                      "$$u=\\sin(x)$$",
+                      "$$du=\\cos(x)dx$$",
+                  
+                      "Reescribimos la integral:",
+                      "$$\\int \\frac{\\cos(x)}{\\sin(x)^4}dx$$",
+                      "$$=\\int \\frac{1}{u^4}du$$",
+                      "$$=\\int u^{-4}du$$",
+                  
+                      "<strong>Integramos.</strong>",
+                      "$$\\frac{u^{-3}}{-3}$$",
+                      "$$=-\\frac{1}{3u^3}$$",
+                  
+                      "<strong>Volvemos a la variable original.</strong>",
+                      "$$-\\frac{1}{3\\sin(x)^3}$$",
+                  
+                      "<strong>Conclusión.</strong>",
+                      "La integral buscada es:",
+                      "$$5x-\\frac{1}{3\\sin(x)^3}+C$$"
+        ]
+      },
+      {
+        "numero": 8,
+        "enunciado": "Calcular la siguiente integral.",
+        "expresiones": [
+              "\\int \\left(3-\\sqrt{2+7e^{x}}\\right)e^x dx"
+        ],
+        "resolucion": [
+                      "<strong>Identificamos el método.</strong>",
+                      "La integral se resuelve por el método de sustitución,",
+                      "porque dentro de la raíz aparece 2+7e^x y su derivada es proporcional a e^x.",
+                  
+                      "<strong>Hacemos el cambio de variable.</strong>",
+                      "$$u=2+7e^x$$",
+                      "$$du=7e^x dx$$",
+                  
+                      "Despejamos:",
+                      "$$e^x dx=\\frac{1}{7}du$$",
+                  
+                      "<strong>Reescribimos la integral.</strong>",
+                      "$$\\int (3-\\sqrt{2+7e^x})e^x dx$$",
+                      "$$=\\int (3-\\sqrt{u})\\frac{1}{7}du$$",
+                      "$$=\\frac{1}{7}\\int (3-u^{1/2})du$$",
+                  
+                      "<strong>Aplicamos la propiedad de linealidad.</strong>",
+                      "$$=\\frac{1}{7}\\left(\\int 3du - \\int u^{1/2}du\\right)$$",
+                  
+                      "<strong>Integramos.</strong>",
+                      "$$\\int 3du=3u$$",
+                      "$$\\int u^{1/2}du=\\frac{u^{3/2}}{3/2}=\\frac{2}{3}u^{3/2}$$",
+                  
+                      "Entonces:",
+                      "$$\\frac{1}{7}\\left(3u-\\frac{2}{3}u^{3/2}\\right)$$",
+                  
+                      "<strong>Volvemos a la variable original.</strong>",
+                      "$$\\frac{1}{7}\\left(3(2+7e^x)-\\frac{2}{3}(2+7e^x)^{3/2}\\right)$$",
+                  
+                      "<strong>Conclusión.</strong>",
+                      "La integral buscada es:",
+                      "$$\\frac{1}{7}\\left(3(2+7e^x)-\\frac{2}{3}(2+7e^x)^{3/2}\\right)+C$$"     
+        ]
+      },
+      {
+        "numero": 9,
+        "enunciado": "Calcular la siguiente integral.",
+        "expresiones": [
+                       "\\int (2x-1)e^{2x^2-2x} dx"
+        ],
+        "resolucion": [
+                        "<strong>Identificamos el método.</strong>",
+                        "La integral se resuelve por el método de sustitución,",
+                        "porque el exponente es 2x^2-2x y su derivada es 4x-2, que es proporcional a 2x-1.",
+                    
+                        "<strong>Hacemos el cambio de variable.</strong>",
+                        "$$u=2x^2-2x$$",
+                        "$$du=(4x-2)dx$$",
+                    
+                        "Observamos que:",
+                        "$$4x-2=2(2x-1)$$",
+                    
+                        "Entonces:",
+                        "$$(2x-1)dx=\\frac{1}{2}du$$",
+                    
+                        "<strong>Reescribimos la integral.</strong>",
+                        "$$\\int (2x-1)e^{2x^2-2x} dx$$",
+                        "$$=\\int e^u \\cdot \\frac{1}{2}du$$",
+                        "$$=\\frac{1}{2}\\int e^u du$$",
+                    
+                        "<strong>Integramos.</strong>",
+                        "$$\\frac{1}{2}e^u$$",
+                    
+                        "<strong>Volvemos a la variable original.</strong>",
+                        "$$\\frac{1}{2}e^{2x^2-2x}$$",
+                    
+                        "<strong>Conclusión.</strong>",
+                        "La integral buscada es:",
+                        "$$\\frac{1}{2}e^{2x^2-2x}+C$$"
+        ]
+      },
+      {
+        "numero": 10,
+        "enunciado": "Calcular la siguiente integral.",
+        "expresiones": [
+               "\\int \\left(6 + x\\sin(4x^2+3)\\right) dx"
+        ],
+        "resolucion": [
+                    "<strong>Aplicamos la propiedad de linealidad.</strong>",
+                    "$$\\int \\left(6 + x\\sin(4x^2+3)\\right) dx$$",
+                    "$$=\\int 6\\,dx + \\int x\\sin(4x^2+3)dx$$",
+                
+                    "<strong>Integramos el primer término.</strong>",
+                    "$$\\int 6\\,dx = 6x$$",
+                
+                    "<strong>Identificamos el método para el segundo término.</strong>",
+                    "Se resuelve por el método de sustitución,",
+                    "porque la derivada de 4x^2+3 es 8x, proporcional a x.",
+                
+                    "<strong>Hacemos el cambio de variable.</strong>",
+                    "$$u=4x^2+3$$",
+                    "$$du=8x\\,dx$$",
+                
+                    "Despejamos:",
+                    "$$x\\,dx = \\frac{1}{8}du$$",
+                
+                    "<strong>Reescribimos la integral.</strong>",
+                    "$$\\int x\\sin(4x^2+3)dx$$",
+                    "$$=\\int \\sin(u)\\frac{1}{8}du$$",
+                    "$$=\\frac{1}{8}\\int \\sin(u)du$$",
+                
+                    "<strong>Integramos.</strong>",
+                    "$$\\frac{1}{8}(-\\cos u)$$",
+                    "$$=-\\frac{1}{8}\\cos u$$",
+                
+                    "<strong>Volvemos a la variable original.</strong>",
+                    "$$-\\frac{1}{8}\\cos(4x^2+3)$$",
+                
+                    "<strong>Conclusión.</strong>",
+                    "La integral buscada es:",
+                    "$$6x - \\frac{1}{8}\\cos(4x^2+3) + C$$"
+         ]
+      }  
+    ]
+  }
+]
