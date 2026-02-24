@@ -20,7 +20,7 @@
                 "<strong>Aplicamos el método de sustitución en el segundo término.</strong>",
                 "El u correcto es:",
                 "$$u=\\ln(8x)$$",
-                "$$du=\\frac{(8x)'}{(8x)}.dx",
+                "$$du=\\frac{(8x)'}{(8x)}.dx$$",
                 "$$du==\\frac{8}{8x}.dx$$",
                 "$$du= \\frac{1}{x}.dx$$.",
             
