@@ -153,12 +153,64 @@
       },
       {
         "numero": 4,
-        "enunciado": "Sea f(x). Hallar la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x₀=0.",
+        "enunciado": "Calcular el área de la región encerrada por los gráficos f(x) y g(x).",
         "expresiones": [
-              "f(x)=(4x+1)^4"
+              "f(x)=x^2-2x+1" , "g(x)=2x+6"
         ],
         "resolucion": [
+                        "<strong>Hallamos los puntos de intersección.</strong>",
+                        "<strong>Igualamos f(x)=g(x):</strong>",
+                        "$$x^2-2x+1=2x+6$$",
+                        "$$x^2-4x-5=0$$",
                     
+                        "<strong>Resolvemos la ecuación utilizando la resolvente.</strong>",
+                        "$$a=1 \\quad \\quad b=-4 \\quad \\quad c=-5$$",
+                    
+                        "<strong>Entonces:</strong>",
+                        "$$x=-1 \\quad \\quad \\text{y} \\quad \\quad x=5$$",
+                    
+                        "<strong>Determinamos quién es techo y piso en el intervalo [-1,5].</strong>",
+                        "<strong>Tomamos un punto intermedio, por ejemplo x=0:</strong>",
+                        "$$f(0)=1$$",
+                        "$$g(0)=6$$",
+                        "<strong>Entonces g(x) > f(x), por lo tanto:</strong>",
+                        "<strong>Techo: g(x)</strong>",
+                        "<strong>Piso: f(x)</strong>",
+                    
+                        "<strong>Planteamos el área entre curvas.</strong>",
+                        "$$A=\\int_{-1}^{5} [g(x)-f(x)] dx$$",
+                        "$$A=\\int_{-1}^{5} \\left[(2x+6)-(x^2-2x+1)\\right] dx$$",
+                    
+                        "<strong>Simplificamos el integrando.</strong>",
+                        "$$A=\\int_{-1}^{5} (-x^2+4x+5) dx$$",
+                    
+                        "<strong>Integramos.</strong>",
+                        "$$\\int (-x^2+4x+5)dx = -\\frac{x^3}{3}+2x^2+5x$$",
+                    
+                        "<strong>Aplicamos la regla de Barrow.</strong>",
+                        "$$A=\\left[-\\frac{x^3}{3}+2x^2+5x\\right]_{-1}^{5}$$",
+                    
+                        "<strong>Evaluamos en x=5.</strong>",
+                        "$$-\\frac{125}{3}+50+25$$",
+                        "$$=-\\frac{125}{3}+75$$",
+                        "$$=-\\frac{125}{3}+\\frac{225}{3}$$",
+                        "$$=\\frac{100}{3}$$",
+                    
+                        "<strong>Evaluamos en x=-1.</strong>",
+                        "$$-\\frac{-1}{3}+2(1)-5$$",
+                        "$$=\\frac{1}{3}+2-5$$",
+                        "$$=\\frac{1}{3}-3$$",
+                        "$$=\\frac{1}{3}-\\frac{9}{3}$$",
+                        "$$=-\\frac{8}{3}$$",
+                    
+                        "<strong>Restamos.</strong>",
+                        "$$A=\\frac{100}{3}-(-\\frac{8}{3})$$",
+                        "$$A=\\frac{108}{3}$$",
+                        "$$A=36$$",
+                    
+                        "<strong>CONCLUSIÓN:</strong>",
+                        "El área encerrada entre las curvas es:",
+                        "$$A=36$$"
         ]
       },
       {
