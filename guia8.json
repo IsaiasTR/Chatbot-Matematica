@@ -105,12 +105,50 @@
       },
       {
         "numero": 3,
-        "enunciado": "Hallar la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x₀=0.",
+        "enunciado": "Calcular el área de la región encerrada por los gráficos de f(x) y g(x).",
         "expresiones": [
-          "f(x)=2+5x+\\sin(3x)"
+          "f(x)=(x-5)^2" , "g(x)=2(x-5)"
         ],
         "resolucion": [
-                     
+                    "<strong>Hallamos los puntos de intersección.</strong>",
+                    "<strong>Igualamos f(x)=g(x):</strong>",
+                    "$$(x-5)^2=2(x-5)$$",
+                
+                    "<strong>Una opción es pasar todo al segundo miembro y luego factorizar:",
+                    "$$(x-5)^2-2(x-5)=0$$",
+                    "$$(x-5)[(x-5)-2]=0$$",
+                    "$$(x-5)(x-7)=0$$",
+                
+                    "<strong>Entonces:</strong>",
+                    "$$x=5 \\quad \\quad \\text{y} \\quad \\quad x=7$$",
+                
+                    "<strong>Determinamos quién es techo y piso en el intervalo [5,7].</strong>",
+                    "<strong>Tomamos un punto intermedio, por ejemplo x=6:</strong>",
+                    "$$f(6)=(6-5)^2=1$$",
+                    "$$g(6)=2(6-5)=2$$",
+                    "<strong>Entonces g(x) > f(x), por lo tanto:</strong>",
+                    "<strong>Techo: g(x)</strong>",
+                    "<strong>Piso: f(x)</strong>",
+                
+                    "<strong>Planteamos el área entre las curvas.</strong>",
+                    "$$A=\\int_{5}^{7} [g(x)-f(x)] dx$$",
+                    "$$A=\\int_{5}^{7} \\left[2(x-5)-(x-5)^2\\right] dx$$",
+                    "$$A=\\int_{5}{7} \\left[2x-10-x^2+10x-25\\right]dx$$",
+                
+                    "<strong>La integral queda:</strong>",
+                    "$$A=\\int_{5}{7} \\left[-x^2+12x-35\\right]d$$",
+                
+                    "<strong>Integramos.</strong>",
+                    "$$[-\\frac{1}{3}x^3+6x^2-35x]_{5}^{7}$$",
+                
+                    "<strong>Aplicamos la regla de Barrow.</strong>",
+                    "$$A=(-\\frac{1}{3}(7)^3+6(7)^2-35(7))-(-\\frac{1}{3}(5)^3+6(5)-35(5))$$",
+                    "$$A=\\frac{196}{3}-(-\\frac{200}{3})$$",
+                    "$$A=\\frac{4}{3}$$",
+                
+                    "<strong>CONCLUSIÓN:</strong>",
+                    "El área encerrada entre las curvas es:",
+                    "$$A=\\frac{4}{3}$$"    
         ]
       },
       {
