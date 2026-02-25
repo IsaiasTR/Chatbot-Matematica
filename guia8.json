@@ -114,7 +114,7 @@
                     "<strong>Igualamos f(x)=g(x):</strong>",
                     "$$(x-5)^2=2(x-5)$$",
                 
-                    "<strong>Una opción es pasar todo al segundo miembro y luego factorizar:",
+                    "<strong>Una opción es pasar todo al segundo miembro y luego factorizar (otra opción es resolver la potencia y luego usar la resolvente)</strong>",
                     "$$(x-5)^2-2(x-5)=0$$",
                     "$$(x-5)[(x-5)-2]=0$$",
                     "$$(x-5)(x-7)=0$$",
