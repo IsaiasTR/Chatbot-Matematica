@@ -1,0 +1,159 @@
+[
+  {
+    "archivo": "Guia 8.pdf",
+    "pagina": 8,
+    "titulo": "Cálculo de Áreas",
+    "ejercicios": [
+      {
+        "numero": 1,
+        "enunciado": "Calcular el área de la región encerrada por los gráficos de f(x) y g(x).",
+        "expresiones": [
+          "f(x)=x^2-3x+1" , "g(x)=2x-3"
+        ],
+        "resolucion": [
+               "<strong>1) Hallamos los puntos de intersección.</strong>",
+              "Igualamos f(x)=g(x):",
+              "$$x^2-3x+1=2x-3$$",
+              "$$x^2-5x+4=0$$",
+              "Factorizamos:",
+              "$$(x-1)(x-4)=0$$",
+              "Entonces:",
+              "$$x=1 \\quad \\text{y} \\quad x=4$$",
+          
+              "<strong>2) Determinamos cuál función está arriba en el intervalo [1,4].</strong>",
+              "Calculamos la diferencia:",
+              "$$f(x)-g(x)=x^2-3x+1-(2x-3)$$",
+              "$$=x^2-5x+4$$",
+              "Probamos un punto intermedio, por ejemplo x=2:",
+              "$$f(2)=4-6+1=-1$$",
+              "$$g(2)=4-3=1$$",
+              "Entonces g(x) > f(x) en el intervalo.",
+          
+              "<strong>3) Planteamos el área entre curvas.</strong>",
+              "$$A=\\int_{1}^{4} [g(x)-f(x)] dx$$",
+              "$$=\\int_{1}^{4} \\left[(2x-3)-(x^2-3x+1)\\right] dx$$",
+          
+              "Simplificamos el integrando:",
+              "$$=\\int_{1}^{4} (-x^2+5x-4) dx$$",
+          
+              "<strong>4) Integramos.</strong>",
+              "$$\\int (-x^2+5x-4)dx=-\\frac{x^3}{3}+\\frac{5x^2}{2}-4x$$",
+          
+              "<strong>5) Evaluamos entre 1 y 4.</strong>",
+              "En x=4:",
+              "$$-\\frac{64}{3}+\\frac{80}{2}-16$$",
+              "$$=-\\frac{64}{3}+40-16$$",
+              "$$=-\\frac{64}{3}+24$$",
+              "$$=\\frac{8}{3}$$",
+          
+              "En x=1:",
+              "$$-\\frac{1}{3}+\\frac{5}{2}-4$$",
+              "$$=-\\frac{1}{3}+\\frac{5}{2}-\\frac{12}{3}$$",
+              "$$=-\\frac{13}{3}+\\frac{5}{2}$$",
+              "$$=-\\frac{26}{6}+\\frac{15}{6}$$",
+              "$$=-\\frac{11}{6}$$",
+          
+              "Restamos:",
+              "$$A=\\frac{8}{3}-(-\\frac{11}{6})$$",
+              "$$A=\\frac{16}{6}+\\frac{11}{6}$$",
+              "$$A=\\frac{27}{6}$$",
+              "$$A=\\frac{9}{2}$$",
+          
+              "<strong>Conclusión.</strong>",
+              "El área encerrada entre las curvas es:",
+              "$$A=\\frac{9}{2}$$"
+        ]
+      },
+      {
+        "numero": 2,
+        "enunciado": "Sea f(x). Hallar la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x₀=1.",
+        "expresiones": [
+               "f(x)=2+\\ln(5x^3-4)"
+        ],
+        "resolucion": [
+                      
+        ]
+      },
+      {
+        "numero": 3,
+        "enunciado": "Hallar la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x₀=0.",
+        "expresiones": [
+          "f(x)=2+5x+\\sin(3x)"
+        ],
+        "resolucion": [
+                     
+        ]
+      },
+      {
+        "numero": 4,
+        "enunciado": "Sea f(x). Hallar la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x₀=0.",
+        "expresiones": [
+              "f(x)=(4x+1)^4"
+        ],
+        "resolucion": [
+                    
+        ]
+      },
+      {
+        "numero": 5,
+        "enunciado": "Sea f(x). Dar la ecuación de la recta tangente al gráfico de f(x) en (-5;f(-5)).",
+        "expresiones": [
+            "f(x)=x\\ln(x^2-24)+6"
+        ],
+        "resolucion": [
+                      
+        ]
+      },
+      {
+        "numero": 6,
+        "enunciado": "Sea f(x). Hallar a para que la pendiente de la recta tangente al gráfico de f(x) en el punto (6;f(6)) sea 8. Dar la ecuación de la recta tangente en dicho punto.",
+        "expresiones": [
+                "f(x)=4e^{2x-a}+5"
+        ],
+        "resolucion": [
+                   
+        ]
+      },
+      {
+        "numero": 7,
+        "enunciado": "Hallar a y b para que la ecuación de la recta tangente al gráfico de f(x) en x₀=4 sea y=1. ",
+        "expresiones": [
+               "f(x)=e^{x^3+ax^2+b}"
+        ],
+        "resolucion": [
+                  
+        ]
+      },
+      {
+        "numero": 8,
+        "enunciado": "Sean f(x). Hallar a para que la recta tangente al gráfico de f(x) en (1;f(1)) sea paralela a la recta de ecuación y=3x+2.",
+        "expresiones": [
+                "f(x)=ax+1+e^{1-x^2}"
+        ],
+        "resolucion": [
+                     
+        ]
+      },
+      {
+        "numero": 9,
+        "enunciado": "Encontrar el punto del gráfico de f(x) en el que la recta tangente tiene pendiente m=3. Escribir la ecuación de dicha recta tangente.",
+        "expresiones": [
+            "f(x)=e^{x^2-8x+16}+3x+7"
+        ],
+        "resolucion": [
+                    
+        ]
+      },
+      {
+        "numero": 10,
+        "enunciado": "Dada f(x), hallar a de modo que f'(1)=1/5. Para el valor de a hallado, escribir la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x=1.",
+        "expresiones": [
+          "f(x)=\\frac{x+a}{x-6}"
+        ],
+        "resolucion": [
+                   
+         ]
+      }  
+    ]
+  }
+]
