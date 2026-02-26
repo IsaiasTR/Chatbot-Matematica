@@ -327,12 +327,55 @@
       },
       {
         "numero": 7,
-        "enunciado": "Hallar a y b para que la ecuación de la recta tangente al gráfico de f(x) en x₀=4 sea y=1. ",
+        "enunciado": "Calcular el área de la región encerrada por los gráficos de f(x) y g(x). ",
         "expresiones": [
-               "f(x)=e^{x^3+ax^2+b}"
+               "f(x)=2x^2-5x+1" , "g(x)=x^2-2x+1"
         ],
         "resolucion": [
+                      "<strong>Hallamos los puntos de intersección entre f(x) y g(x).</strong>",
+                      "<strong>Igualamos f(x)=g(x):</strong>",
+                      "$$2x^2-5x+1=x^2-2x+1$$",
+                      "$$x^2-3x=0$$",
+                      "<strong>Factorizamos (otra opción es usar la resolvente)</strong>",
+                      "$$x(x-3)=0$$",
+                      "<strong>Entonces:</strong>",
+                      "$$x=0 \\quad \\quad \\text{y} \\quad \\quad x=3$$",
                   
+                      "<strong>Determinamos quien es techo y quien es piso en el intervalo [0,3].</strong>",
+                      "<strong>Tomamos un valor intermedio, por ejemplo x=1:</strong>",
+                      "$$f(1)=2-5+1=-2$$",
+                      "$$g(1)=1-2+1=0$$",
+                      "<strong>Como g(1) > f(1), entonces g(x) es la función techo y f(x) es la función piso.</strong>",
+                  
+                      "<strong>Planteamos el área entre curvas:</strong>",
+                      "$$A=\\int_{0}^{3} [g(x)-f(x)] dx$$",
+                      "$$A=\\int_{0}^{3} \\left[(x^2-2x+1)-(2x^2-5x+1)\\right] dx$$",
+                  
+                      "<strong>Simplificamos el integrando:</strong>",
+                      "$$A=\\int_{0}^{3} (-x^2+3x) dx$$",
+                  
+                      "<strong>Integramos:</strong>",
+                      "$$A=\\int (-x^2+3x)dx=-\\frac{x^3}{3}+\\frac{3x^2}{2}$$",
+                  
+                      "<strong>Aplicamos la regla de Barrow:</strong>",
+                      "$$A=\\left(-\\frac{x^3}{3}+\\frac{3x^2}{2}\\right)_{0}^{3}$$",
+                  
+                      "<strong>Evaluamos en x=3:</strong>",
+                      "$$-\\frac{27}{3}+\\frac{27}{2}$$",
+                      "$$=-9+\\frac{27}{2}$$",
+                      "$$=\\frac{-18+27}{2}$$",
+                      "$$=\\frac{9}{2}$$",
+                  
+                      "<strong>Evaluamos en x=0:</strong>",
+                      "$$0$$",
+                  
+                      "<strong>Restamos:</strong>",
+                      "$$A=\\frac{9}{2}-0$$",
+                      "$$A=\\frac{9}{2}$$",
+                  
+                      "<strong>CONCLUSIÓN:</strong>",
+                      "El área encerrada entre las curvas es:",
+                      "$$A=\\frac{9}{2}$$"
         ]
       },
       {
