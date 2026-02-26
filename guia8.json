@@ -272,12 +272,57 @@
       },
       {
         "numero": 6,
-        "enunciado": "Calcular el área de la región encerrada por los gráficos de f(x) y g(x) para 0 menor o igual x menor igual a 4",
+        "enunciado": "Calcular el área de la región encerrada por los gráficos de f(x) y g(x) para 0 ≤ x ≤ 4",
         "expresiones": [
                 "f(x)=x^2-5x" , "g(x)=x-5"
         ],
         "resolucion": [
-                   
+                    "<strong>Hallamos los puntos de intersección.</strong>",
+                    "<strong>Igualamos f(x)=g(x):</strong>",
+                    "$$x^2-5x=x-5$$",
+                    "$$x^2-6x+5=0$$",
+                    "<strong>Utilizamos la resolvente:</strong>",
+                    "<strong>Entonces las raíces son:</strong>",
+                    "$$x=1 \\quad \\quad \\text{y} \\quad \\quad x=5$$",
+                
+                    "<strong>Como el intervalo pedido es 0 ≤ x ≤ 4, solo consideramos x=1.</strong>",
+                
+                    "<strong>Determinamos quién es techo y piso en cada subintervalo.</strong>",
+                
+                    "<strong>En [0,1], probamos con x=0.5:</strong>",
+                    "$$f(0.5)=-2.25$$",
+                    "$$g(0.5)=-4.5$$",
+                    "<strong>Entonces f(x) > g(x).</strong>",
+                
+                    "<strong>En [1,4], probamos con x=2:</strong>",
+                    "$$f(2)=4-10=-6$$",
+                    "$$g(2)=2-5=-3$$",
+                    "<strong>Entonces g(x) > f(x).</strong>",
+                
+                    "<strong>Planteamos el área como suma de integrales.</strong>",
+                    "$$A=\\int_{0}^{1} [f(x)-g(x)]dx + \\int_{1}^{4} [g(x)-f(x)]dx$$",
+                
+                    "<strong>Simplificamos:</strong>",
+                    "$$f(x)-g(x)=x^2-6x+5$$",
+                    "$$g(x)-f(x)=-x^2+6x-5$$",
+                
+                    "<strong>Integramos el primer tramo.</strong>",
+                    "$$\\int_{0}^{1} (x^2-6x+5)dx$$",
+                    "$$=\\left(\\frac{x^3}{3}-3x^2+5x\\right)_{0}^{1}$$",
+                    "$$=\\frac{7}{3}$$",
+                
+                    "<strong>Integramos el segundo tramo.</strong>",
+                    "$$\\int_{1}^{4} (-x^2+6x-5)dx$$",
+                    "$$=\\left(-\\frac{x^3}{3}+3x^2-5x\\right)_{1}^{4}$$",
+                    "$$=9$$",
+                
+                    "<strong>Sumamos ambas áreas.</strong>",
+                    "$$A=\\frac{7}{3}+9$$",
+                    "$$A=\\frac{34}{3}$$",
+                
+                    "<strong>CONCLUSIÓN:</strong>",
+                    "El área encerrada en el intervalo 0 ≤ x ≤ 4 es:",
+                    "$$A=\\frac{34}{3}$$"  
         ]
       },
       {
