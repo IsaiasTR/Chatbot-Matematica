@@ -436,9 +436,9 @@
       },
       {
         "numero": 9,
-        "enunciado": "Encontrar el punto del gráfico de f(x) en el que la recta tangente tiene pendiente m=3. Escribir la ecuación de dicha recta tangente.",
+        "enunciado": "Calcular el área de la región encerrada por los gráficos de.",
         "expresiones": [
-            "f(x)=e^{x^2-8x+16}+3x+7"
+            "y=\\frac{2}{x}" , "y =2x" , "x=5"
         ],
         "resolucion": [
                     
@@ -446,9 +446,9 @@
       },
       {
         "numero": 10,
-        "enunciado": "Dada f(x), hallar a de modo que f'(1)=1/5. Para el valor de a hallado, escribir la ecuación de la recta tangente al gráfico de f(x) en el punto de abscisa x=1.",
+        "enunciado": "Calcular el área de la región encerrada por los gráficos f(x) y g(x) para 0 ≤ x ≤ 9.",
         "expresiones": [
-          "f(x)=\\frac{x+a}{x-6}"
+          "f(x)=-(x-6)(x+2)" , "g(x)=-x+12"
         ],
         "resolucion": [
                    
