@@ -487,7 +487,60 @@
           "f(x)=-(x-6)(x+2)" , "g(x)=-x+12"
         ],
         "resolucion": [
-                   
+                       "<strong>Primero expandimos f(x).</strong>",
+                      "$$f(x)=-(x-6)(x+2)$$",
+                      "$$f(x)=-(x^2-4x-12)$$",
+                      "$$f(x)=-x^2+4x+12$$",
+                  
+                      "<strong>Hallamos los puntos de intersección f(x)=g(x).</strong>",
+                      "$$-x^2+4x+12=-x+12$$",
+                      "$$-x^2+5x=0$$",
+                      "$$-x(x-5)=0$$",
+                      "$$x=0 \\quad \\quad x=5$$",
+                  
+                      "<strong>Determinamos quién es techo en cada intervalo dentro de [0,9].</strong>",
+                  
+                      "<strong>En el intervalo [0,5]: Tomamos x=2</strong>",
+                      "$$f(2)=-4+8+12=16$$",
+                      "$$g(2)=-2+12=10$$",
+                      "<strong>Entonces f(x) > g(x) en [0,5].</strong>",
+                  
+                      "<strong>En el intervalo [5,9]: Tomamos x=7</strong>",
+                      "$$f(7)=-49+28+12=-9$$",
+                      "$$g(7)=-7+12=5$$",
+                      "<strong>Entonces g(x) > f(x) en [5,9].</strong>",
+                  
+                      "<strong>Planteamos el área como suma de dos integrales:</strong>",
+                      "$$A=\\int_{0}^{5} [f(x)-g(x)] dx + \\int_{5}^{9} [g(x)-f(x)] dx$$",
+                  
+                      "<strong>Simplificamos el integrando:</strong>",
+                      "$$f(x)-g(x)=(-x^2+4x+12)-(-x+12)=-x^2+5x$$",
+                      "$$g(x)-f(x)=x^2-5x$$",
+                  
+                      "<strong>Integramos:</strong>",
+                      "$$\\int (-x^2+5x)dx=-\\frac{x^3}{3}+\\frac{5x^2}{2}$$",
+                      "$$\\int (x^2-5x)dx=\\frac{x^3}{3}-\\frac{5x^2}{2}$$",
+                  
+                      "<strong>Calculamos el primer intervalo [0,5]:</strong>",
+                      "$$A_1=\\left(-\\frac{x^3}{3}+\\frac{5x^2}{2}\\right)_{0}^{5}$$",
+                      "$$A_1=-\\frac{125}{3}+\\frac{125}{2}$$",
+                      "$$A_1=\\frac{125}{6}$$",
+                  
+                      "<strong>Calculamos el segundo intervalo [5,9]:</strong>",
+                      "$$A_2=\\left(\\frac{x^3}{3}-\\frac{5x^2}{2}\\right)_{5}^{9}$$",
+                      "$$F(9)=\\frac{729}{3}-\\frac{405}{2}=243-202.5=\\frac{81}{2}$$",
+                      "$$F(5)=\\frac{125}{3}-\\frac{125}{2}=-\\frac{125}{6}$$",
+                      "$$A_2=\\frac{81}{2}+\\frac{125}{6}$$",
+                      "$$A_2=\\frac{184}{3}$$",
+                  
+                      "<strong>Sumamos ambas áreas:</strong>",
+                      "$$A=\\frac{125}{6}+\\frac{184}{3}$$",
+                      "$$A=\\frac{125}{6}+\\frac{368}{6}$$",
+                      "$$A=\\frac{493}{6}$$",
+                  
+                      "<strong>CONCLUSIÓN:</strong>",
+                      "El área total encerrada en el intervalo [0,9] es:",
+                      "$$A=\\frac{493}{6}$$"
          ]
       }  
     ]
