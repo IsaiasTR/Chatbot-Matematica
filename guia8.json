@@ -441,7 +441,45 @@
             "y=\\frac{2}{x}" , "y =2x" , "x=5"
         ],
         "resolucion": [
+                        "<strong>Hallamos el punto de intersección entre y=2/x y y=2x.</strong>",
+                        "$$\\frac{2}{x}=2x$$",
+                        "$$2=2x^2$$",
+                        "$$x^2=1$$",
+                        "$$x=\\pm1$$",
+                        "<strong>Como trabajamos en la región cerrada con x=5 (lado positivo), tomamos x=1.</strong>",
                     
+                        "<strong>Determinamos quién es techo en el intervalo [1,5].</strong>",
+                        "<strong>Tomamos x=2:</strong>",
+                        "$$y=2x=4$$",
+                        "$$y=\\frac{2}{x}=1$$",
+                        "<strong>Entonces y=2x es la función techo y y=2/x es la función piso.</strong>",
+                    
+                        "<strong>Planteamos el área:</strong>",
+                        "$$A=\\int_{1}^{5} \\left(2x-\\frac{2}{x}\\right) dx$$",
+                    
+                        "<strong>Integramos término a término:</strong>",
+                        "$$\\int 2x dx = x^2$$",
+                        "$$\\int \\frac{2}{x} dx = 2\\ln|x|$$",
+                    
+                        "<strong>Primitiva:</strong>",
+                        "$$A=\\left(x^2-2\\ln|x|\\right)_{1}^{5}$$",
+                    
+                        "<strong>Evaluamos en x=5:</strong>",
+                        "$$25-2\\ln 5$$",
+                    
+                        "<strong>Evaluamos en x=1:</strong>",
+                        "$$1-2\\ln 1$$",
+                        "$$=1-0$$",
+                        "$$=1$$",
+                    
+                        "<strong>Restamos:</strong>",
+                        "$$A=(25-2\\ln5)-1$$",
+                        "$$A=24-2\\ln5$$",
+                    
+                        "<strong>CONCLUSIÓN:</strong>",
+                        "El área encerrada es:",
+                        "$$A=24-2\\ln5$$",
+                        "$$A=20.78$$"
         ]
       },
       {
